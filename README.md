@@ -1,4 +1,4 @@
-# AI FURENDO [iOS version] / [MacOS version](https://github.com/XxAZVDxX/Live2D-Chat-iOS/blob/main/README(Mac).md)
+# AI FURENDO [SwiftUI version] / [Flutter version](https://github.com/XxAZVDxX/Local-Live2D-AI-Girlfriend-Flutter)
 
 ## App Icon
 <img width="1024" height="1024" alt="AI FURENDO" src="https://github.com/user-attachments/assets/d0301129-d57a-40f1-8a7f-081386a1ff36" />
