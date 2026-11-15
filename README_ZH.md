@@ -1,6 +1,6 @@
 # AI FURENDO
 
-**繁體中文** | [English](README_EN.md)
+**繁體中文** | [English](README.md)
 
 > 一個住在 iPhone 裡的 AI 伴侶：Live2D / 3D 角色、可對話、會說話、有表情，還能陪你到桌面小工具與畫中畫。
 
