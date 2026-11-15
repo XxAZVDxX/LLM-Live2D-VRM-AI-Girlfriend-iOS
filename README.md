@@ -16,7 +16,7 @@
 
 ## Discord
 - [Discord](https://discord.gg/t3Y9QttXDE)
-- 
+  
 ---
 
 ## Features
