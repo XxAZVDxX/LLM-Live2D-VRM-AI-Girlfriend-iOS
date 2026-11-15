@@ -13,6 +13,9 @@
 - [YouTube](https://youtu.be/waKwxTZiP9w)
 - [Bilibili](https://www.bilibili.com/video/BV1iq9hY4EtQ/)
 
+## Discord
+- [Discord](https://discord.gg/t3Y9QttXDE)
+  
 ---
 
 ## 功能
