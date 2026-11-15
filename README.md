@@ -131,11 +131,11 @@ The app is distributed as an **unsigned IPA**, so you need to sign it yourself b
 
 Get the latest build from the GitHub Releases page:
 
-👉 <https://github.com/XxAZVDxX/AI-Furendo-SwiftUI-Private/releases>
+👉 <https://github.com/XxAZVDxX/LLM-Live2D-VRM-AI-Girlfriend-iOS/releases>
 
 The file looks like `AI-FURENDO_Beta 1-1_unsigned_xxx.ipa`. Do **not** tap "Open" after downloading — just leave it there.
 
-> If that link doesn't open (the repository is private), join [Discord](https://discord.gg/PCyB2ETE) or open an Issue to ask the author for the latest IPA link.
+> Join [Discord](https://discord.gg/PCyB2ETE) or open an Issue to ask the author for the latest IPA link.
 
 ### Step 2: Pick a Signing Tool
 
@@ -199,7 +199,7 @@ If you run a model on your computer and want the app to connect to it:
 
 ## Feedback
 
-Questions or suggestions? Open an [Issue](https://github.com/XxAZVDxX/AI-Furendo-SwiftUI-Private/issues) or join [Discord](https://discord.gg/PCyB2ETE). Please include your iPhone model, iOS version, and a screenshot of the problem.
+Questions or suggestions? Open an [Issue](https://github.com/XxAZVDxX/LLM-Live2D-VRM-AI-Girlfriend-iOS/issues) or join [Discord](https://discord.gg/PCyB2ETE). Please include your iPhone model, iOS version, and a screenshot of the problem.
 
 ## License & Notice
 
