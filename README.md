@@ -1,202 +1,202 @@
 # AI FURENDO
 
-**繁體中文** | [English](README_EN.md)
+[繁體中文](README.md) | **English**
 
-> 一個住在 iPhone 裡的 AI 伴侶：Live2D / 3D 角色、可對話、會說話、有表情，還能陪你到桌面小工具與畫中畫。
+> An AI companion that lives on your iPhone: Live2D / 3D characters that chat, speak, and react — and follow you to your Home Screen and Picture in Picture.
 
 <img width="240" alt="AI FURENDO" src="https://github.com/user-attachments/assets/d0301129-d57a-40f1-8a7f-081386a1ff36" />
 
 ---
 
-## 示範影片
+## Demo Videos
 
 - [YouTube](https://youtu.be/waKwxTZiP9w)
 - [Bilibili](https://www.bilibili.com/video/BV1iq9hY4EtQ/)
 
 ---
 
-## 功能
+## Features
 
-### 角色
+### Characters
 
-- **Live2D 角色**：會眨眼、會動、有表情，可以拖動、縮放、換衣服。
-- **3D（VRM / GLB）角色**：立體模型，會跟著你的手指轉頭，還有天氣、季節、日夜光線變化。
-- **角色商店**：App 內一鍵下載 Hiyori、Mark-kun、初音未來、Epsilon、Hibiki 等示範角色（Live2D 與 3D 都有）。
-- **自己的模型**：也可以用自己的 Live2D / VRM 模型，從「檔案」App 匯入即可。
-- **好感度**：聊天會累積好感度，等級會顯示在小工具和畫面上。
+- **Live2D characters**: they blink, move, and show expressions. Drag, scale, and change outfits.
+- **3D (VRM / GLB) characters**: full 3D models that turn their head as you move, with weather, season, and day/night lighting changes.
+- **Character shop**: one-tap download of sample characters such as Hiyori, Mark-kun, Hatsune Miku, Epsilon, and Hibiki (both Live2D and 3D).
+- **Your own models**: import your own Live2D / VRM models from the Files app.
+- **Affection**: chatting raises affection, and the level shows up in widgets and on screen.
 
-### 對話
+### Chat
 
-- 支援多種 AI 後端，在設定裡切換就好：
-  - Azure OpenAI（預設 GPT-4o）
-  - ChatGPT、Grok、Google AI Studio
-  - **Apple Intelligence**（支援的機型與系統）
-  - **LM Studio**（在自己電腦上跑模型，區網連線）
-  - **小智 XiaoZhi**（即時語音對話）
-- **離線本機模型**：Llama 3.2 1B / 3B、DeepSeek-R1 蒸餾版 1.5B / 7B，在 App 內下載後可直接在手機上跑，不用網路。
-- 兩種說話風格：**戀人** 與 **專業**。
-- 聊天記錄會自動保存，可以查看、修改、刪除；支援 Markdown 顯示與逐字輸出。
+- Choose from several AI backends in Settings:
+  - Azure OpenAI (GPT-4o by default)
+  - ChatGPT, Grok, Google AI Studio
+  - **Apple Intelligence** (supported devices and OS)
+  - **LM Studio** (run a model on your own computer over the local network)
+  - **XiaoZhi** (real-time voice conversation)
+- **On-device offline models**: Llama 3.2 1B / 3B and DeepSeek-R1 distilled 1.5B / 7B — download them in the app and run them on the phone with no internet.
+- Two conversation styles: **girlfriend** and **professional**.
+- Chat history is saved automatically and can be viewed, edited, or deleted; Markdown rendering and typewriter output included.
 
-### 語音
+### Voice
 
-- **語音輸入**：講話就能對話，可自訂喚醒詞（預設 hey / hello / hi 等），也可調整收音靈敏度。
-- **搖一搖說話**：手機搖一下直接開始講。
-- **語音朗讀（TTS）**：可選關閉、Apple 內建語音，或 Otosaku 本機語音模型。
-- 語音語言可選：跟隨系統、英文、日文、廣東話、國語、韓文。
+- **Voice input**: just talk. Custom wake keywords (defaults include hey / hello / hi) and adjustable sensitivity.
+- **Shake to talk**: shake the phone to start speaking.
+- **Text-to-speech**: off, Apple's built-in voices, or the on-device Otosaku voice model.
+- Speech language: follow system, English, Japanese, Cantonese, Mandarin, or Korean.
 
-### 聊天室佈置
+### Chat Room Customization
 
-- 背景可換成內建圖片、**GIF**、**影片（MP4）**，或直接拍照／從相簿選一張。
-- 背景音樂：內建曲目，也可用自己的音檔。
-- 點擊時的**水波紋特效**。
-- **塗鴉板**：可以直接在畫面上畫圖。
-- 可加 **GIF / 圖片浮層**。
-- 浮動小工具可自由開關：電量、CPU、記憶體、FPS、機身溫度、時鐘、**天氣**、好感度條。
-- 待辦清單、久未互動會自動傳訊息給你、前後鏡頭拍照。
+- Backgrounds: built-in images, **GIFs**, **MP4 videos**, or take a photo / pick one from Photos.
+- Background music: bundled tracks plus your own audio files.
+- **Water ripple** effect on tap.
+- **Drawboard**: draw right on the screen.
+- **GIF / image overlay layers**.
+- Toggleable floating widgets: battery, CPU, memory, FPS, thermal state, clock, **weather**, and affection bar.
+- To-do lists, idle auto-messages, and front/rear camera capture.
 
-### 陪你到處都在
+### Everywhere You Go
 
-| 形式 | 說明 |
+| Surface | What it does |
 | --- | --- |
-| **畫中畫（PiP）** | 邊用其他 App 邊聊天，直式／橫式／正方形三種版面，可搖一搖說話 |
-| **桌面小工具** | 好感度、金幣、每日登入、角色立繪、角色快照，多種尺寸 |
-| **控制中心** | 一鍵開啟 App 的控制項 |
-| **鎖定畫面 / 即時動態** | Live Activities 顯示即時狀態 |
-| **Apple Watch** | 手錶上也能對話、語音輸入，並讀取心率、步數等健康資料 |
-| **自訂鍵盤** | AI FURENDO 鍵盤，有選字預測、多種主題 |
-| **螢幕直播** | 可把 App 畫面分享出去 |
+| **Picture in Picture** | Keep chatting while using other apps; vertical, horizontal, and square layouts; shake to talk |
+| **Home Screen widgets** | Affection, coins, daily login, character portrait, character snapshot — multiple sizes |
+| **Control Center** | A one-tap control to open the app |
+| **Lock Screen / Live Activities** | Shows live status at a glance |
+| **Apple Watch** | Chat and voice input on your wrist, plus heart rate, steps, and other health data |
+| **Custom keyboard** | The AI FURENDO keyboard with word prediction and multiple themes |
+| **Screen broadcast** | Share the app's screen |
 
-### 其他
+### More
 
-- **Premium**：一次性購買，去除廣告。
-- **金幣與每日登入**：每日簽到拿獎勵，還有轉盤抽獎。
-- **多語言介面**：English、日本語、廣東話、繁體中文、简体中文、한국어，各語言都有對應字體。
+- **Premium**: a one-time purchase that removes ads.
+- **Coins and daily login**: daily check-in rewards and a spin wheel.
+- **Localization**: English, 日本語, 廣東話, 繁體中文, 简体中文, 한국어 — each with its own font.
 
 ---
 
-## 畫面
+## Screenshots
 
-### Live2D 角色
+### Live2D Characters
 
 <img width="189" alt="Hiyori" src="https://github.com/user-attachments/assets/d37dd122-49c7-4027-b1be-0de13b327bfe" /> <img width="188" alt="Hura" src="https://github.com/user-attachments/assets/8a358a35-1bb4-4903-9910-5db452494474" /> <img width="189" alt="Mao" src="https://github.com/user-attachments/assets/4cdc6213-d800-4213-8f73-3e2eaecce66c" />
 
-### 聊天
+### Chat
 
-<img width="474" alt="聊天" src="https://github.com/user-attachments/assets/4018a790-c247-4316-985b-61dfcae3f352" />
+<img width="474" alt="Chat" src="https://github.com/user-attachments/assets/4018a790-c247-4316-985b-61dfcae3f352" />
 
-### 語音與喚醒詞
+### Voice and Wake Keywords
 
-<img width="167" alt="語音" src="https://github.com/user-attachments/assets/227bde99-38ae-468f-bbd2-8f64d57c4a1b" /> <img width="188" alt="喚醒詞" src="https://github.com/user-attachments/assets/3b259b99-e90d-4f6e-9c9f-469303cab792" />
+<img width="167" alt="Voice" src="https://github.com/user-attachments/assets/227bde99-38ae-468f-bbd2-8f64d57c4a1b" /> <img width="188" alt="Keywords" src="https://github.com/user-attachments/assets/3b259b99-e90d-4f6e-9c9f-469303cab792" />
 
-### 聊天室佈置
+### Chat Room Customization
 
-<img width="189" alt="浮層" src="https://github.com/user-attachments/assets/0e4bef3a-ffb9-4c3a-9f1c-ebaf7f3d3837" /> <img width="188" alt="背景" src="https://github.com/user-attachments/assets/dd43c71b-e977-459b-b08f-abf02a651704" />
+<img width="189" alt="Overlay" src="https://github.com/user-attachments/assets/0e4bef3a-ffb9-4c3a-9f1c-ebaf7f3d3837" /> <img width="188" alt="Background" src="https://github.com/user-attachments/assets/dd43c71b-e977-459b-b08f-abf02a651704" />
 
-<img width="454" alt="背景音樂" src="https://github.com/user-attachments/assets/7e98056d-af7e-4e61-af91-545b5d7da078" />
+<img width="454" alt="Background music" src="https://github.com/user-attachments/assets/7e98056d-af7e-4e61-af91-545b5d7da078" />
 
-### 聊天記錄
+### Chat History
 
-<img width="493" alt="聊天記錄" src="https://github.com/user-attachments/assets/faa20c9e-4727-4d39-b040-7f6db224faac" />
+<img width="493" alt="Chat Log" src="https://github.com/user-attachments/assets/faa20c9e-4727-4d39-b040-7f6db224faac" />
 
-### 畫中畫
+### Picture in Picture
 
 <img width="616" alt="PiP" src="https://github.com/user-attachments/assets/5197d8a1-24db-4329-97ba-46f2c610f836" />
 
-### 桌面小工具
+### Home Screen Widgets
 
-<img width="300" alt="中尺寸小工具" src="https://github.com/user-attachments/assets/5066078f-4945-46a1-b386-7b6eec6d203e" /> <img width="150" alt="小尺寸小工具" src="https://github.com/user-attachments/assets/05cec581-4c51-4a89-8146-1b806d1aa4ab" />
+<img width="300" alt="Medium widget" src="https://github.com/user-attachments/assets/5066078f-4945-46a1-b386-7b6eec6d203e" /> <img width="150" alt="Small widget" src="https://github.com/user-attachments/assets/05cec581-4c51-4a89-8146-1b806d1aa4ab" />
 
 ---
 
-## 下載與安裝
+## Download & Install
 
-App 目前以 **未簽名 IPA（unsigned IPA）** 形式提供，需要你自己用工具簽名後安裝到 iPhone。因為不是 App Store 版本，所以**不會出現在 App Store**，也不需要付費開發者帳號。
+The app is distributed as an **unsigned IPA**, so you need to sign it yourself before installing it on your iPhone. It is not on the App Store and no paid developer account is required.
 
-### 系統需求
+### Requirements
 
-| 項目 | 需求 |
+| Item | Requirement |
 | --- | --- |
-| 裝置 | iPhone（建議 iPhone 12 以上；跑本機模型建議 8GB 記憶體機型） |
-| 系統 | **iOS 26 或以上** |
-| 空間 | 至少 2 GB（IPA 約 600 MB，加上模型與快取） |
-| 電腦（簽名用） | Windows 10/11 或 macOS |
+| Device | iPhone (iPhone 12 or newer recommended; 8 GB RAM models for on-device models) |
+| OS | **iOS 26 or later** |
+| Storage | At least 2 GB (the IPA is about 600 MB, plus models and caches) |
+| Computer (for signing) | Windows 10/11 or macOS |
 
-> Apple Watch 功能需要 watchOS 10.6 以上。
+> Apple Watch features require watchOS 10.6 or later.
 
-### 第一步：下載 IPA
+### Step 1: Download the IPA
 
-到 GitHub Releases 頁面下載最新版本：
+Get the latest build from the GitHub Releases page:
 
 👉 <https://github.com/XxAZVDxX/AI-Furendo-SwiftUI-Private/releases>
 
-檔名類似 `AI-FURENDO_Beta 1-1_unsigned_xxx.ipa`。下載後**不要**按「打開」，先放著。
+The file looks like `AI-FURENDO_Beta 1-1_unsigned_xxx.ipa`. Do **not** tap "Open" after downloading — just leave it there.
 
-> 如果上面的連結打不開（專案為私人倉庫），請加入 [Discord](https://discord.gg/PCyB2ETE) 或到 Issues 向作者索取最新的 IPA 下載連結。
+> If that link doesn't open (the repository is private), join [Discord](https://discord.gg/PCyB2ETE) or open an Issue to ask the author for the latest IPA link.
 
-### 第二步：選一種簽名工具
+### Step 2: Pick a Signing Tool
 
-| 工具 | 平台 | 適合誰 | 特點 |
+| Tool | Platform | Best for | Notes |
 | --- | --- | --- | --- |
-| **Sideloadly** | Windows / macOS | 新手首選 | 插線即可安裝，免費 Apple ID 可用，最簡單 |
-| **AltStore / SideStore** | Windows / macOS | 想無線重簽 | 需安裝 AltServer，可自動 7 天續簽 |
-| **ESign / Feather** | 只在 iPhone | 已懂簽名的人 | 需自備憑證（.p12 + .mobileprovision） |
-| **TrollStore** | 只在 iPhone | iOS 14.0–17.0 舊系統 | 永久簽名不用重簽（本 App 需 iOS 26，一般不適用） |
+| **Sideloadly** | Windows / macOS | Beginners | Plug in and install; works with a free Apple ID; simplest |
+| **AltStore / SideStore** | Windows / macOS | Wireless re-signing | Needs AltServer; auto-refreshes every 7 days |
+| **ESign / Feather** | iPhone only | Users with their own certificate | Requires a `.p12` + `.mobileprovision` |
+| **TrollStore** | iPhone only | Older iOS 14.0–17.0 | Permanent signing (not applicable here since the app needs iOS 26) |
 
-以下用 **Sideloadly** 說明，最省事。
+The steps below use **Sideloadly**, which is the easiest.
 
-### 第三步：用 Sideloadly 安裝
+### Step 3: Install with Sideloadly
 
-1. 到 <https://sideloadly.io> 下載對應你電腦的版本並安裝。
-2. 用 USB 線把 iPhone 接到電腦，手機上按「信任此電腦」。
-3. 打開 Sideloadly，把剛剛下載的 `.ipa` 拖進視窗（或點 IPA 圖示選擇檔案）。
-4. 在 **Apple account** 填入你的 Apple ID（免費帳號即可）。
-5. 按 **Start**，輸入 Apple ID 密碼；若帳號有雙重認證，會要求你輸入驗證碼。
-6. 等待進度條完成（幾分鐘，視網路與電腦速度）。
+1. Download and install the version for your computer from <https://sideloadly.io>.
+2. Connect your iPhone with a USB cable and tap "Trust This Computer" on the phone.
+3. Open Sideloadly and drag the downloaded `.ipa` into the window (or click the IPA icon to pick the file).
+4. Enter your Apple ID under **Apple account** (a free account works).
+5. Click **Start** and enter your Apple ID password. If two-factor authentication is on, you will be asked for a verification code.
+6. Wait for the progress bar to finish (a few minutes depending on your network and computer).
 
-### 第四步：在 iPhone 上信任 App
+### Step 4: Trust the App on Your iPhone
 
-1. 打開「設定」→「一般」→「VPN 與裝置管理」。
-2. 在「開發者 App」下點你的 Apple ID →「信任」。
-3. 若系統提示需要「開發者模式」，到「設定」→「隱私與安全性」→「開發者模式」開啟，然後重開機。
+1. Open **Settings → General → VPN & Device Management**.
+2. Under **Developer App**, tap your Apple ID, then **Trust**.
+3. If the system asks for **Developer Mode**, enable it in **Settings → Privacy & Security → Developer Mode**, then restart the phone.
 
-之後回到桌面，就能點開 **AI FURENDO** 了。
+Once that's done, tap **AI FURENDO** on the Home Screen.
 
-### 安裝後注意事項（很重要）
+### Important Notes After Installing
 
-- **7 天限制**：免費 Apple ID 簽名的 App 只有 **7 天效期**，到期後要重新用 Sideloadly 安裝一次（聊天記錄會保留）。想要免重簽需付費開發者帳號（一年）。
-- **同時最多 3 個**：免費帳號同時只能安裝 3 個自簽 App。
-- **部分系統功能可能受限**：桌面小工具、Apple Watch App、鍵盤、HealthKit 等需要 App Groups 與特殊權限，用免費憑證簽名時**可能無法使用**，主 App 的聊天與角色功能不受影響。
-- **不要刪除 App**：刪除後聊天記錄與已下載的角色模型會一併消失。
-- **更新版本**：直接下載新的 IPA 再安裝一次即可，會覆蓋舊版並保留資料。
-- 若安裝時出現 `Unable to install` 或簽名錯誤，先確認 iOS 版本 ≥ 26、換一條原廠線、或改用 AltStore 試試。
+- **7-day limit**: apps signed with a free Apple ID expire after **7 days**. Reinstall with Sideloadly when that happens (your chat history is kept). To avoid re-signing you need a paid developer account (yearly).
+- **3 apps maximum**: a free account can have at most 3 sideloaded apps installed at once.
+- **Some system features may be limited**: widgets, the Apple Watch app, the keyboard, HealthKit, and similar features rely on App Groups and special entitlements, so they **may not work** with a free certificate. The main chat and character features are unaffected.
+- **Do not delete the app**: deleting it also removes your chat history and downloaded character models.
+- **Updating**: just download the new IPA and install it the same way — it replaces the old version and keeps your data.
+- If you see `Unable to install` or a signing error, confirm iOS 26+, try an original Apple cable, or switch to AltStore.
 
-### 進階：使用自己的模型伺服器（LM Studio）
+### Advanced: Use Your Own Model Server (LM Studio)
 
-如果你在自己電腦上跑模型，想讓 App 連過去：
+If you run a model on your computer and want the app to connect to it:
 
-1. 電腦開 LM Studio → **Developer** 分頁。
-2. 開啟 **Serve on Local Network**，記下 Port（例如 `1234`）。
-3. 在 App 設定裡填入電腦的區網 IP，格式 `192.168.x.x:1234`。
-4. 把 AI 模型切換成 `LM_Studio`。
+1. Open LM Studio on your computer → **Developer** tab.
+2. Enable **Serve on Local Network** and note the port (e.g. `1234`).
+3. Enter your computer's LAN IP in the app settings as `192.168.x.x:1234`.
+4. Switch the AI model to `LM_Studio`.
 
-> 手機與電腦要在同一個 Wi-Fi 網路。
-
----
-
-## 目前限制
-
-- **macOS 版本還在開發中**，尚未推出；Mac 上可透過「Designed for iPad」執行 iPhone 版。
-- 需要 **iOS 26**，較舊的系統無法安裝。
-- 未簽名版本的小工具、手錶 App、鍵盤等延伸功能可能因簽名限制而無法使用。
-- 部分功能需授權才會運作：麥克風、語音辨識、相機、相簿、定位（天氣）、健康資料。
-- AI 回覆品質取決於你選擇的模型與 API；使用線上服務時需要自備 API Key。
+> Your phone and computer must be on the same Wi-Fi network.
 
 ---
 
-## 意見回饋
+## Known Limitations
 
-有問題或建議，歡迎到 [Issues](https://github.com/XxAZVDxX/AI-Furendo-SwiftUI-Private/issues) 提出，或加入 [Discord](https://discord.gg/PCyB2ETE)。回報時請附上 iPhone 型號、iOS 版本與問題畫面。
+- **The macOS version is still in development** and not available yet; on Mac you can run the iPhone version via "Designed for iPad".
+- Requires **iOS 26**; older systems cannot install it.
+- With an unsigned build, widgets, the Watch app, the keyboard, and other extensions may not work due to signing restrictions.
+- Some features need permissions: microphone, speech recognition, camera, Photos, location (weather), and health data.
+- Reply quality depends on the model and API you choose; online services require your own API key.
 
-## 版權與聲明
+---
 
-本 App 為個人學習與研究專案，免費提供。角色模型（Hiyori、Haru、Mao、Mark、Hibiki、Epsilon 等）版權屬 [Live2D Inc.](https://www.live2d.com/) 所有，使用時請遵守其[示範模型授權](https://www.live2d.com/en/learn/sample/)。使用任何線上 AI 服務時，請遵守該服務的條款與當地法規。
+## Feedback
+
+Questions or suggestions? Open an [Issue](https://github.com/XxAZVDxX/AI-Furendo-SwiftUI-Private/issues) or join [Discord](https://discord.gg/PCyB2ETE). Please include your iPhone model, iOS version, and a screenshot of the problem.
+
+## License & Notice
+
+This is a personal learning and research project, provided free of charge. Character models (Hiyori, Haru, Mao, Mark, Hibiki, Epsilon, …) are © [Live2D Inc.](https://www.live2d.com/) and subject to the [sample model license](https://www.live2d.com/en/learn/sample/). When using any online AI service, follow that provider's terms and your local regulations.
