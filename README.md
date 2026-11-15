@@ -1,6 +1,6 @@
 # AI FURENDO
 
-[繁體中文](README.md) | **English**
+[繁體中文](README_ZH.md) | **English**
 
 > An AI companion that lives on your iPhone: Live2D / 3D characters that chat, speak, and react — and follow you to your Home Screen and Picture in Picture.
 
