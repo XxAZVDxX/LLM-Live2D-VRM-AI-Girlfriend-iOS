@@ -130,11 +130,11 @@ App 目前以 **未簽名 IPA（unsigned IPA）** 形式提供，需要你自己
 
 到 GitHub Releases 頁面下載最新版本：
 
-👉 <https://github.com/XxAZVDxX/AI-Furendo-SwiftUI-Private/releases>
+👉 <https://github.com/XxAZVDxX/LLM-Live2D-VRM-AI-Girlfriend-iOS/releases>
 
 檔名類似 `AI-FURENDO_Beta 1-1_unsigned_xxx.ipa`。下載後**不要**按「打開」，先放著。
 
-> 如果上面的連結打不開（專案為私人倉庫），請加入 [Discord](https://discord.gg/PCyB2ETE) 或到 Issues 向作者索取最新的 IPA 下載連結。
+> 請加入 [Discord](https://discord.gg/PCyB2ETE) 或到 Issues 向作者索取最新的 IPA 下載連結。
 
 ### 第二步：選一種簽名工具
 
@@ -198,7 +198,7 @@ App 目前以 **未簽名 IPA（unsigned IPA）** 形式提供，需要你自己
 
 ## 意見回饋
 
-有問題或建議，歡迎到 [Issues](https://github.com/XxAZVDxX/AI-Furendo-SwiftUI-Private/issues) 提出，或加入 [Discord](https://discord.gg/PCyB2ETE)。回報時請附上 iPhone 型號、iOS 版本與問題畫面。
+有問題或建議，歡迎到 [Issues](https://github.com/XxAZVDxX/LLM-Live2D-VRM-AI-Girlfriend-iOS/issues) 提出，或加入 [Discord](https://discord.gg/PCyB2ETE)。回報時請附上 iPhone 型號、iOS 版本與問題畫面。
 
 ## 版權與聲明
 
