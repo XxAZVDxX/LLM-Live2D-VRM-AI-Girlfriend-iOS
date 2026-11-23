@@ -1,0 +1,1654 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+struct VirtualActionInvoker0
+{
+	typedef void (*Action)(void*,const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj,invokeData.method);
+	}
+};
+
+struct Dictionary_2_t21E090827BAF9D0D011CB55C02CA666756BF1AE7;
+struct Dictionary_2_t54101FB5AEA0292C95D30CFAB7909873BF26E0B9;
+struct Dictionary_2_tF2CA361C11DA75A3918E2B7E109B116AF019CE71;
+struct DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0;
+struct DynamicArray_1_tFD6392EE4EAA442D167A921C9964FD9C17FDCDE0;
+struct IEnumerator_1_t5926539DBBB2302C569D0A07AF3A95A874CEBE33;
+struct List_1_t1EFB69EBBF25AD12F3A9E56C62B12F01D63469CD;
+struct List_1_t67B4F73A05A1220FF45824DBE29F391490B25A0C;
+struct UnsafeList_1_t3F9D0EC640E63CF6B1A42991801DB2074F8E565A;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
+struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+struct TextureHandleU5BU5D_t544FFA6F5A0E1E5F24EB3C5E5F8547CCE9498BD7;
+struct __Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC;
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184;
+struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
+struct InternalRenderGraphContext_t7197268EBA8C241EB895B070A5E0C71B111D7503;
+struct InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB;
+struct NativePassCompiler_t4E5CE894AF5B8832B5828B22DAB0EA4FAC819E07;
+struct OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858;
+struct RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E;
+struct RenderGraphBuilders_t899F9362CCFA453C5AF608B820107C9C37860D2A;
+struct RenderGraphCompilationCache_t25B996EBE41BF50CAE9A81E97B9BBE376AAB55D2;
+struct RenderGraphDebugParams_t36422B33508548E3E56CBAD04521104C2B3E669D;
+struct RenderGraphDefaultResources_tCE331152C84ED1A36CF186CA0092AE10E599E25D;
+struct RenderGraphObjectPool_t2F5488D55D836B54B6E85D2952105BA61AEE6437;
+struct RenderGraphResourceRegistry_t87A07027B2175239DB5239913091B9D9FE7244D1;
+struct RenderGraphValidationLayer_tBF2C2015E4548F52F7C144F5B1FC3177250AC01C;
+struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
+struct String_t;
+struct TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD;
+struct OnGraphRegisteredDelegate_t7DEB75DB071EA0F49C47E2617D72D40EF3A8188C;
+struct RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8;
+
+IL2CPP_EXTERN_C RuntimeClass* AllocatorManager_tFB15A22029C8159A3DCD4C08935BE57D3E6B3C2C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* CameraCaptureBridge_t6C1AB840270CFB56643B53A817B2D298D52CC559_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* TextureHandleU5BU5D_t544FFA6F5A0E1E5F24EB3C5E5F8547CCE9498BD7_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral008BD30AF451F87B4DB85E412BC6960A9E8ECD9A;
+IL2CPP_EXTERN_C String_t* _stringLiteral1469DC36122DACF7581D1D1796F2F57712BDBDB4;
+IL2CPP_EXTERN_C String_t* _stringLiteral15F2730F86FF67A4F55D68EBE21585CABA029089;
+IL2CPP_EXTERN_C String_t* _stringLiteral21403EF5CDA7CA42ECE71C50FF4961F5D447D052;
+IL2CPP_EXTERN_C String_t* _stringLiteral850FF8B49AAF4C21C4CCFFABEBFD835EDD2BE46E;
+IL2CPP_EXTERN_C String_t* _stringLiteral8996E64589692D27C6CF7956C58596B827E5200A;
+IL2CPP_EXTERN_C String_t* _stringLiteralA26536399DAE602EE8F0F27C8A44BBC81F148BA2;
+IL2CPP_EXTERN_C String_t* _stringLiteralB49156DF1EC7A1C0FAF1B57D47960F6E7375399F;
+IL2CPP_EXTERN_C String_t* _stringLiteralC04F99C69E9CFB4931A7E575A7BF18921BB15B43;
+IL2CPP_EXTERN_C String_t* _stringLiteralC21916F0F912C1E4BA3A1BFB9B23B24EB022BE93;
+IL2CPP_EXTERN_C String_t* _stringLiteralC9C9D11EDECD5DDD1659C50F5476EFC3E756E1D6;
+IL2CPP_EXTERN_C String_t* _stringLiteralE5463EF0F3AE3C9E1312C37560F10536E7232672;
+IL2CPP_EXTERN_C const RuntimeMethod* DynamicArray_1_ResizeAndClear_m0134666772E068A94DA208A812ED12237C34675C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DynamicArray_1__ctor_m8177191B6A94BD69622356381336BE259CA44B91_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* OnTileValidationLayer_ThrowNoNonRasterPassInBetween_m7D31D13F815E6D157EA1BF5D67C1EBC630D8DDB3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* OnTileValidationLayer_ThrowNotRasterPassException_m15C8084D5164EDAD073D14D52F14DF5C00A14F33_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* OnTileValidationLayer_ThrowTextureSamplingException_mC579E133255E98BFC5831651A9CBC4E828E4F47D_RuntimeMethod_var;
+struct Exception_t_marshaled_com;
+struct Exception_t_marshaled_pinvoke;
+struct RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8;;
+struct RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8_marshaled_com;
+struct RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8_marshaled_com;;
+struct RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8_marshaled_pinvoke;
+struct RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8_marshaled_pinvoke;;
+struct TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388;;
+struct TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_marshaled_com;
+struct TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_marshaled_com;;
+struct TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_marshaled_pinvoke;
+struct TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_marshaled_pinvoke;;
+
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+struct TextureHandleU5BU5D_t544FFA6F5A0E1E5F24EB3C5E5F8547CCE9498BD7;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct U3CModuleU3E_t17B78F40E9FA64B256C0FFCE16BF5A7EC05AC02E 
+{
+};
+struct DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0  : public RuntimeObject
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___m_Array;
+	int32_t ___U3CsizeU3Ek__BackingField;
+};
+struct DynamicArray_1_tFD6392EE4EAA442D167A921C9964FD9C17FDCDE0  : public RuntimeObject
+{
+	__Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC* ___m_Array;
+	int32_t ___U3CsizeU3Ek__BackingField;
+};
+struct AllocatorManager_tFB15A22029C8159A3DCD4C08935BE57D3E6B3C2C  : public RuntimeObject
+{
+};
+struct CameraCaptureBridge_tDF58091B8E24645CF2D7E4DE450DC933D576ACB9  : public RuntimeObject
+{
+};
+struct RenderGraphValidationLayer_tBF2C2015E4548F52F7C144F5B1FC3177250AC01C  : public RuntimeObject
+{
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct NativeList_1_t2EA8D653AC64D93A660A8D66EAF0E546005155F0 
+{
+	UnsafeList_1_t3F9D0EC640E63CF6B1A42991801DB2074F8E565A* ___m_ListData;
+};
+struct Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 
+{
+	bool ___hasValue;
+	bool ___value;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8 
+{
+	union
+	{
+		struct
+		{
+			uint64_t ___m_rawData;
+		};
+		uint8_t EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8__padding[8];
+	};
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B 
+{
+	uint32_t ___m_value;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+struct AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 
+{
+	uint16_t ___Index;
+	uint16_t ___Version;
+};
+struct AccessFlags_tB7D400C853C05A1DB9C6B56DF14E43721F0B1739 
+{
+	int32_t ___value__;
+};
+struct Exception_t  : public RuntimeObject
+{
+	String_t* ____className;
+	String_t* ____message;
+	RuntimeObject* ____data;
+	Exception_t* ____innerException;
+	String_t* ____helpURL;
+	RuntimeObject* ____stackTrace;
+	String_t* ____stackTraceString;
+	String_t* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	RuntimeObject* ____dynamicMethods;
+	int32_t ____HResult;
+	String_t* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_pinvoke
+{
+	char* ____className;
+	char* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_pinvoke* ____innerException;
+	char* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	char* ____stackTraceString;
+	char* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	char* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_com
+{
+	Il2CppChar* ____className;
+	Il2CppChar* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_com* ____innerException;
+	Il2CppChar* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	Il2CppChar* ____stackTraceString;
+	Il2CppChar* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	Il2CppChar* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr;
+};
+struct RenderGraphPassType_tD00EC2DAA135C660EE7E71652291A4672104EA2D 
+{
+	int32_t ___value__;
+};
+struct RenderGraphResourceType_t5F552AF06E38DEC5775B77F13C8783A895FCD086 
+{
+	int32_t ___value__;
+};
+struct RenderGraphState_tFB60E034516492478A523A4D4EB7E380C799C1E3 
+{
+	int32_t ___value__;
+};
+struct RenderTextureUVOriginStrategy_tF0BD7F9A575F4903AF5B5C23DE87AF324D2442D7 
+{
+	int32_t ___value__;
+};
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E  : public RuntimeObject
+{
+	NativePassCompiler_t4E5CE894AF5B8832B5828B22DAB0EA4FAC819E07* ___nativeCompiler;
+	bool ___U3CnativeRenderPassesEnabledU3Ek__BackingField;
+	RenderGraphResourceRegistry_t87A07027B2175239DB5239913091B9D9FE7244D1* ___m_Resources;
+	RenderGraphObjectPool_t2F5488D55D836B54B6E85D2952105BA61AEE6437* ___m_RenderGraphPool;
+	RenderGraphBuilders_t899F9362CCFA453C5AF608B820107C9C37860D2A* ___m_builderInstance;
+	RenderGraphValidationLayer_tBF2C2015E4548F52F7C144F5B1FC3177250AC01C* ___m_ValidationLayer;
+	List_1_t1EFB69EBBF25AD12F3A9E56C62B12F01D63469CD* ___m_RenderPasses;
+	List_1_t67B4F73A05A1220FF45824DBE29F391490B25A0C* ___m_RendererLists;
+	RenderGraphDebugParams_t36422B33508548E3E56CBAD04521104C2B3E669D* ___m_DebugParameters;
+	RenderGraphDefaultResources_tCE331152C84ED1A36CF186CA0092AE10E599E25D* ___m_DefaultResources;
+	Dictionary_2_t21E090827BAF9D0D011CB55C02CA666756BF1AE7* ___m_DefaultProfilingSamplers;
+	InternalRenderGraphContext_t7197268EBA8C241EB895B070A5E0C71B111D7503* ___m_RenderGraphContext;
+	RenderGraphCompilationCache_t25B996EBE41BF50CAE9A81E97B9BBE376AAB55D2* ___m_CompilationCache;
+	EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8 ___m_CurrentExecutionId;
+	bool ___m_CurrentExecutionCanGenerateDebugData;
+	int32_t ___m_ExecutionCount;
+	int32_t ___m_CurrentFrameIndex;
+	bool ___m_ExecutionExceptionWasRaised;
+	bool ___m_EnableCompilationCaching;
+	int32_t ___m_RenderGraphState;
+	int32_t ___m_renderTextureUVOriginStrategy;
+	String_t* ___U3CnameU3Ek__BackingField;
+	Dictionary_2_t54101FB5AEA0292C95D30CFAB7909873BF26E0B9* ___registeredGlobals;
+};
+struct ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C 
+{
+	uint32_t ___m_VersionIndex;
+	uint32_t ___m_Validity;
+	int32_t ___m_Type;
+};
+struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
+{
+};
+struct RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8 
+{
+	int32_t ___type;
+	String_t* ___name;
+};
+struct RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8_marshaled_pinvoke
+{
+	int32_t ___type;
+	char* ___name;
+};
+struct RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8_marshaled_com
+{
+	int32_t ___type;
+	Il2CppChar* ___name;
+};
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+struct TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388 
+{
+	ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C ___handle;
+	bool ___builtin;
+};
+struct TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_marshaled_pinvoke
+{
+	ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C ___handle;
+	int32_t ___builtin;
+};
+struct TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_marshaled_com
+{
+	ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C ___handle;
+	int32_t ___builtin;
+};
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	uint32_t ___m_NonSerializedVersion;
+};
+struct Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0 
+{
+	RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8 ___info;
+	TextureHandleU5BU5D_t544FFA6F5A0E1E5F24EB3C5E5F8547CCE9498BD7* ___renderAttachments;
+	NativeList_1_t2EA8D653AC64D93A660A8D66EAF0E546005155F0 ___globalTexturesAfterPass;
+	TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388 ___renderAttachmentDepth;
+	int32_t ___renderCount;
+};
+struct Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0_marshaled_pinvoke
+{
+	RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8_marshaled_pinvoke ___info;
+	TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_marshaled_pinvoke* ___renderAttachments;
+	NativeList_1_t2EA8D653AC64D93A660A8D66EAF0E546005155F0 ___globalTexturesAfterPass;
+	TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_marshaled_pinvoke ___renderAttachmentDepth;
+	int32_t ___renderCount;
+};
+struct Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0_marshaled_com
+{
+	RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8_marshaled_com ___info;
+	TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_marshaled_com* ___renderAttachments;
+	NativeList_1_t2EA8D653AC64D93A660A8D66EAF0E546005155F0 ___globalTexturesAfterPass;
+	TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_marshaled_com ___renderAttachmentDepth;
+	int32_t ___renderCount;
+};
+struct OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858  : public RenderGraphValidationLayer_tBF2C2015E4548F52F7C144F5B1FC3177250AC01C
+{
+	Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0 ___m_CurrentPass;
+	RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8 ___m_LastNonRasterPassInfo;
+	bool ___m_InputAttachmentsHaveOnTileResource;
+	int32_t ___m_NumberOfPasses;
+	int32_t ___m_LastNonRasterPassIndex;
+	RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E* ___U3CrenderGraphU3Ek__BackingField;
+	DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* ___m_HandleStates;
+	String_t* ___U3CerrorMessageHowToResolveU3Ek__BackingField;
+};
+struct AllocatorManager_tFB15A22029C8159A3DCD4C08935BE57D3E6B3C2C_StaticFields
+{
+	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___Invalid;
+	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___None;
+	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___Temp;
+	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___TempJob;
+	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___Persistent;
+	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___AudioKernel;
+	uint16_t ___NumGlobalScratchAllocators;
+	uint16_t ___MaxNumGlobalAllocators;
+	uint32_t ___GlobalAllocatorBaseIndex;
+	uint32_t ___FirstGlobalScratchpadAllocatorIndex;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E_StaticFields
+{
+	int32_t ___kMaxMRTCount;
+	Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ___s_EnableCompilationCachingForTests;
+	Dictionary_2_tF2CA361C11DA75A3918E2B7E109B116AF019CE71* ___s_RegisteredExecutions;
+	bool ___U3CenableValidityChecksU3Ek__BackingField;
+	OnGraphRegisteredDelegate_t7DEB75DB071EA0F49C47E2617D72D40EF3A8188C* ___onGraphRegistered;
+	OnGraphRegisteredDelegate_t7DEB75DB071EA0F49C47E2617D72D40EF3A8188C* ___onGraphUnregistered;
+};
+struct ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_StaticFields
+{
+	uint32_t ___s_CurrentValidBit;
+};
+struct TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_StaticFields
+{
+	TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388 ___s_NullHandle;
+};
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields
+{
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreCull;
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreRender;
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPostRender;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248  : public RuntimeArray
+{
+	ALIGN_FIELD (8) String_t* m_Items[1];
+
+	inline String_t* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, String_t* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline String_t* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, String_t* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct TextureHandleU5BU5D_t544FFA6F5A0E1E5F24EB3C5E5F8547CCE9498BD7  : public RuntimeArray
+{
+	ALIGN_FIELD (8) TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388 m_Items[1];
+
+	inline TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388 value)
+	{
+		m_Items[index] = value;
+	}
+};
+
+IL2CPP_EXTERN_C void RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8_marshal_pinvoke(const RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8& unmarshaled, RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8_marshaled_pinvoke& marshaled);
+IL2CPP_EXTERN_C void RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8_marshal_pinvoke_back(const RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8_marshaled_pinvoke& marshaled, RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8& unmarshaled);
+IL2CPP_EXTERN_C void RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8_marshal_pinvoke_cleanup(RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8_marshaled_pinvoke& marshaled);
+IL2CPP_EXTERN_C void TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_marshal_pinvoke(const TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388& unmarshaled, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_marshaled_pinvoke& marshaled);
+IL2CPP_EXTERN_C void TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_marshal_pinvoke_back(const TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_marshaled_pinvoke& marshaled, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388& unmarshaled);
+IL2CPP_EXTERN_C void TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_marshal_pinvoke_cleanup(TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_marshaled_pinvoke& marshaled);
+IL2CPP_EXTERN_C void RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8_marshal_com(const RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8& unmarshaled, RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8_marshaled_com& marshaled);
+IL2CPP_EXTERN_C void RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8_marshal_com_back(const RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8_marshaled_com& marshaled, RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8& unmarshaled);
+IL2CPP_EXTERN_C void RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8_marshal_com_cleanup(RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8_marshaled_com& marshaled);
+IL2CPP_EXTERN_C void TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_marshal_com(const TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388& unmarshaled, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_marshaled_com& marshaled);
+IL2CPP_EXTERN_C void TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_marshal_com_back(const TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_marshaled_com& marshaled, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388& unmarshaled);
+IL2CPP_EXTERN_C void TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_marshal_com_cleanup(TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_marshaled_com& marshaled);
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicArray_1__ctor_m8177191B6A94BD69622356381336BE259CA44B91 (DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* __this, int32_t ___0_size, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeList_1_Add_mB14804AEFFEDC5CC08C24C9194BCFCF7A5D22683 (NativeList_1_t2EA8D653AC64D93A660A8D66EAF0E546005155F0* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t DynamicArray_1_get_size_m128222BE63C9931B08CD38DF32B858CD1CD4926D_fshared_inline (DynamicArray_1_tFD6392EE4EAA442D167A921C9964FD9C17FDCDE0* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicArray_1_ResizeAndClear_m0134666772E068A94DA208A812ED12237C34675C (DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* __this, int32_t ___0_newSize, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t* DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6 (DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeList_1_Dispose_m55270875C5EFA18ADF213ECE9D17783B2F679C01 (NativeList_1_t2EA8D653AC64D93A660A8D66EAF0E546005155F0* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeList_1__ctor_mE603A1C3CA9C40D507CEEA2A09D42C3B6E860430 (NativeList_1_t2EA8D653AC64D93A660A8D66EAF0E546005155F0* __this, int32_t ___0_initialCapacity, AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___1_allocator, const RuntimeMethod* method) ;
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CameraCaptureBridge_GetCachedCaptureActionsEnumerator_m6ECF80A30B41D0DBA2404F64A33CCE58F31B1B3A (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___0_camera, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderGraphValidationLayer__ctor_m0A3DE2AC5239D374766AA59E4059CE862D04A15B (RenderGraphValidationLayer_tBF2C2015E4548F52F7C144F5B1FC3177250AC01C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicArray_1__ctor_m8177191B6A94BD69622356381336BE259CA44B91 (DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* __this, int32_t ___0_size, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Pass_Init_m7B382342CD2678E457817E50E1FB22F36CBBB89A (Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnTileValidationLayer_set_errorMessageHowToResolve_mEFA1C92F19E63255F451FA8161EBF8FF2F2754F1_inline (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t OnTileValidationLayer_GetLastRasterPass_m9297E2559F5830B149959857382E70E351EFD9B8_inline (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_handle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_ThrowNoNonRasterPassInBetween_m7D31D13F815E6D157EA1BF5D67C1EBC630D8DDB3 (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_input, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnTileValidationLayer_SetLastRasterPass_m05F4012D2B1F4407066274C6C1FE0A785B3E90C0_inline (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_handle, int32_t ___1_lastRasterPass, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E* OnTileValidationLayer_get_renderGraph_m8489A2B241CD719FEEF498909F87BD6285429C81_inline (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* RenderGraph_GetTextureName_m2B541469B92E08B986E0313F7CC1BAADA35B60D7 (RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_textureHandle, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* OnTileValidationLayer_get_errorMessageHowToResolve_mA8A3F88FCA05EFB11ECA592E060637DBA0ECB703_inline (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_values, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162 (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* __this, String_t* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool OnTileValidationLayer_IsTrackedOnTile_mC05BE6E67AA841CF9131623C67F61F50FDBDFDE5_inline (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_handle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_ThrowTextureSamplingException_mC579E133255E98BFC5831651A9CBC4E828E4F47D (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_input, String_t* ___1_methodName, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_ThrowNotRasterPassException_m15C8084D5164EDAD073D14D52F14DF5C00A14F33 (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_input, String_t* ___1_methodName, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeList_1_Add_mB14804AEFFEDC5CC08C24C9194BCFCF7A5D22683 (NativeList_1_t2EA8D653AC64D93A660A8D66EAF0E546005155F0* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnTileValidationLayer_ValidateNoNonRasterPassInbetween_mA6E28E54A5A2FFA29805544EBD2DC0A590CBDDE5_inline (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_input, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TextureHandle_IsValid_mECFF64B8BAC6402F0D37B67BB79FFB3AB3C7F3C2_inline (TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnTileValidationLayer_ValidateRenderAttachment_m555FC8A5E90EF3AA1442FDC57AE7E221526AF7F7_inline (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_tex, String_t* ___1_methodName, const RuntimeMethod* method) ;
+inline int32_t DynamicArray_1_get_size_m753635E8C75319D671558922DB1EB47AE333B099_inline (DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0*, const RuntimeMethod*))DynamicArray_1_get_size_m128222BE63C9931B08CD38DF32B858CD1CD4926D_fshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicArray_1_ResizeAndClear_m0134666772E068A94DA208A812ED12237C34675C (DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* __this, int32_t ___0_newSize, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ResourceHandle_get_index_m41F8E581C1211AC4CA85343EBD0292183DAEAFD3_inline (ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t* DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6 (DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t OnTileValidationLayer_GetHandleState_m322E4D20F62647A29BB8FA3C05A35EB80417FD17_inline (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_handle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeList_1_Dispose_m55270875C5EFA18ADF213ECE9D17783B2F679C01 (NativeList_1_t2EA8D653AC64D93A660A8D66EAF0E546005155F0* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeList_1__ctor_mE603A1C3CA9C40D507CEEA2A09D42C3B6E860430 (NativeList_1_t2EA8D653AC64D93A660A8D66EAF0E546005155F0* __this, int32_t ___0_initialCapacity, AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___1_allocator, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool ResourceHandle_IsValid_m20B0218FDCA98DCD069AE3BE86FEFCAEDB985B9A_inline (ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C* __this, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CameraCaptureBridge_GetCachedCaptureActionsEnumerator_m5AF96FFFE623D93E1ABDE12DF9E17A420A69C498 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___0_camera, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CameraCaptureBridge_t6C1AB840270CFB56643B53A817B2D298D52CC559_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(CameraCaptureBridge_t6C1AB840270CFB56643B53A817B2D298D52CC559_StaticInit);
+	{
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = ___0_camera;
+		CHECKED_LOCAL_INIT(CameraCaptureBridge_t6C1AB840270CFB56643B53A817B2D298D52CC559_StaticInit,(CameraCaptureBridge_t6C1AB840270CFB56643B53A817B2D298D52CC559_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		RuntimeObject* L_1;
+		L_1 = CameraCaptureBridge_GetCachedCaptureActionsEnumerator_m6ECF80A30B41D0DBA2404F64A33CCE58F31B1B3A(L_0, NULL);
+		return L_1;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E* OnTileValidationLayer_get_renderGraph_m8489A2B241CD719FEEF498909F87BD6285429C81 (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, const RuntimeMethod* method) 
+{
+	{
+		RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E* L_0 = __this->___U3CrenderGraphU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer__ctor_m3576107877B64ADE640D5E79A70F4ED89AA3E17B (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DynamicArray_1__ctor_m8177191B6A94BD69622356381336BE259CA44B91_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral850FF8B49AAF4C21C4CCFFABEBFD835EDD2BE46E);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		RenderGraphValidationLayer__ctor_m0A3DE2AC5239D374766AA59E4059CE862D04A15B(__this, NULL);
+		DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* L_0 = (DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0*)il2cpp_codegen_object_new(DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0_il2cpp_TypeInfo_var);
+		DynamicArray_1__ctor_m8177191B6A94BD69622356381336BE259CA44B91(L_0, ((int32_t)20), DynamicArray_1__ctor_m8177191B6A94BD69622356381336BE259CA44B91_RuntimeMethod_var);
+		__this->___m_HandleStates = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_HandleStates), (void*)L_0);
+		Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0* L_1 = (Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0*)(&__this->___m_CurrentPass);
+		Pass_Init_m7B382342CD2678E457817E50E1FB22F36CBBB89A(L_1, NULL);
+		VirtualActionInvoker0::Invoke(21, __this);
+		OnTileValidationLayer_set_errorMessageHowToResolve_mEFA1C92F19E63255F451FA8161EBF8FF2F2754F1_inline(__this, _stringLiteral850FF8B49AAF4C21C4CCFFABEBFD835EDD2BE46E, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OnTileValidationLayer_get_errorMessageHowToResolve_mA8A3F88FCA05EFB11ECA592E060637DBA0ECB703 (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CerrorMessageHowToResolveU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_set_errorMessageHowToResolve_mEFA1C92F19E63255F451FA8161EBF8FF2F2754F1 (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___0_value;
+		__this->___U3CerrorMessageHowToResolveU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CerrorMessageHowToResolveU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_ValidateNoNonRasterPassInbetween_mA6E28E54A5A2FFA29805544EBD2DC0A590CBDDE5 (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_input, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_0 = ___0_input;
+		int32_t L_1;
+		L_1 = OnTileValidationLayer_GetLastRasterPass_m9297E2559F5830B149959857382E70E351EFD9B8_inline(__this, L_0, NULL);
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) == ((int32_t)(-1))))
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		int32_t L_3 = __this->___m_LastNonRasterPassIndex;
+		int32_t L_4 = V_0;
+		if ((((int32_t)L_3) <= ((int32_t)L_4)))
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		int32_t L_5 = __this->___m_LastNonRasterPassIndex;
+		int32_t L_6 = __this->___m_NumberOfPasses;
+		if ((((int32_t)L_5) >= ((int32_t)L_6)))
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_7 = ___0_input;
+		OnTileValidationLayer_ThrowNoNonRasterPassInBetween_m7D31D13F815E6D157EA1BF5D67C1EBC630D8DDB3(__this, L_7, NULL);
+	}
+
+IL_002a:
+	{
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_8 = ___0_input;
+		int32_t L_9 = __this->___m_NumberOfPasses;
+		OnTileValidationLayer_SetLastRasterPass_m05F4012D2B1F4407066274C6C1FE0A785B3E90C0_inline(__this, L_8, L_9, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_ThrowNoNonRasterPassInBetween_m7D31D13F815E6D157EA1BF5D67C1EBC630D8DDB3 (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_input, const RuntimeMethod* method) 
+{
+	String_t* V_0 = NULL;
+	{
+		RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E* L_0;
+		L_0 = OnTileValidationLayer_get_renderGraph_m8489A2B241CD719FEEF498909F87BD6285429C81_inline(__this, NULL);
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_1 = ___0_input;
+		NullCheck(L_0);
+		String_t* L_2;
+		L_2 = RenderGraph_GetTextureName_m2B541469B92E08B986E0313F7CC1BAADA35B60D7(L_0, L_1, NULL);
+		V_0 = L_2;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var)), (uint32_t)8);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4 = L_3;
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralC21916F0F912C1E4BA3A1BFB9B23B24EB022BE93)));
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_5 = L_4;
+		Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0* L_6 = (Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0*)(&__this->___m_CurrentPass);
+		RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8* L_7 = (RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8*)(&L_6->___info);
+		String_t* L_8 = L_7->___name;
+		NullCheck(L_5);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_8);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_9 = L_5;
+		NullCheck(L_9);
+		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral1469DC36122DACF7581D1D1796F2F57712BDBDB4)));
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_10 = L_9;
+		String_t* L_11 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_11);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_12 = L_10;
+		NullCheck(L_12);
+		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralB49156DF1EC7A1C0FAF1B57D47960F6E7375399F)));
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_13 = L_12;
+		RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8* L_14 = (RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8*)(&__this->___m_LastNonRasterPassInfo);
+		String_t* L_15 = L_14->___name;
+		NullCheck(L_13);
+		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(5), (String_t*)L_15);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_16 = L_13;
+		NullCheck(L_16);
+		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(6), (String_t*)((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral008BD30AF451F87B4DB85E412BC6960A9E8ECD9A)));
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_17 = L_16;
+		String_t* L_18;
+		L_18 = OnTileValidationLayer_get_errorMessageHowToResolve_mA8A3F88FCA05EFB11ECA592E060637DBA0ECB703_inline(__this, NULL);
+		NullCheck(L_17);
+		(L_17)->SetAt(static_cast<il2cpp_array_size_t>(7), (String_t*)L_18);
+		String_t* L_19;
+		L_19 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_17, NULL);
+		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_20 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
+		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_20, L_19, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_20, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OnTileValidationLayer_ThrowNoNonRasterPassInBetween_m7D31D13F815E6D157EA1BF5D67C1EBC630D8DDB3_RuntimeMethod_var)));
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_ThrowTextureSamplingException_mC579E133255E98BFC5831651A9CBC4E828E4F47D (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_input, String_t* ___1_methodName, const RuntimeMethod* method) 
+{
+	String_t* V_0 = NULL;
+	{
+		RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E* L_0;
+		L_0 = OnTileValidationLayer_get_renderGraph_m8489A2B241CD719FEEF498909F87BD6285429C81_inline(__this, NULL);
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_1 = ___0_input;
+		NullCheck(L_0);
+		String_t* L_2;
+		L_2 = RenderGraph_GetTextureName_m2B541469B92E08B986E0313F7CC1BAADA35B60D7(L_0, L_1, NULL);
+		V_0 = L_2;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var)), (uint32_t)8);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4 = L_3;
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralC21916F0F912C1E4BA3A1BFB9B23B24EB022BE93)));
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_5 = L_4;
+		Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0* L_6 = (Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0*)(&__this->___m_CurrentPass);
+		RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8* L_7 = (RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8*)(&L_6->___info);
+		String_t* L_8 = L_7->___name;
+		NullCheck(L_5);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_8);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_9 = L_5;
+		NullCheck(L_9);
+		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralC04F99C69E9CFB4931A7E575A7BF18921BB15B43)));
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_10 = L_9;
+		String_t* L_11 = ___1_methodName;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_11);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_12 = L_10;
+		NullCheck(L_12);
+		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralC9C9D11EDECD5DDD1659C50F5476EFC3E756E1D6)));
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_13 = L_12;
+		String_t* L_14 = V_0;
+		NullCheck(L_13);
+		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(5), (String_t*)L_14);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_15 = L_13;
+		NullCheck(L_15);
+		(L_15)->SetAt(static_cast<il2cpp_array_size_t>(6), (String_t*)((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral21403EF5CDA7CA42ECE71C50FF4961F5D447D052)));
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_16 = L_15;
+		String_t* L_17;
+		L_17 = OnTileValidationLayer_get_errorMessageHowToResolve_mA8A3F88FCA05EFB11ECA592E060637DBA0ECB703_inline(__this, NULL);
+		NullCheck(L_16);
+		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(7), (String_t*)L_17);
+		String_t* L_18;
+		L_18 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_16, NULL);
+		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_19 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
+		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_19, L_18, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_19, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OnTileValidationLayer_ThrowTextureSamplingException_mC579E133255E98BFC5831651A9CBC4E828E4F47D_RuntimeMethod_var)));
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_ThrowNotRasterPassException_m15C8084D5164EDAD073D14D52F14DF5C00A14F33 (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_input, String_t* ___1_methodName, const RuntimeMethod* method) 
+{
+	String_t* V_0 = NULL;
+	{
+		RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E* L_0;
+		L_0 = OnTileValidationLayer_get_renderGraph_m8489A2B241CD719FEEF498909F87BD6285429C81_inline(__this, NULL);
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_1 = ___0_input;
+		NullCheck(L_0);
+		String_t* L_2;
+		L_2 = RenderGraph_GetTextureName_m2B541469B92E08B986E0313F7CC1BAADA35B60D7(L_0, L_1, NULL);
+		V_0 = L_2;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var)), (uint32_t)8);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4 = L_3;
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralC21916F0F912C1E4BA3A1BFB9B23B24EB022BE93)));
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_5 = L_4;
+		Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0* L_6 = (Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0*)(&__this->___m_CurrentPass);
+		RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8* L_7 = (RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8*)(&L_6->___info);
+		String_t* L_8 = L_7->___name;
+		NullCheck(L_5);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_8);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_9 = L_5;
+		NullCheck(L_9);
+		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralC04F99C69E9CFB4931A7E575A7BF18921BB15B43)));
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_10 = L_9;
+		String_t* L_11 = ___1_methodName;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_11);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_12 = L_10;
+		NullCheck(L_12);
+		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralC9C9D11EDECD5DDD1659C50F5476EFC3E756E1D6)));
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_13 = L_12;
+		String_t* L_14 = V_0;
+		NullCheck(L_13);
+		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(5), (String_t*)L_14);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_15 = L_13;
+		NullCheck(L_15);
+		(L_15)->SetAt(static_cast<il2cpp_array_size_t>(6), (String_t*)((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralA26536399DAE602EE8F0F27C8A44BBC81F148BA2)));
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_16 = L_15;
+		String_t* L_17;
+		L_17 = OnTileValidationLayer_get_errorMessageHowToResolve_mA8A3F88FCA05EFB11ECA592E060637DBA0ECB703_inline(__this, NULL);
+		NullCheck(L_16);
+		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(7), (String_t*)L_17);
+		String_t* L_18;
+		L_18 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_16, NULL);
+		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_19 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
+		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_19, L_18, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_19, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OnTileValidationLayer_ThrowNotRasterPassException_m15C8084D5164EDAD073D14D52F14DF5C00A14F33_RuntimeMethod_var)));
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_UseTexture_mDAA9B7BF3CCFC7CF6025E0A36F0C23970C8AEC99 (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_input, int32_t ___1_flags, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral15F2730F86FF67A4F55D68EBE21585CABA029089);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_0 = ___0_input;
+		bool L_1;
+		L_1 = OnTileValidationLayer_IsTrackedOnTile_mC05BE6E67AA841CF9131623C67F61F50FDBDFDE5_inline(__this, L_0, NULL);
+		if (L_1)
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000a:
+	{
+		Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0* L_2 = (Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0*)(&__this->___m_CurrentPass);
+		RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8* L_3 = (RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8*)(&L_2->___info);
+		int32_t L_4 = L_3->___type;
+		if ((!(((uint32_t)L_4) == ((uint32_t)1))))
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_5 = ___0_input;
+		OnTileValidationLayer_ThrowTextureSamplingException_mC579E133255E98BFC5831651A9CBC4E828E4F47D(__this, L_5, _stringLiteral15F2730F86FF67A4F55D68EBE21585CABA029089, NULL);
+		return;
+	}
+
+IL_002a:
+	{
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_6 = ___0_input;
+		OnTileValidationLayer_ThrowNotRasterPassException_m15C8084D5164EDAD073D14D52F14DF5C00A14F33(__this, L_6, _stringLiteral15F2730F86FF67A4F55D68EBE21585CABA029089, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_SetGlobalTextureAfterPass_mC46991FF1200D4D11777B4ED7EC30421A7DE8E16 (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_input, int32_t ___1_propertyId, const RuntimeMethod* method) 
+{
+	{
+		Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0* L_0 = (Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0*)(&__this->___m_CurrentPass);
+		NativeList_1_t2EA8D653AC64D93A660A8D66EAF0E546005155F0* L_1 = (NativeList_1_t2EA8D653AC64D93A660A8D66EAF0E546005155F0*)(&L_0->___globalTexturesAfterPass);
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_2 = ___0_input;
+		NativeList_1_Add_mB14804AEFFEDC5CC08C24C9194BCFCF7A5D22683(L_1, L_2, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_ValidateRenderAttachment_m555FC8A5E90EF3AA1442FDC57AE7E221526AF7F7 (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_tex, String_t* ___1_methodName, const RuntimeMethod* method) 
+{
+	{
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_0 = ___0_tex;
+		bool L_1;
+		L_1 = OnTileValidationLayer_IsTrackedOnTile_mC05BE6E67AA841CF9131623C67F61F50FDBDFDE5_inline(__this, L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0* L_2 = (Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0*)(&__this->___m_CurrentPass);
+		RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8* L_3 = (RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8*)(&L_2->___info);
+		int32_t L_4 = L_3->___type;
+		if ((!(((uint32_t)L_4) == ((uint32_t)1))))
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_5 = ___0_tex;
+		OnTileValidationLayer_ValidateNoNonRasterPassInbetween_mA6E28E54A5A2FFA29805544EBD2DC0A590CBDDE5_inline(__this, L_5, NULL);
+		return;
+	}
+
+IL_0024:
+	{
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_6 = ___0_tex;
+		String_t* L_7 = ___1_methodName;
+		OnTileValidationLayer_ThrowNotRasterPassException_m15C8084D5164EDAD073D14D52F14DF5C00A14F33(__this, L_6, L_7, NULL);
+	}
+
+IL_002c:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_SetRenderAttachment_mA13E12DE1C3F4777FE2BC9D9AF2E9B7FC632DAD9 (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388 ___0_tex, int32_t ___1_index, int32_t ___2_flags, int32_t ___3_mipLevel, int32_t ___4_depthSlice, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE5463EF0F3AE3C9E1312C37560F10536E7232672);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E_StaticInit);
+	int32_t V_0 = 0;
+	{
+		Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0* L_0 = (Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0*)(&__this->___m_CurrentPass);
+		int32_t L_1 = L_0->___renderCount;
+		CHECKED_LOCAL_INIT(RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E_StaticInit,(RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		int32_t L_2 = ((RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E_StaticFields*)il2cpp_codegen_static_fields_for(RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E_il2cpp_TypeInfo_var))->___kMaxMRTCount;
+		if ((!(((uint32_t)L_1) == ((uint32_t)L_2))))
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0013:
+	{
+		bool L_3;
+		L_3 = TextureHandle_IsValid_mECFF64B8BAC6402F0D37B67BB79FFB3AB3C7F3C2_inline((&___0_tex), NULL);
+		if (L_3)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		return;
+	}
+
+IL_001d:
+	{
+		OnTileValidationLayer_ValidateRenderAttachment_m555FC8A5E90EF3AA1442FDC57AE7E221526AF7F7_inline(__this, (&___0_tex), _stringLiteralE5463EF0F3AE3C9E1312C37560F10536E7232672, NULL);
+		Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0* L_4 = (Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0*)(&__this->___m_CurrentPass);
+		TextureHandleU5BU5D_t544FFA6F5A0E1E5F24EB3C5E5F8547CCE9498BD7* L_5 = L_4->___renderAttachments;
+		Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0* L_6 = (Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0*)(&__this->___m_CurrentPass);
+		int32_t* L_7 = (int32_t*)(&L_6->___renderCount);
+		int32_t* L_8 = L_7;
+		int32_t L_9 = *(L_8);
+		V_0 = L_9;
+		int32_t L_10 = V_0;
+		*(L_8) = ((int32_t)il2cpp_codegen_add(L_10, 1));
+		int32_t L_11 = V_0;
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388 L_12 = ___0_tex;
+		NullCheck(L_5);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388)L_12);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_SetRenderAttachmentDepth_m8A0176DD00B25F1AF1EEB61A954DE7E29A86FBF1 (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388 ___0_tex, int32_t ___1_flags, int32_t ___2_mipLevel, int32_t ___3_depthSlice, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8996E64589692D27C6CF7956C58596B827E5200A);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0;
+		L_0 = TextureHandle_IsValid_mECFF64B8BAC6402F0D37B67BB79FFB3AB3C7F3C2_inline((&___0_tex), NULL);
+		if (L_0)
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000a:
+	{
+		OnTileValidationLayer_ValidateRenderAttachment_m555FC8A5E90EF3AA1442FDC57AE7E221526AF7F7_inline(__this, (&___0_tex), _stringLiteral8996E64589692D27C6CF7956C58596B827E5200A, NULL);
+		Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0* L_1 = (Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0*)(&__this->___m_CurrentPass);
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388 L_2 = ___0_tex;
+		L_1->___renderAttachmentDepth = L_2;
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_SetInputAttachment_m83B484B3E8755611327DF614DF2F30A31E74EB5E (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388 ___0_tex, int32_t ___1_index, int32_t ___2_flags, int32_t ___3_mipLevel, int32_t ___4_depthSlice, const RuntimeMethod* method) 
+{
+	{
+		bool L_0;
+		L_0 = TextureHandle_IsValid_mECFF64B8BAC6402F0D37B67BB79FFB3AB3C7F3C2_inline((&___0_tex), NULL);
+		if (L_0)
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000a:
+	{
+		bool L_1;
+		L_1 = OnTileValidationLayer_IsTrackedOnTile_mC05BE6E67AA841CF9131623C67F61F50FDBDFDE5_inline(__this, (&___0_tex), NULL);
+		if (L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0015:
+	{
+		__this->___m_InputAttachmentsHaveOnTileResource = (bool)1;
+		OnTileValidationLayer_ValidateNoNonRasterPassInbetween_mA6E28E54A5A2FFA29805544EBD2DC0A590CBDDE5_inline(__this, (&___0_tex), NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_Clear_m24ABD8A5C7F35135E1A0F280077F011D43A137B6 (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DynamicArray_1_ResizeAndClear_m0134666772E068A94DA208A812ED12237C34675C_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* L_0 = __this->___m_HandleStates;
+		DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* L_1 = __this->___m_HandleStates;
+		NullCheck(L_1);
+		int32_t L_2;
+		L_2 = DynamicArray_1_get_size_m753635E8C75319D671558922DB1EB47AE333B099_inline(L_1, NULL);
+		NullCheck(L_0);
+		DynamicArray_1_ResizeAndClear_m0134666772E068A94DA208A812ED12237C34675C(L_0, L_2, DynamicArray_1_ResizeAndClear_m0134666772E068A94DA208A812ED12237C34675C_RuntimeMethod_var);
+		__this->___m_NumberOfPasses = 1;
+		__this->___m_LastNonRasterPassIndex = (-1);
+		__this->___m_InputAttachmentsHaveOnTileResource = (bool)0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t OnTileValidationLayer_GetHandleState_m322E4D20F62647A29BB8FA3C05A35EB80417FD17 (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_handle, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_StaticInit);
+	{
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_0 = ___0_handle;
+		ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C* L_1 = (ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C*)(&L_0->___handle);
+		CHECKED_LOCAL_INIT(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_StaticInit,(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		int32_t L_2;
+		L_2 = ResourceHandle_get_index_m41F8E581C1211AC4CA85343EBD0292183DAEAFD3_inline(L_1, NULL);
+		DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* L_3 = __this->___m_HandleStates;
+		NullCheck(L_3);
+		int32_t L_4;
+		L_4 = DynamicArray_1_get_size_m753635E8C75319D671558922DB1EB47AE333B099_inline(L_3, NULL);
+		if ((((int32_t)L_2) < ((int32_t)L_4)))
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		return 0;
+	}
+
+IL_001a:
+	{
+		DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* L_5 = __this->___m_HandleStates;
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_6 = ___0_handle;
+		ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C* L_7 = (ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C*)(&L_6->___handle);
+		CHECKED_LOCAL_INIT(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_StaticInit,(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		int32_t L_8;
+		L_8 = ResourceHandle_get_index_m41F8E581C1211AC4CA85343EBD0292183DAEAFD3_inline(L_7, NULL);
+		NullCheck(L_5);
+		int32_t* L_9;
+		L_9 = DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6(L_5, L_8, NULL);
+		int32_t L_10 = *(L_9);
+		return L_10;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OnTileValidationLayer_IsTrackedOnTile_mC05BE6E67AA841CF9131623C67F61F50FDBDFDE5 (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_handle, const RuntimeMethod* method) 
+{
+	{
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_0 = ___0_handle;
+		int32_t L_1;
+		L_1 = OnTileValidationLayer_GetHandleState_m322E4D20F62647A29BB8FA3C05A35EB80417FD17_inline(__this, L_0, NULL);
+		return (bool)((!(((uint32_t)L_1) <= ((uint32_t)0)))? 1 : 0);
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t OnTileValidationLayer_GetLastRasterPass_m9297E2559F5830B149959857382E70E351EFD9B8 (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_handle, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_StaticInit);
+	{
+		DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* L_0 = __this->___m_HandleStates;
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_1 = ___0_handle;
+		ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C* L_2 = (ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C*)(&L_1->___handle);
+		CHECKED_LOCAL_INIT(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_StaticInit,(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		int32_t L_3;
+		L_3 = ResourceHandle_get_index_m41F8E581C1211AC4CA85343EBD0292183DAEAFD3_inline(L_2, NULL);
+		NullCheck(L_0);
+		int32_t* L_4;
+		L_4 = DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6(L_0, L_3, NULL);
+		int32_t L_5 = *(L_4);
+		return L_5;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_SetLastRasterPass_m05F4012D2B1F4407066274C6C1FE0A785B3E90C0 (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_handle, int32_t ___1_lastRasterPass, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_StaticInit);
+	{
+		DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* L_0 = __this->___m_HandleStates;
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_1 = ___0_handle;
+		ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C* L_2 = (ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C*)(&L_1->___handle);
+		CHECKED_LOCAL_INIT(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_StaticInit,(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		int32_t L_3;
+		L_3 = ResourceHandle_get_index_m41F8E581C1211AC4CA85343EBD0292183DAEAFD3_inline(L_2, NULL);
+		NullCheck(L_0);
+		int32_t* L_4;
+		L_4 = DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6(L_0, L_3, NULL);
+		int32_t L_5 = ___1_lastRasterPass;
+		*(L_4) = L_5;
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTileValidationLayer_Dispose_mC1A80EDB4A145C46C2648BF21079470E42786B7B (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, const RuntimeMethod* method) 
+{
+	{
+		Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0* L_0 = (Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0*)(&__this->___m_CurrentPass);
+		NativeList_1_t2EA8D653AC64D93A660A8D66EAF0E546005155F0* L_1 = (NativeList_1_t2EA8D653AC64D93A660A8D66EAF0E546005155F0*)(&L_0->___globalTexturesAfterPass);
+		NativeList_1_Dispose_m55270875C5EFA18ADF213ECE9D17783B2F679C01(L_1, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+
+
+
+
+
+IL2CPP_EXTERN_C void Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0_marshal_pinvoke(const Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0& unmarshaled, Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0_marshaled_pinvoke& marshaled)
+{
+	RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8_marshal_pinvoke(unmarshaled.___info, marshaled.___info);
+	if (unmarshaled.___renderAttachments != NULL)
+	{
+		il2cpp_array_size_t _unmarshaledrenderAttachments_Length = (unmarshaled.___renderAttachments)->max_length;
+		marshaled.___renderAttachments = il2cpp_codegen_marshal_allocate_array<TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_marshaled_pinvoke>(_unmarshaledrenderAttachments_Length);
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(_unmarshaledrenderAttachments_Length); i++)
+		{
+			TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_marshal_pinvoke((unmarshaled.___renderAttachments)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i)), (marshaled.___renderAttachments)[i]);
+		}
+	}
+	else
+	{
+		marshaled.___renderAttachments = NULL;
+	}
+	marshaled.___globalTexturesAfterPass = unmarshaled.___globalTexturesAfterPass;
+	TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_marshal_pinvoke(unmarshaled.___renderAttachmentDepth, marshaled.___renderAttachmentDepth);
+	marshaled.___renderCount = unmarshaled.___renderCount;
+}
+IL2CPP_EXTERN_C void Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0_marshal_pinvoke_back(const Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0_marshaled_pinvoke& marshaled, Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureHandleU5BU5D_t544FFA6F5A0E1E5F24EB3C5E5F8547CCE9498BD7_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8 unmarshaledinfo_temp_0;
+	memset((&unmarshaledinfo_temp_0), 0, sizeof(unmarshaledinfo_temp_0));
+	RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8_marshal_pinvoke_back(marshaled.___info, unmarshaledinfo_temp_0);
+	unmarshaled.___info = unmarshaledinfo_temp_0;
+	Il2CppCodeGenWriteBarrier((void**)&(((&unmarshaled.___info))->___name), (void*)NULL);
+	if (marshaled.___renderAttachments != NULL)
+	{
+		if (unmarshaled.___renderAttachments == NULL)
+		{
+			unmarshaled.___renderAttachments = reinterpret_cast<TextureHandleU5BU5D_t544FFA6F5A0E1E5F24EB3C5E5F8547CCE9498BD7*>((TextureHandleU5BU5D_t544FFA6F5A0E1E5F24EB3C5E5F8547CCE9498BD7*)SZArrayNew(TextureHandleU5BU5D_t544FFA6F5A0E1E5F24EB3C5E5F8547CCE9498BD7_il2cpp_TypeInfo_var, 1));
+			Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___renderAttachments), (void*)reinterpret_cast<TextureHandleU5BU5D_t544FFA6F5A0E1E5F24EB3C5E5F8547CCE9498BD7*>((TextureHandleU5BU5D_t544FFA6F5A0E1E5F24EB3C5E5F8547CCE9498BD7*)SZArrayNew(TextureHandleU5BU5D_t544FFA6F5A0E1E5F24EB3C5E5F8547CCE9498BD7_il2cpp_TypeInfo_var, 1)));
+		}
+		il2cpp_array_size_t _arrayLength = (unmarshaled.___renderAttachments)->max_length;
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(_arrayLength); i++)
+		{
+			TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388 _marshaled____renderAttachments_i__unmarshaled;
+			memset((&_marshaled____renderAttachments_i__unmarshaled), 0, sizeof(_marshaled____renderAttachments_i__unmarshaled));
+			TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_marshal_pinvoke_back((marshaled.___renderAttachments)[i], _marshaled____renderAttachments_i__unmarshaled);
+			(unmarshaled.___renderAttachments)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), _marshaled____renderAttachments_i__unmarshaled);
+		}
+	}
+	NativeList_1_t2EA8D653AC64D93A660A8D66EAF0E546005155F0 unmarshaledglobalTexturesAfterPass_temp_2;
+	memset((&unmarshaledglobalTexturesAfterPass_temp_2), 0, sizeof(unmarshaledglobalTexturesAfterPass_temp_2));
+	unmarshaledglobalTexturesAfterPass_temp_2 = marshaled.___globalTexturesAfterPass;
+	unmarshaled.___globalTexturesAfterPass = unmarshaledglobalTexturesAfterPass_temp_2;
+	TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388 unmarshaledrenderAttachmentDepth_temp_3;
+	memset((&unmarshaledrenderAttachmentDepth_temp_3), 0, sizeof(unmarshaledrenderAttachmentDepth_temp_3));
+	TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_marshal_pinvoke_back(marshaled.___renderAttachmentDepth, unmarshaledrenderAttachmentDepth_temp_3);
+	unmarshaled.___renderAttachmentDepth = unmarshaledrenderAttachmentDepth_temp_3;
+	int32_t unmarshaledrenderCount_temp_4 = 0;
+	unmarshaledrenderCount_temp_4 = marshaled.___renderCount;
+	unmarshaled.___renderCount = unmarshaledrenderCount_temp_4;
+}
+IL2CPP_EXTERN_C void Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0_marshal_pinvoke_cleanup(Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0_marshaled_pinvoke& marshaled)
+{
+	RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8_marshal_pinvoke_cleanup(marshaled.___info);
+	if (marshaled.___renderAttachments != NULL)
+	{
+		const il2cpp_array_size_t marshaled____renderAttachments_CleanupLoopCount = 1;
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(marshaled____renderAttachments_CleanupLoopCount); i++)
+		{
+			TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_marshal_pinvoke_cleanup((marshaled.___renderAttachments)[i]);
+		}
+		il2cpp_codegen_marshal_free(marshaled.___renderAttachments);
+		marshaled.___renderAttachments = NULL;
+	}
+	TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_marshal_pinvoke_cleanup(marshaled.___renderAttachmentDepth);
+}
+
+
+
+
+
+
+IL2CPP_EXTERN_C void Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0_marshal_com(const Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0& unmarshaled, Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0_marshaled_com& marshaled)
+{
+	RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8_marshal_com(unmarshaled.___info, marshaled.___info);
+	if (unmarshaled.___renderAttachments != NULL)
+	{
+		il2cpp_array_size_t _unmarshaledrenderAttachments_Length = (unmarshaled.___renderAttachments)->max_length;
+		marshaled.___renderAttachments = il2cpp_codegen_marshal_allocate_array<TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_marshaled_com>(_unmarshaledrenderAttachments_Length);
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(_unmarshaledrenderAttachments_Length); i++)
+		{
+			TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_marshal_com((unmarshaled.___renderAttachments)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i)), (marshaled.___renderAttachments)[i]);
+		}
+	}
+	else
+	{
+		marshaled.___renderAttachments = NULL;
+	}
+	marshaled.___globalTexturesAfterPass = unmarshaled.___globalTexturesAfterPass;
+	TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_marshal_com(unmarshaled.___renderAttachmentDepth, marshaled.___renderAttachmentDepth);
+	marshaled.___renderCount = unmarshaled.___renderCount;
+}
+IL2CPP_EXTERN_C void Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0_marshal_com_back(const Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0_marshaled_com& marshaled, Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureHandleU5BU5D_t544FFA6F5A0E1E5F24EB3C5E5F8547CCE9498BD7_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8 unmarshaledinfo_temp_0;
+	memset((&unmarshaledinfo_temp_0), 0, sizeof(unmarshaledinfo_temp_0));
+	RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8_marshal_com_back(marshaled.___info, unmarshaledinfo_temp_0);
+	unmarshaled.___info = unmarshaledinfo_temp_0;
+	Il2CppCodeGenWriteBarrier((void**)&(((&unmarshaled.___info))->___name), (void*)NULL);
+	if (marshaled.___renderAttachments != NULL)
+	{
+		if (unmarshaled.___renderAttachments == NULL)
+		{
+			unmarshaled.___renderAttachments = reinterpret_cast<TextureHandleU5BU5D_t544FFA6F5A0E1E5F24EB3C5E5F8547CCE9498BD7*>((TextureHandleU5BU5D_t544FFA6F5A0E1E5F24EB3C5E5F8547CCE9498BD7*)SZArrayNew(TextureHandleU5BU5D_t544FFA6F5A0E1E5F24EB3C5E5F8547CCE9498BD7_il2cpp_TypeInfo_var, 1));
+			Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___renderAttachments), (void*)reinterpret_cast<TextureHandleU5BU5D_t544FFA6F5A0E1E5F24EB3C5E5F8547CCE9498BD7*>((TextureHandleU5BU5D_t544FFA6F5A0E1E5F24EB3C5E5F8547CCE9498BD7*)SZArrayNew(TextureHandleU5BU5D_t544FFA6F5A0E1E5F24EB3C5E5F8547CCE9498BD7_il2cpp_TypeInfo_var, 1)));
+		}
+		il2cpp_array_size_t _arrayLength = (unmarshaled.___renderAttachments)->max_length;
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(_arrayLength); i++)
+		{
+			TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388 _marshaled____renderAttachments_i__unmarshaled;
+			memset((&_marshaled____renderAttachments_i__unmarshaled), 0, sizeof(_marshaled____renderAttachments_i__unmarshaled));
+			TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_marshal_com_back((marshaled.___renderAttachments)[i], _marshaled____renderAttachments_i__unmarshaled);
+			(unmarshaled.___renderAttachments)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), _marshaled____renderAttachments_i__unmarshaled);
+		}
+	}
+	NativeList_1_t2EA8D653AC64D93A660A8D66EAF0E546005155F0 unmarshaledglobalTexturesAfterPass_temp_2;
+	memset((&unmarshaledglobalTexturesAfterPass_temp_2), 0, sizeof(unmarshaledglobalTexturesAfterPass_temp_2));
+	unmarshaledglobalTexturesAfterPass_temp_2 = marshaled.___globalTexturesAfterPass;
+	unmarshaled.___globalTexturesAfterPass = unmarshaledglobalTexturesAfterPass_temp_2;
+	TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388 unmarshaledrenderAttachmentDepth_temp_3;
+	memset((&unmarshaledrenderAttachmentDepth_temp_3), 0, sizeof(unmarshaledrenderAttachmentDepth_temp_3));
+	TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_marshal_com_back(marshaled.___renderAttachmentDepth, unmarshaledrenderAttachmentDepth_temp_3);
+	unmarshaled.___renderAttachmentDepth = unmarshaledrenderAttachmentDepth_temp_3;
+	int32_t unmarshaledrenderCount_temp_4 = 0;
+	unmarshaledrenderCount_temp_4 = marshaled.___renderCount;
+	unmarshaled.___renderCount = unmarshaledrenderCount_temp_4;
+}
+IL2CPP_EXTERN_C void Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0_marshal_com_cleanup(Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0_marshaled_com& marshaled)
+{
+	RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8_marshal_com_cleanup(marshaled.___info);
+	if (marshaled.___renderAttachments != NULL)
+	{
+		const il2cpp_array_size_t marshaled____renderAttachments_CleanupLoopCount = 1;
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(marshaled____renderAttachments_CleanupLoopCount); i++)
+		{
+			TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_marshal_com_cleanup((marshaled.___renderAttachments)[i]);
+		}
+		il2cpp_codegen_marshal_free(marshaled.___renderAttachments);
+		marshaled.___renderAttachments = NULL;
+	}
+	TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388_marshal_com_cleanup(marshaled.___renderAttachmentDepth);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Pass_Init_m7B382342CD2678E457817E50E1FB22F36CBBB89A (Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AllocatorManager_tFB15A22029C8159A3DCD4C08935BE57D3E6B3C2C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureHandleU5BU5D_t544FFA6F5A0E1E5F24EB3C5E5F8547CCE9498BD7_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E_StaticInit);
+	CHECKED_LOCAL(AllocatorManager_tFB15A22029C8159A3DCD4C08935BE57D3E6B3C2C_StaticInit);
+	{
+		CHECKED_LOCAL_INIT(RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E_StaticInit,(RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		int32_t L_0 = ((RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E_StaticFields*)il2cpp_codegen_static_fields_for(RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E_il2cpp_TypeInfo_var))->___kMaxMRTCount;
+		TextureHandleU5BU5D_t544FFA6F5A0E1E5F24EB3C5E5F8547CCE9498BD7* L_1 = (TextureHandleU5BU5D_t544FFA6F5A0E1E5F24EB3C5E5F8547CCE9498BD7*)(TextureHandleU5BU5D_t544FFA6F5A0E1E5F24EB3C5E5F8547CCE9498BD7*)SZArrayNew(TextureHandleU5BU5D_t544FFA6F5A0E1E5F24EB3C5E5F8547CCE9498BD7_il2cpp_TypeInfo_var, (uint32_t)L_0);
+		__this->___renderAttachments = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___renderAttachments), (void*)L_1);
+		CHECKED_LOCAL_INIT(AllocatorManager_tFB15A22029C8159A3DCD4C08935BE57D3E6B3C2C_StaticInit,(AllocatorManager_tFB15A22029C8159A3DCD4C08935BE57D3E6B3C2C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 L_2 = ((AllocatorManager_tFB15A22029C8159A3DCD4C08935BE57D3E6B3C2C_StaticFields*)il2cpp_codegen_static_fields_for(AllocatorManager_tFB15A22029C8159A3DCD4C08935BE57D3E6B3C2C_il2cpp_TypeInfo_var))->___Persistent;
+		NativeList_1_t2EA8D653AC64D93A660A8D66EAF0E546005155F0 L_3;
+		memset((&L_3), 0, sizeof(L_3));
+		NativeList_1__ctor_mE603A1C3CA9C40D507CEEA2A09D42C3B6E860430((&L_3), 6, L_2, NULL);
+		__this->___globalTexturesAfterPass = L_3;
+		__this->___renderCount = 0;
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnTileValidationLayer_set_errorMessageHowToResolve_mEFA1C92F19E63255F451FA8161EBF8FF2F2754F1_inline (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___0_value;
+		__this->___U3CerrorMessageHowToResolveU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CerrorMessageHowToResolveU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t OnTileValidationLayer_GetLastRasterPass_m9297E2559F5830B149959857382E70E351EFD9B8_inline (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_handle, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_StaticInit);
+	{
+		DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* L_0 = __this->___m_HandleStates;
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_1 = ___0_handle;
+		ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C* L_2 = (ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C*)(&L_1->___handle);
+		CHECKED_LOCAL_INIT(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_StaticInit,(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		int32_t L_3;
+		L_3 = ResourceHandle_get_index_m41F8E581C1211AC4CA85343EBD0292183DAEAFD3_inline(L_2, NULL);
+		NullCheck(L_0);
+		int32_t* L_4;
+		L_4 = DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6(L_0, L_3, NULL);
+		int32_t L_5 = *(L_4);
+		return L_5;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnTileValidationLayer_SetLastRasterPass_m05F4012D2B1F4407066274C6C1FE0A785B3E90C0_inline (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_handle, int32_t ___1_lastRasterPass, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_StaticInit);
+	{
+		DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* L_0 = __this->___m_HandleStates;
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_1 = ___0_handle;
+		ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C* L_2 = (ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C*)(&L_1->___handle);
+		CHECKED_LOCAL_INIT(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_StaticInit,(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		int32_t L_3;
+		L_3 = ResourceHandle_get_index_m41F8E581C1211AC4CA85343EBD0292183DAEAFD3_inline(L_2, NULL);
+		NullCheck(L_0);
+		int32_t* L_4;
+		L_4 = DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6(L_0, L_3, NULL);
+		int32_t L_5 = ___1_lastRasterPass;
+		*(L_4) = L_5;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E* OnTileValidationLayer_get_renderGraph_m8489A2B241CD719FEEF498909F87BD6285429C81_inline (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, const RuntimeMethod* method) 
+{
+	{
+		RenderGraph_t73ECE03B3CA3D0D17F1448D64AE020E81592AA1E* L_0 = __this->___U3CrenderGraphU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* OnTileValidationLayer_get_errorMessageHowToResolve_mA8A3F88FCA05EFB11ECA592E060637DBA0ECB703_inline (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CerrorMessageHowToResolveU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool OnTileValidationLayer_IsTrackedOnTile_mC05BE6E67AA841CF9131623C67F61F50FDBDFDE5_inline (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_handle, const RuntimeMethod* method) 
+{
+	{
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_0 = ___0_handle;
+		int32_t L_1;
+		L_1 = OnTileValidationLayer_GetHandleState_m322E4D20F62647A29BB8FA3C05A35EB80417FD17_inline(__this, L_0, NULL);
+		return (bool)((!(((uint32_t)L_1) <= ((uint32_t)0)))? 1 : 0);
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnTileValidationLayer_ValidateNoNonRasterPassInbetween_mA6E28E54A5A2FFA29805544EBD2DC0A590CBDDE5_inline (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_input, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_0 = ___0_input;
+		int32_t L_1;
+		L_1 = OnTileValidationLayer_GetLastRasterPass_m9297E2559F5830B149959857382E70E351EFD9B8_inline(__this, L_0, NULL);
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) == ((int32_t)(-1))))
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		int32_t L_3 = __this->___m_LastNonRasterPassIndex;
+		int32_t L_4 = V_0;
+		if ((((int32_t)L_3) <= ((int32_t)L_4)))
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		int32_t L_5 = __this->___m_LastNonRasterPassIndex;
+		int32_t L_6 = __this->___m_NumberOfPasses;
+		if ((((int32_t)L_5) >= ((int32_t)L_6)))
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_7 = ___0_input;
+		OnTileValidationLayer_ThrowNoNonRasterPassInBetween_m7D31D13F815E6D157EA1BF5D67C1EBC630D8DDB3(__this, L_7, NULL);
+	}
+
+IL_002a:
+	{
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_8 = ___0_input;
+		int32_t L_9 = __this->___m_NumberOfPasses;
+		OnTileValidationLayer_SetLastRasterPass_m05F4012D2B1F4407066274C6C1FE0A785B3E90C0_inline(__this, L_8, L_9, NULL);
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TextureHandle_IsValid_mECFF64B8BAC6402F0D37B67BB79FFB3AB3C7F3C2_inline (TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_StaticInit);
+	{
+		ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C* L_0 = (ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C*)(&__this->___handle);
+		CHECKED_LOCAL_INIT(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_StaticInit,(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_1;
+		L_1 = ResourceHandle_IsValid_m20B0218FDCA98DCD069AE3BE86FEFCAEDB985B9A_inline(L_0, NULL);
+		return L_1;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnTileValidationLayer_ValidateRenderAttachment_m555FC8A5E90EF3AA1442FDC57AE7E221526AF7F7_inline (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_tex, String_t* ___1_methodName, const RuntimeMethod* method) 
+{
+	{
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_0 = ___0_tex;
+		bool L_1;
+		L_1 = OnTileValidationLayer_IsTrackedOnTile_mC05BE6E67AA841CF9131623C67F61F50FDBDFDE5_inline(__this, L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0* L_2 = (Pass_t11E4B2E2E71000E9CEF6B781C8149B6B543B9FE0*)(&__this->___m_CurrentPass);
+		RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8* L_3 = (RenderPassInfo_t022EBA277510D0436DB8A731EFE217C0F56CD7B8*)(&L_2->___info);
+		int32_t L_4 = L_3->___type;
+		if ((!(((uint32_t)L_4) == ((uint32_t)1))))
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_5 = ___0_tex;
+		OnTileValidationLayer_ValidateNoNonRasterPassInbetween_mA6E28E54A5A2FFA29805544EBD2DC0A590CBDDE5_inline(__this, L_5, NULL);
+		return;
+	}
+
+IL_0024:
+	{
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_6 = ___0_tex;
+		String_t* L_7 = ___1_methodName;
+		OnTileValidationLayer_ThrowNotRasterPassException_m15C8084D5164EDAD073D14D52F14DF5C00A14F33(__this, L_6, L_7, NULL);
+	}
+
+IL_002c:
+	{
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ResourceHandle_get_index_m41F8E581C1211AC4CA85343EBD0292183DAEAFD3_inline (ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C* __this, const RuntimeMethod* method) 
+{
+	{
+		uint32_t L_0 = __this->___m_VersionIndex;
+		return ((int32_t)((int32_t)L_0&((int32_t)65535)));
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t OnTileValidationLayer_GetHandleState_m322E4D20F62647A29BB8FA3C05A35EB80417FD17_inline (OnTileValidationLayer_tAEDF1398E8A79E0E1EF1CF405C8A6CD604C8B858* __this, TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* ___0_handle, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_StaticInit);
+	{
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_0 = ___0_handle;
+		ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C* L_1 = (ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C*)(&L_0->___handle);
+		CHECKED_LOCAL_INIT(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_StaticInit,(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		int32_t L_2;
+		L_2 = ResourceHandle_get_index_m41F8E581C1211AC4CA85343EBD0292183DAEAFD3_inline(L_1, NULL);
+		DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* L_3 = __this->___m_HandleStates;
+		NullCheck(L_3);
+		int32_t L_4;
+		L_4 = DynamicArray_1_get_size_m753635E8C75319D671558922DB1EB47AE333B099_inline(L_3, NULL);
+		if ((((int32_t)L_2) < ((int32_t)L_4)))
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		return 0;
+	}
+
+IL_001a:
+	{
+		DynamicArray_1_t67013CCCA41647589502C2A4A08FFEB4FF5634D0* L_5 = __this->___m_HandleStates;
+		TextureHandle_t680ABA3F8B50859351BA5DD66220084F87F37388* L_6 = ___0_handle;
+		ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C* L_7 = (ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C*)(&L_6->___handle);
+		CHECKED_LOCAL_INIT(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_StaticInit,(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		int32_t L_8;
+		L_8 = ResourceHandle_get_index_m41F8E581C1211AC4CA85343EBD0292183DAEAFD3_inline(L_7, NULL);
+		NullCheck(L_5);
+		int32_t* L_9;
+		L_9 = DynamicArray_1_get_Item_m5AC8E2913D8C0BE441403585083972B6AD1A49C6(L_5, L_8, NULL);
+		int32_t L_10 = *(L_9);
+		return L_10;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t DynamicArray_1_get_size_m128222BE63C9931B08CD38DF32B858CD1CD4926D_fshared_inline (DynamicArray_1_tFD6392EE4EAA442D167A921C9964FD9C17FDCDE0* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CsizeU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool ResourceHandle_IsValid_m20B0218FDCA98DCD069AE3BE86FEFCAEDB985B9A_inline (ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_StaticInit);
+	{
+		uint32_t L_0 = __this->___m_Validity;
+		if (!L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		uint32_t L_1 = __this->___m_Validity;
+		CHECKED_LOCAL_INIT(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_StaticInit,(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		uint32_t L_2 = ((ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_StaticFields*)il2cpp_codegen_static_fields_for(ResourceHandle_tD3B1FFBD59EB9C23F0A020351836F834C4BD276C_il2cpp_TypeInfo_var))->___s_CurrentValidBit;
+		return (bool)((((int32_t)L_1) == ((int32_t)L_2))? 1 : 0);
+	}
+
+IL_0016:
+	{
+		return (bool)0;
+	}
+}

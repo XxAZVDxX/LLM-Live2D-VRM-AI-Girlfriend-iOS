@@ -1,0 +1,6910 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+template <typename T1>
+struct VirtualActionInvoker1
+{
+	typedef void (*Action)(void*,T1,const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj,p1,invokeData.method);
+	}
+};
+template <typename T1, typename T2>
+struct VirtualActionInvoker2
+{
+	typedef void (*Action)(void*,T1,T2,const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1, T2 p2)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj,p1,p2,invokeData.method);
+	}
+};
+
+struct List_1_tB8DA45B67C68EAE3F9465C9E7043EBA887F51AAF;
+struct List_1_tD86F44E0FD2760DB7FABBAB8BD2AF0A1DB96FF8F;
+struct List_1_tE6E65D384AFBF279DC17928D9B7DA64EA330F136;
+struct List_1_tD4E3F2C91259BE761FA2AA183EF38FB00DFDCC5C;
+struct List_1_t726ADB812DC32A8DA0B15840FF6AD7FA6AC2151B;
+struct List_1_t9ABE3324A49D590AC7053A8FFA5F1EB8F2B52F26;
+struct List_1_t769891736EBFC20660CFEABC1DCCC6B4A53163DC;
+struct List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE;
+struct List_1_t02E666C10A9961D8746558E2691C1D89E8F6565D;
+struct List_1_tEE7BE83F108B32E40244C32B8C5C06F9C3800223;
+struct List_1_t6959D78D53022948E65A4FDA6291D7F38FEFA02E;
+struct List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct EnviroAudioClipU5BU5D_t452BF9AD0B478F139BB9C8BB9BF96E5E806C77A6;
+struct EnviroAudioOverrideTypeU5BU5D_t37F2DDD918753F76E2DD3EEF11BD5CAF3CFEBB8F;
+struct EnviroEffectTypesU5BU5D_t41DCF7F657BA3464168BD8EE55BD7C3C5F38DE04;
+struct EnviroEffectsOverrideTypeU5BU5D_tE54B4BAB3C38CD035B10D3A52F1CA6EA9175E497;
+struct EnviroWeatherTypeU5BU5D_t11180ABFF9F01907B554612E0EFA8CD26CED3C86;
+struct EnviroZoneU5BU5D_t128A1A13FA3D545E06458123C637173F7732D158;
+struct EnviroZoneWeatherU5BU5D_tFDA62767A22B20A481E9E781944B4BCE384BF6D9;
+struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
+struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
+struct __CanonU5BU5D_tFF96AE6C231BB36A6CEE54CEEB72ED8E90201979;
+struct __Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC;
+struct PointLightParamsU5BU5D_t58C81E9B2BCD557E1A39A5C4819091890C8D879A;
+struct SpotLightParamsU5BU5D_tF7D17BD0FE4CA3D7EBD1273E10621E47B123A51D;
+struct ZoneParamsU5BU5D_tCCE91648E9E1B6BF3FCEE8FC3575E6BF6262EE5D;
+struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354;
+struct AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20;
+struct AudioMixerGroup_tD29AC8336F7425DF007944F8195CEABF34FC3311;
+struct AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299;
+struct BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23;
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184;
+struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
+struct Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76;
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
+struct ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233;
+struct ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8;
+struct Cubemap_t4F2DFF70696A5CB5C1695DF8947CC60D718C4A1C;
+struct EnviroAudio_t5AD4901FC2AC4D395D9F099BB22A5CE23B043C9F;
+struct EnviroAudioClip_tD41AC918D535EF3CC38AFED3B13A34A9976B86B0;
+struct EnviroAudioModule_t175EFD5CA1080C907BE8C38BD3E92A2A716B0097;
+struct EnviroAudioOverrideType_t2EB753F14ABDCC9BF0C4E5E06EE53CB005C1E9E4;
+struct EnviroAurora_t68814EAAC1A4D270B0680260B38DEB81517ECAE6;
+struct EnviroAuroraModule_t58A1FBBF83DDFDF33906235180D799B5C3D722ED;
+struct EnviroCloudGlobalSettings_t305AD4B282D7A6364CC6FCC3D256033BD8C2E62B;
+struct EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2;
+struct EnviroConfiguration_t529EFCE2A026A2A1D48F81E90EDB5D7BB8B798D2;
+struct EnviroEffectTypes_t195B779D6B2504CD4131CC2C64DFFD9D0320CBFF;
+struct EnviroEffects_t006FB5D6FC9AD75B1A17F1101FA0CE5295E3EC68;
+struct EnviroEffectsModule_tF358437C99012B6FBAB07F9B0E34397AC5C11D07;
+struct EnviroEffectsOverrideType_tF276CE32D42E2F8092D48D7D8196BF3F0B7058EF;
+struct EnviroEnvironment_tA3E1E6A42D58A5AB1230F7241311B1775E39B720;
+struct EnviroEnvironmentModule_t336D0B203F7D196DD424C955791BB3F33FAA34E8;
+struct EnviroEvents_t9CD1278344E5D851A728306FF8E42D4B610769A3;
+struct EnviroFlatClouds_t1D77B22A4C1AE52E4891108B356013E099B54293;
+struct EnviroFlatCloudsModule_t57F5F2E0F2767B6264811C5C9F39A69FA8D83324;
+struct EnviroFogModule_tB87EBF49A482911AA5EF924483AD8F12FD40BB7A;
+struct EnviroFogSettings_tF33D1D37949F52B12864740FD7B82AFB45C3AC7B;
+struct EnviroLighting_t62A6A24183B7B09761139558A9774C1DFB356C0B;
+struct EnviroLightingModule_t16B1DDD44C14D35B2F513D4EE918D98883BF92E1;
+struct EnviroLightning_t45DAF18CD5F27052611E1ADCE2A57ED0C8F0CCD1;
+struct EnviroLightningModule_t17C01CB77D27C55411FA6C54916A01AB0C5419D0;
+struct EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84;
+struct EnviroModule_t9FE15762D697CE969D187113502642D63988CDF4;
+struct EnviroQualityModule_tE9E08E6FC3346A83A578719427580215FDBEC806;
+struct EnviroReflectionsModule_t7BAA0A0775D162B63146998CE93C153F84BD7743;
+struct EnviroSky_t220E6F8C8E28A4243EAB406BB6AABB81A08E7267;
+struct EnviroSkyModule_tDD4EFC5DAD889848CC372D98D1FCBF3A9D0EA87F;
+struct EnviroTime_t6555AEB04860E8536180315428FD708660958178;
+struct EnviroTimeModule_t85B4F1EC06100D9097DF12EE44A975090DD42291;
+struct EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC;
+struct EnviroVolumetricCloudsQuality_tAA201E985996CF008939901FAB03B91C3D3DAF79;
+struct EnviroVolumetricFogLight_t392412CF8F9E7F99A04D11944934D798F21F06DA;
+struct EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665;
+struct EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978;
+struct EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4;
+struct EnviroWeatherTypeAudioOverride_tC05695CE647B159D2CB78F2881362FFBAE5CA7E1;
+struct EnviroWeatherTypeAuroraOverride_t001DA21A27F2B703F5FC32BAF07C010946F3856E;
+struct EnviroWeatherTypeCloudsOverride_tC1AFB55E8041AE7EA97280859B3FA34021AB6CA0;
+struct EnviroWeatherTypeEffectsOverride_tFA4A348F0EA0113AB82B4AE1829CD2156B1DF674;
+struct EnviroWeatherTypeEnvironmentOverride_t06F01D07920F9D78079839A2BE38874F55710645;
+struct EnviroWeatherTypeFlatCloudsOverride_tA180726BCB3ED2915FD024EE82684B9822AE1E81;
+struct EnviroWeatherTypeFogOverride_tB985178916BAD05543FE7263E677DA574FAB7BBA;
+struct EnviroWeatherTypeLightingOverride_t07F2CFA9E28401F87B688E9D0BB3B6F9FB06E1F3;
+struct EnviroWeatherTypeLightningOverride_t9FF02C170D6EB2488BE996BE033E7342E73CFA56;
+struct EnviroWeatherTypeSkyOverride_t64CE5477522574795E84C3C6A114B5EE17B7B6F0;
+struct EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F;
+struct EnviroZoneWeather_t76EA76EF491153BF9C6786E730C1BD57EFD4F0CC;
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
+struct GeneralObjects_t54E72942BBB5F0E4AD4D46E01F65ACBC39BF8DE5;
+struct Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E;
+struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
+struct IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA;
+struct Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3;
+struct Lightning_t2A361F1A69E153E7B13BB61D48AFF5C3B15B654F;
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3;
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A;
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
+struct ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1;
+struct RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27;
+struct Rigidbody_t268697F5A994213ED97393309870968BC1C7393C;
+struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A;
+struct String_t;
+struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700;
+struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
+struct Texture2DArray_t5ADB8D23A8AA2F2F3916F43852194B78E579E6BA;
+struct Texture3D_tDC30A0F19B6055086859D1ABC098D6E6762000E1;
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct DayPassed_tF8C7932EC9FFE36F8891C43836E21AE7460CDEE2;
+struct HourPassed_tF4A5878C4D8ABCF2A1772C43C4769E79EBB2D6C2;
+struct SeasonChanged_t8ACBDA958F10A21718A7F23A90E9DCB998364BAD;
+struct WeatherChanged_tAEA389588140804105C8D32FA037F0C21151045A;
+struct YearPassed_t387F1FA26C289EE32FBC2EA1E0DC3D64996A8D2C;
+struct ZoneWeatherChanged_tB19266F7FD18F40D9F288B12D620A3572E43D2DB;
+struct isDayEvent_tA9601F8FDD83EAD61BE9593EA3F6EA84A96932CD;
+struct isNightEvent_tA4D82208E5BAA02F539E29C766624405E0ABEC05;
+struct U3CInstantTransitionU3Ed__18_tD8EDBEEE60F62B132B2E6907F01FDB4C37ECD4BA;
+
+IL2CPP_EXTERN_C RuntimeClass* Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* EnviroZoneWeather_t76EA76EF491153BF9C6786E730C1BD57EFD4F0CC_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_t9ABE3324A49D590AC7053A8FFA5F1EB8F2B52F26_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_tD86F44E0FD2760DB7FABBAB8BD2AF0A1DB96FF8F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_tEE7BE83F108B32E40244C32B8C5C06F9C3800223_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CInstantTransitionU3Ed__18_tD8EDBEEE60F62B132B2E6907F01FDB4C37ECD4BA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral3B378D9E65AAF03281200668E33468F461D35AA1;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisBoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23_m655518C8454E418FE8CF0E4770881B7A2B12BB23_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m03A761629A3F71B0248F1B26EF612F592B757093_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisBoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23_m704160C10BDAB9B54429D2DEB921575D3DF7622C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisEnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84_mBC098807F2FE4D5EC28D8DFC8A6BDF6FCFA74332_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m2D7F86C77ECF9B82AAC077B511F1004280571B90_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* JsonUtility_FromJson_TisEnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665_m50086342F5BD373040263E6268D875CF86309AAB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m558282449A7DB58AA27092BB6497000E33E460D5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_mD8BB81E7FF7D7FE245814F840AB89F43DA42A487_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_mEC097CFC693F69D8144C5A3CB63400FEFDB67479_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Contains_mDD3CCE81CAA8BFC92AEABEF74FF43A822C96193B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Remove_m21CA86299BA7F868215659596AF0A3FA40A5BEF7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Remove_mB22144A21C945AF5DB2E7330E26742C9184B25F7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Remove_mF97194F3B320F002BD94B16DEC6587D795520347_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m4794B279BC8257C333031CDA7D79B9560222DAE0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m4FE7C8F199F0A9A866DB79907F9A81CD75B423EC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mB8EE18FD446531304714DBE45A219EFB77CFE27C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mBF6A2FF80E8FBF84AFEE352C01C7DA31F5995BBF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ScriptableObject_CreateInstance_TisEnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4_m93ABAB39747A291383509440322E1F3E4A787555_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CInstantTransitionU3Ed__18_System_Collections_IEnumerator_Reset_mAA05ED60F8C6DFDAA81DCEE1DE46B00ADB830356_RuntimeMethod_var;
+struct Exception_t_marshaled_com;
+struct Exception_t_marshaled_pinvoke;
+
+struct __CanonU5BU5D_tFF96AE6C231BB36A6CEE54CEEB72ED8E90201979;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct List_1_tB8DA45B67C68EAE3F9465C9E7043EBA887F51AAF  : public RuntimeObject
+{
+	EnviroAudioClipU5BU5D_t452BF9AD0B478F139BB9C8BB9BF96E5E806C77A6* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_tD86F44E0FD2760DB7FABBAB8BD2AF0A1DB96FF8F  : public RuntimeObject
+{
+	EnviroAudioOverrideTypeU5BU5D_t37F2DDD918753F76E2DD3EEF11BD5CAF3CFEBB8F* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_t726ADB812DC32A8DA0B15840FF6AD7FA6AC2151B  : public RuntimeObject
+{
+	EnviroEffectTypesU5BU5D_t41DCF7F657BA3464168BD8EE55BD7C3C5F38DE04* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_t9ABE3324A49D590AC7053A8FFA5F1EB8F2B52F26  : public RuntimeObject
+{
+	EnviroEffectsOverrideTypeU5BU5D_tE54B4BAB3C38CD035B10D3A52F1CA6EA9175E497* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE  : public RuntimeObject
+{
+	EnviroWeatherTypeU5BU5D_t11180ABFF9F01907B554612E0EFA8CD26CED3C86* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_t02E666C10A9961D8746558E2691C1D89E8F6565D  : public RuntimeObject
+{
+	EnviroZoneU5BU5D_t128A1A13FA3D545E06458123C637173F7732D158* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_tEE7BE83F108B32E40244C32B8C5C06F9C3800223  : public RuntimeObject
+{
+	EnviroZoneWeatherU5BU5D_tFDA62767A22B20A481E9E781944B4BCE384BF6D9* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_t6959D78D53022948E65A4FDA6291D7F38FEFA02E  : public RuntimeObject
+{
+	__CanonU5BU5D_tFF96AE6C231BB36A6CEE54CEEB72ED8E90201979* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A  : public RuntimeObject
+{
+	__Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct EnviroAudio_t5AD4901FC2AC4D395D9F099BB22A5CE23B043C9F  : public RuntimeObject
+{
+	List_1_tB8DA45B67C68EAE3F9465C9E7043EBA887F51AAF* ___ambientClips;
+	List_1_tB8DA45B67C68EAE3F9465C9E7043EBA887F51AAF* ___weatherClips;
+	List_1_tB8DA45B67C68EAE3F9465C9E7043EBA887F51AAF* ___thunderClips;
+	float ___ambientMasterVolume;
+	float ___weatherMasterVolume;
+	float ___thunderMasterVolume;
+};
+struct EnviroAudioOverrideType_t2EB753F14ABDCC9BF0C4E5E06EE53CB005C1E9E4  : public RuntimeObject
+{
+	bool ___showEditor;
+	String_t* ___name;
+	float ___volume;
+	bool ___spring;
+	bool ___summer;
+	bool ___autumn;
+	bool ___winter;
+};
+struct EnviroEffectsOverrideType_tF276CE32D42E2F8092D48D7D8196BF3F0B7058EF  : public RuntimeObject
+{
+	bool ___showEditor;
+	String_t* ___name;
+	float ___emission;
+};
+struct EnviroFlatClouds_t1D77B22A4C1AE52E4891108B356013E099B54293  : public RuntimeObject
+{
+	bool ___useCirrusClouds;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___cirrusCloudsTex;
+	float ___cirrusCloudsAlpha;
+	float ___cirrusCloudsColorPower;
+	float ___cirrusCloudsCoverage;
+	Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* ___cirrusCloudsColor;
+	float ___cirrusCloudsWindIntensity;
+	bool ___useFlatClouds;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___flatCloudsBaseTex;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___flatCloudsDetailTex;
+	Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* ___flatCloudsLightColor;
+	Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* ___flatCloudsAmbientColor;
+	float ___flatCloudsLightIntensity;
+	float ___flatCloudsAmbientIntensity;
+	float ___flatCloudsShadowIntensity;
+	float ___flatCloudsShadowSteps;
+	float ___flatCloudsHGPhase;
+	float ___flatCloudsCoverage;
+	float ___flatCloudsDensity;
+	float ___flatCloudsAltitude;
+	bool ___flatCloudsTonemapping;
+	float ___flatCloudsBaseTiling;
+	float ___flatCloudsDetailTiling;
+	float ___flatCloudsWindIntensity;
+	float ___flatCloudsDetailWindIntensity;
+};
+struct EnviroLightning_t45DAF18CD5F27052611E1ADCE2A57ED0C8F0CCD1  : public RuntimeObject
+{
+	Lightning_t2A361F1A69E153E7B13BB61D48AFF5C3B15B654F* ___prefab;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___customLightningEffect;
+	bool ___lightningStorm;
+	float ___randomLightingDelay;
+	float ___randomSpawnRange;
+	float ___randomTargetRange;
+	float ___cloudsLightningRadius;
+	float ___cloudsLightningDuration;
+};
+struct EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665  : public RuntimeObject
+{
+	List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* ___weatherTypes;
+	float ___cloudsTransitionSpeed;
+	float ___fogTransitionSpeed;
+	float ___lightingTransitionSpeed;
+	float ___skyTransitionSpeed;
+	float ___effectsTransitionSpeed;
+	float ___auroraTransitionSpeed;
+	float ___environmentTransitionSpeed;
+	float ___audioTransitionSpeed;
+};
+struct EnviroWeatherTypeAudioOverride_tC05695CE647B159D2CB78F2881362FFBAE5CA7E1  : public RuntimeObject
+{
+	List_1_tD86F44E0FD2760DB7FABBAB8BD2AF0A1DB96FF8F* ___ambientOverride;
+	List_1_tD86F44E0FD2760DB7FABBAB8BD2AF0A1DB96FF8F* ___weatherOverride;
+};
+struct EnviroWeatherTypeAuroraOverride_t001DA21A27F2B703F5FC32BAF07C010946F3856E  : public RuntimeObject
+{
+	float ___auroraIntensity;
+};
+struct EnviroWeatherTypeCloudsOverride_tC1AFB55E8041AE7EA97280859B3FA34021AB6CA0  : public RuntimeObject
+{
+	float ___ambientLightIntensity;
+	float ___coverage;
+	float ___dilateCoverage;
+	float ___dilateType;
+	float ___typeModifier;
+	float ___cloudTypeShaping;
+	float ___scatteringIntensity;
+	float ___multiScatterStrength;
+	float ___multiScatterFalloff;
+	float ___ambientFloor;
+	float ___lightningIntensity;
+	float ___exposure;
+	float ___silverLiningSpread;
+	float ___silverLiningIntensity;
+	float ___edgeHighlightStrength;
+	float ___ligthAbsorbtion;
+	float ___density;
+	float ___densitySmoothness;
+	float ___baseErosionIntensity;
+	float ___baseNoiseMultiplier;
+	float ___detailErosionIntensity;
+	float ___detailNoiseMultiplier;
+	float ___curlIntensity;
+	float ___bottomShape;
+	float ___midShape;
+	float ___topShape;
+	float ___topLayer;
+	float ___rampShape;
+	float ___baseNoiseUVMultiplier;
+	float ___detailNoiseUVMultiplier;
+};
+struct EnviroWeatherTypeCreation_t4D1A18BD781548D78DFA8C0793CB4156CAA47D73  : public RuntimeObject
+{
+};
+struct EnviroWeatherTypeEffectsOverride_tFA4A348F0EA0113AB82B4AE1829CD2156B1DF674  : public RuntimeObject
+{
+	List_1_t9ABE3324A49D590AC7053A8FFA5F1EB8F2B52F26* ___effectsOverride;
+};
+struct EnviroWeatherTypeEnvironmentOverride_t06F01D07920F9D78079839A2BE38874F55710645  : public RuntimeObject
+{
+	float ___temperatureWeatherMod;
+	float ___wetnessTarget;
+	float ___snowTarget;
+	float ___windDirectionX;
+	float ___windDirectionY;
+	float ___windSpeed;
+	float ___windTurbulence;
+};
+struct EnviroWeatherTypeFlatCloudsOverride_tA180726BCB3ED2915FD024EE82684B9822AE1E81  : public RuntimeObject
+{
+	float ___cirrusCloudsAlpha;
+	float ___cirrusCloudsCoverage;
+	float ___cirrusCloudsColorPower;
+	float ___flatCloudsCoverage;
+	float ___flatCloudsDensity;
+	float ___flatCloudsLightIntensity;
+	float ___flatCloudsAmbientIntensity;
+	float ___flatCloudsShadowIntensity;
+	int32_t ___flatCloudsShadowSteps;
+};
+struct EnviroWeatherTypeLightingOverride_t07F2CFA9E28401F87B688E9D0BB3B6F9FB06E1F3  : public RuntimeObject
+{
+	float ___directLightIntensityModifier;
+	float ___ambientIntensityModifier;
+	float ___shadowIntensity;
+};
+struct EnviroWeatherTypeLightningOverride_t9FF02C170D6EB2488BE996BE033E7342E73CFA56  : public RuntimeObject
+{
+	bool ___lightningStorm;
+	float ___randomLightningDelay;
+};
+struct EnviroZoneWeather_t76EA76EF491153BF9C6786E730C1BD57EFD4F0CC  : public RuntimeObject
+{
+	bool ___showEditor;
+	EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* ___weatherType;
+	float ___probability;
+	bool ___seasonalProbability;
+	float ___probabilitySpring;
+	float ___probabilitySummer;
+	float ___probabilityAutumn;
+	float ___probabilityWinter;
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct U3CInstantTransitionU3Ed__18_tD8EDBEEE60F62B132B2E6907F01FDB4C37ECD4BA  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* ___U3CU3E4__this;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Color_tD001788D726C3A7F1379BEED0260B9591F440C1F 
+{
+	float ___r;
+	float ___g;
+	float ___b;
+	float ___a;
+};
+struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
+{
+	double ___m_value;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 
+{
+	float ___m00;
+	float ___m10;
+	float ___m20;
+	float ___m30;
+	float ___m01;
+	float ___m11;
+	float ___m21;
+	float ___m31;
+	float ___m02;
+	float ___m12;
+	float ___m22;
+	float ___m32;
+	float ___m03;
+	float ___m13;
+	float ___m23;
+	float ___m33;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 
+{
+	float ___x;
+	float ___y;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+};
+struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+struct AmbientMode_tD34D80BFF7FD58AABB7BF9640B68FEF732C187E2 
+{
+	int32_t ___value__;
+};
+struct EnviroAurora_t68814EAAC1A4D270B0680260B38DEB81517ECAE6  : public RuntimeObject
+{
+	bool ___useAurora;
+	float ___auroraIntensityModifier;
+	AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___auroraIntensity;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___auroraColor;
+	float ___auroraBrightness;
+	float ___auroraContrast;
+	float ___auroraHeight;
+	float ___auroraScale;
+	int32_t ___auroraSteps;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___auroraLayer1Settings;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___auroraLayer2Settings;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___auroraColorshiftSettings;
+	float ___auroraSpeed;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___aurora_layer_1;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___aurora_layer_2;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___aurora_colorshift;
+};
+struct EnviroCloudGlobalSettings_t305AD4B282D7A6364CC6FCC3D256033BD8C2E62B  : public RuntimeObject
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___floatingPointOriginMod;
+	Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* ___sunLightColorGradient;
+	Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* ___moonLightColorGradient;
+	Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* ___ambientColorGradient;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___sunLightColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___moonLightColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___ambientColor;
+	bool ___depthBlending;
+	bool ___depthTest;
+	Texture3D_tDC30A0F19B6055086859D1ABC098D6E6762000E1* ___noise;
+	Texture3D_tDC30A0F19B6055086859D1ABC098D6E6762000E1* ___detailNoise;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___curlTex;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___bottomsOffsetNoise;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___blueNoise;
+	Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___customWeatherMap;
+	float ___cloudsWorldScale;
+	float ___maxRenderDistance;
+	float ___atmosphereColorSaturateDistance;
+	float ___ambientLighIntensity;
+	bool ___cloudShadows;
+	float ___cloudShadowsIntensity;
+	float ___cloudsTravelSpeed;
+};
+struct EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2  : public RuntimeObject
+{
+	float ___cloudsWindDirectionXModifier;
+	float ___cloudsWindDirectionYModifier;
+	float ___windSpeedModifier;
+	float ___windUpwards;
+	float ___coverage;
+	float ___worleyFreq2;
+	float ___worleyFreq1;
+	float ___dilateCoverage;
+	float ___dilateType;
+	float ___cloudsTypeModifier;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___locationOffset;
+	float ___bottomCloudsHeight;
+	float ___topCloudsHeight;
+	float ___density;
+	float ___densitySmoothness;
+	float ___scatteringIntensity;
+	float ___edgeHighlightStrength;
+	float ___silverLiningSpread;
+	float ___silverLiningIntensity;
+	float ___lightningIntensity;
+	float ___curlIntensity;
+	float ___lightStepModifier;
+	float ___multiScatterStrength;
+	float ___multiScatterFalloff;
+	float ___ambientFloor;
+	float ___absorbtion;
+	float ___exposure;
+	float ___baseNoiseUV;
+	float ___detailNoiseUV;
+	float ___baseNoiseUVMultiplier;
+	float ___detailNoiseUVMultiplier;
+	float ___baseErosionIntensity;
+	float ___baseNoiseMultiplier;
+	float ___detailErosionIntensity;
+	float ___detailNoiseMultiplier;
+	float ___bottomShape;
+	float ___midShape;
+	float ___topShape;
+	float ___topLayer;
+	float ___cloudTypeShaping;
+	float ___rampShape;
+};
+struct EnviroEffectTypes_t195B779D6B2504CD4131CC2C64DFFD9D0320CBFF  : public RuntimeObject
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___prefabVFXGraph;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___localPositionOffsetVFXGraph;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___localRotationOffsetVFXGraph;
+	float ___maxEmissionVFXGraph;
+	ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* ___mySystem;
+	String_t* ___name;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___prefab;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___localPositionOffset;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___localRotationOffset;
+	float ___emissionRate;
+	float ___maxEmission;
+};
+struct EnviroWeatherTypeFogOverride_tB985178916BAD05543FE7263E677DA574FAB7BBA  : public RuntimeObject
+{
+	float ___fogDensity;
+	float ___fogHeightFalloff;
+	float ___fogHeight;
+	float ___fogDensity2;
+	float ___fogHeightFalloff2;
+	float ___fogHeight2;
+	float ___fogColorBlend;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___fogColorMod;
+	float ___scattering;
+	float ___extinction;
+	float ___anistropy;
+	float ___unityFogDensity;
+	float ___unityFogStartDistance;
+	float ___unityFogEndDistance;
+};
+struct EnviroWeatherTypeSkyOverride_t64CE5477522574795E84C3C6A114B5EE17B7B6F0  : public RuntimeObject
+{
+	float ___intensity;
+	float ___mieScatteringMultiplier;
+	float ___skyColorExponent;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___skyColorTint;
+};
+struct Exception_t  : public RuntimeObject
+{
+	String_t* ____className;
+	String_t* ____message;
+	RuntimeObject* ____data;
+	Exception_t* ____innerException;
+	String_t* ____helpURL;
+	RuntimeObject* ____stackTrace;
+	String_t* ____stackTraceString;
+	String_t* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	RuntimeObject* ____dynamicMethods;
+	int32_t ____HResult;
+	String_t* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_pinvoke
+{
+	char* ____className;
+	char* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_pinvoke* ____innerException;
+	char* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	char* ____stackTraceString;
+	char* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	char* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_com
+{
+	Il2CppChar* ____className;
+	Il2CppChar* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_com* ____innerException;
+	Il2CppChar* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	Il2CppChar* ____stackTraceString;
+	Il2CppChar* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	Il2CppChar* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct FogMode_t2D73DEA78AF7257585DC9D4B1A1B0A028EDA0F39 
+{
+	int32_t ___value__;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr;
+};
+struct PlayBackType_tF759091BD59845BE5DD79666FC0198D2B550F7CD 
+{
+	int32_t ___value__;
+};
+struct EnviroEffectSystemType_tD0C26F753FC2DB54752B02978137C30E3CFD5B92 
+{
+	int32_t ___value__;
+};
+struct Seasons_t32CE852AE9770A347EC063255733949BA7DF2243 
+{
+	int32_t ___value__;
+};
+struct FogQualityMode_tD6456A040A11EA29C1BA39D0779CDB4F33C5F1A6 
+{
+	int32_t ___value__;
+};
+struct Quality_t56359909D938EE763313BC0E9E3C93A1C13375B5 
+{
+	int32_t ___value__;
+};
+struct LightingMode_t2496B2E0155495431BA7034F1C806446161BB987 
+{
+	int32_t ___value__;
+};
+struct MoonMode_t46CFB27981795744B95B4F33A755524B03ABA64F 
+{
+	int32_t ___value__;
+};
+struct SkyMode_t12805BC1B85F8A9AD7D22939AE2B019F3ABC0A76 
+{
+	int32_t ___value__;
+};
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct EnviroAudioClip_tD41AC918D535EF3CC38AFED3B13A34A9976B86B0  : public RuntimeObject
+{
+	bool ___showEditor;
+	String_t* ___name;
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___audioClip;
+	AudioMixerGroup_tD29AC8336F7425DF007944F8195CEABF34FC3311* ___audioMixerGroup;
+	int32_t ___playBackType;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___myAudioSource;
+	bool ___loop;
+	float ___volume;
+	AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___volumeCurve;
+	float ___maxVolume;
+};
+struct EnviroEffects_t006FB5D6FC9AD75B1A17F1101FA0CE5295E3EC68  : public RuntimeObject
+{
+	int32_t ___enviroEffectSystemType;
+	List_1_t726ADB812DC32A8DA0B15840FF6AD7FA6AC2151B* ___effectTypes;
+	float ___particeEmissionRateModifier;
+};
+struct EnviroEnvironment_tA3E1E6A42D58A5AB1230F7241311B1775E39B720  : public RuntimeObject
+{
+	int32_t ___season;
+	bool ___changeSeason;
+	int32_t ___springStart;
+	int32_t ___springEnd;
+	int32_t ___summerStart;
+	int32_t ___summerEnd;
+	int32_t ___autumnStart;
+	int32_t ___autumnEnd;
+	int32_t ___winterStart;
+	int32_t ___winterEnd;
+	AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___springBaseTemperature;
+	AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___summerBaseTemperature;
+	AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___autumnBaseTemperature;
+	AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___winterBaseTemperature;
+	float ___temperature;
+	float ___temperatureWeatherMod;
+	float ___temperatureCustomMod;
+	float ___temperatureChangingSpeed;
+	float ___wetness;
+	float ___wetnessTarget;
+	float ___snow;
+	float ___snowTarget;
+	float ___wetnessAccumulationSpeed;
+	float ___wetnessDrySpeed;
+	float ___snowAccumulationSpeed;
+	float ___snowMeltSpeed;
+	float ___snowMeltingTresholdTemperature;
+	float ___windDirectionX;
+	float ___windDirectionY;
+	float ___windSpeed;
+	float ___windTurbulence;
+};
+struct EnviroFogSettings_tF33D1D37949F52B12864740FD7B82AFB45C3AC7B  : public RuntimeObject
+{
+	bool ___volumetrics;
+	int32_t ___steps;
+	int32_t ___quality;
+	float ___scattering;
+	AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___scatteringMultiplier;
+	float ___extinction;
+	float ___anistropy;
+	float ___maxRange;
+	float ___maxRangePointSpot;
+	float ___noiseIntensity;
+	float ___noiseScale;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___windDirection;
+	Texture3D_tDC30A0F19B6055086859D1ABC098D6E6762000E1* ___noise;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___ditheringTex;
+	bool ___fog;
+	int32_t ___fogQualityMode;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___floatingPointOriginMod;
+	float ___globalFogHeight;
+	float ___fogDensity;
+	float ___fogHeightFalloff;
+	float ___fogHeight;
+	float ___fogDensity2;
+	float ___fogHeightFalloff2;
+	float ___fogHeight2;
+	float ___fogMaxOpacity;
+	float ___startDistance;
+	float ___fogColorBlend;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___fogColorMod;
+	bool ___blockScattering;
+	Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* ___ambientColorGradient;
+	bool ___unityFog;
+	int32_t ___unityFogMode;
+	float ___unityFogDensity;
+	float ___unityFogStartDistance;
+	float ___unityFogEndDistance;
+	Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* ___unityFogColor;
+};
+struct EnviroLighting_t62A6A24183B7B09761139558A9774C1DFB356C0B  : public RuntimeObject
+{
+	int32_t ___lightingMode;
+	bool ___setDirectLighting;
+	int32_t ___updateIntervallFrames;
+	AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___sunIntensityCurve;
+	AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___moonIntensityCurve;
+	Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* ___sunColorGradient;
+	Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* ___moonColorGradient;
+	AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___sunIntensityCurveHDRP;
+	AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___moonIntensityCurveHDRP;
+	AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___lightColorTemperatureHDRP;
+	Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* ___ambientColorTintHDRP;
+	float ___lightIntensityHDRP;
+	bool ___controlExposure;
+	AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___sceneExposure;
+	bool ___controlIndirectLighting;
+	AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___diffuseIndirectIntensity;
+	AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___reflectionIndirectIntensity;
+	float ___directLightIntensityModifier;
+	bool ___setAmbientLighting;
+	int32_t ___ambientMode;
+	Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* ___ambientSkyColorGradient;
+	Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* ___ambientEquatorColorGradient;
+	Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* ___ambientGroundColorGradient;
+	AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___ambientIntensityCurve;
+	float ___ambientIntensityModifier;
+	bool ___ambientUpdateEveryFrame;
+	float ___ambientUpdateIntervall;
+	float ___shadowIntensity;
+};
+struct EnviroSky_t220E6F8C8E28A4243EAB406BB6AABB81A08E7267  : public RuntimeObject
+{
+	int32_t ___skyMode;
+	int32_t ___moonMode;
+	bool ___forcedSkyboxSetup;
+	Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* ___frontColorGradient0;
+	Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* ___frontColorGradient1;
+	Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* ___frontColorGradient2;
+	Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* ___frontColorGradient3;
+	Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* ___frontColorGradient4;
+	Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* ___frontColorGradient5;
+	Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* ___backColorGradient0;
+	Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* ___backColorGradient1;
+	Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* ___backColorGradient2;
+	Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* ___backColorGradient3;
+	Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* ___backColorGradient4;
+	Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* ___backColorGradient5;
+	Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* ___sunDiscColorGradient;
+	Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* ___moonColorGradient;
+	Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* ___moonGlowColorGradient;
+	Cubemap_t4F2DFF70696A5CB5C1695DF8947CC60D718C4A1C* ___starsTex;
+	Cubemap_t4F2DFF70696A5CB5C1695DF8947CC60D718C4A1C* ___starsTwinklingTex;
+	Cubemap_t4F2DFF70696A5CB5C1695DF8947CC60D718C4A1C* ___galaxyTex;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___sunTex;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___moonTex;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___moonGlowTex;
+	float ___distribution0;
+	float ___distribution1;
+	float ___distribution2;
+	float ___distribution3;
+	AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___mieScatteringIntensityCurve;
+	AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___moonGlowIntensityCurve;
+	AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___starIntensityCurve;
+	AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___galaxyIntensityCurve;
+	AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___intensityCurve;
+	float ___intensity;
+	float ___sunScale;
+	float ___moonScale;
+	float ___mieScatteringMultiplier;
+	float ___starsTwinklingSpeed;
+	float ___moonPhase;
+	AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___skyExposureHDRP;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___skyColorTint;
+	float ___skyColorExponent;
+};
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_pinvoke : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_com : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+};
+struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
+{
+};
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct EnviroModule_t9FE15762D697CE969D187113502642D63988CDF4  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+	bool ___showModuleInspector;
+	bool ___showSaveLoad;
+	bool ___active;
+};
+struct EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+	bool ___showEditor;
+	bool ___showEffectControls;
+	bool ___showCloudControls;
+	bool ___showFlatCloudControls;
+	bool ___showFogControls;
+	bool ___showSkyControls;
+	bool ___showLightingControls;
+	bool ___showAuroraControls;
+	bool ___showEnvironmentControls;
+	bool ___showAudioControls;
+	bool ___showAmbientAudioControls;
+	bool ___showWeatherAudioControls;
+	bool ___showLightningControls;
+	EnviroWeatherTypeCloudsOverride_tC1AFB55E8041AE7EA97280859B3FA34021AB6CA0* ___cloudsOverride;
+	EnviroWeatherTypeFlatCloudsOverride_tA180726BCB3ED2915FD024EE82684B9822AE1E81* ___flatCloudsOverride;
+	EnviroWeatherTypeLightingOverride_t07F2CFA9E28401F87B688E9D0BB3B6F9FB06E1F3* ___lightingOverride;
+	EnviroWeatherTypeSkyOverride_t64CE5477522574795E84C3C6A114B5EE17B7B6F0* ___skyOverride;
+	EnviroWeatherTypeFogOverride_tB985178916BAD05543FE7263E677DA574FAB7BBA* ___fogOverride;
+	EnviroWeatherTypeAuroraOverride_t001DA21A27F2B703F5FC32BAF07C010946F3856E* ___auroraOverride;
+	EnviroWeatherTypeEffectsOverride_tFA4A348F0EA0113AB82B4AE1829CD2156B1DF674* ___effectsOverride;
+	EnviroWeatherTypeAudioOverride_tC05695CE647B159D2CB78F2881362FFBAE5CA7E1* ___audioOverride;
+	EnviroWeatherTypeLightningOverride_t9FF02C170D6EB2488BE996BE033E7342E73CFA56* ___lightningOverride;
+	EnviroWeatherTypeEnvironmentOverride_t06F01D07920F9D78079839A2BE38874F55710645* ___environmentOverride;
+};
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+struct Rigidbody_t268697F5A994213ED97393309870968BC1C7393C  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23  : public Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76
+{
+};
+struct EnviroAudioModule_t175EFD5CA1080C907BE8C38BD3E92A2A716B0097  : public EnviroModule_t9FE15762D697CE969D187113502642D63988CDF4
+{
+	EnviroAudio_t5AD4901FC2AC4D395D9F099BB22A5CE23B043C9F* ___Settings;
+	EnviroAudioModule_t175EFD5CA1080C907BE8C38BD3E92A2A716B0097* ___preset;
+	float ___ambientVolumeModifier;
+	float ___weatherVolumeModifier;
+	float ___thunderVolumeModifier;
+	bool ___showAmbientSetupControls;
+	bool ___showWeatherSetupControls;
+	bool ___showThunderSetupControls;
+	bool ___showAudioControls;
+};
+struct EnviroAuroraModule_t58A1FBBF83DDFDF33906235180D799B5C3D722ED  : public EnviroModule_t9FE15762D697CE969D187113502642D63988CDF4
+{
+	EnviroAurora_t68814EAAC1A4D270B0680260B38DEB81517ECAE6* ___Settings;
+	EnviroAuroraModule_t58A1FBBF83DDFDF33906235180D799B5C3D722ED* ___preset;
+	bool ___showAuroraControls;
+};
+struct EnviroEffectsModule_tF358437C99012B6FBAB07F9B0E34397AC5C11D07  : public EnviroModule_t9FE15762D697CE969D187113502642D63988CDF4
+{
+	EnviroEffects_t006FB5D6FC9AD75B1A17F1101FA0CE5295E3EC68* ___Settings;
+	EnviroEffectsModule_tF358437C99012B6FBAB07F9B0E34397AC5C11D07* ___preset;
+	bool ___showSetupControls;
+	bool ___showEmissionControls;
+};
+struct EnviroEnvironmentModule_t336D0B203F7D196DD424C955791BB3F33FAA34E8  : public EnviroModule_t9FE15762D697CE969D187113502642D63988CDF4
+{
+	EnviroEnvironment_tA3E1E6A42D58A5AB1230F7241311B1775E39B720* ___Settings;
+	EnviroEnvironmentModule_t336D0B203F7D196DD424C955791BB3F33FAA34E8* ___preset;
+	bool ___showSeasonControls;
+	bool ___showTemperatureControls;
+	bool ___showWeatherStateControls;
+	bool ___showWindControls;
+};
+struct EnviroFlatCloudsModule_t57F5F2E0F2767B6264811C5C9F39A69FA8D83324  : public EnviroModule_t9FE15762D697CE969D187113502642D63988CDF4
+{
+	EnviroFlatClouds_t1D77B22A4C1AE52E4891108B356013E099B54293* ___settings;
+	EnviroFlatCloudsModule_t57F5F2E0F2767B6264811C5C9F39A69FA8D83324* ___preset;
+	bool ___showCirrusCloudsControls;
+	bool ___show2DCloudsControls;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___cloudFlatBaseAnim;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___cloudFlatDetailAnim;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___cirrusAnim;
+};
+struct EnviroFogModule_tB87EBF49A482911AA5EF924483AD8F12FD40BB7A  : public EnviroModule_t9FE15762D697CE969D187113502642D63988CDF4
+{
+	EnviroFogSettings_tF33D1D37949F52B12864740FD7B82AFB45C3AC7B* ___Settings;
+	EnviroFogModule_tB87EBF49A482911AA5EF924483AD8F12FD40BB7A* ___preset;
+	bool ___showFogControls;
+	bool ___showVolumetricsControls;
+	bool ___showUnityFogControls;
+	List_1_t769891736EBFC20660CFEABC1DCCC6B4A53163DC* ___fogLights;
+	Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* ___myLight;
+	float ___customFogDensityModifer;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___fogMat;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___volumetricsMat;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___blurMat;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___blurMat2;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___volumetricsRenderTexture;
+	PointLightParamsU5BU5D_t58C81E9B2BCD557E1A39A5C4819091890C8D879A* ___m_PointLightParams;
+	ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* ___m_PointLightParamsCB;
+	SpotLightParamsU5BU5D_tF7D17BD0FE4CA3D7EBD1273E10621E47B123A51D* ___m_SpotLightParams;
+	ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* ___m_SpotLightParamsCB;
+	EnviroVolumetricFogLight_t392412CF8F9E7F99A04D11944934D798F21F06DA* ___directionaLight;
+	EnviroVolumetricFogLight_t392412CF8F9E7F99A04D11944934D798F21F06DA* ___additionalLight;
+};
+struct EnviroLightingModule_t16B1DDD44C14D35B2F513D4EE918D98883BF92E1  : public EnviroModule_t9FE15762D697CE969D187113502642D63988CDF4
+{
+	EnviroLighting_t62A6A24183B7B09761139558A9774C1DFB356C0B* ___Settings;
+	EnviroLightingModule_t16B1DDD44C14D35B2F513D4EE918D98883BF92E1* ___preset;
+	int32_t ___currentFrame;
+	float ___lastAmbientSkyboxUpdate;
+	bool ___showDirectLightingControls;
+	bool ___showAmbientLightingControls;
+	bool ___showReflectionControls;
+};
+struct EnviroLightningModule_t17C01CB77D27C55411FA6C54916A01AB0C5419D0  : public EnviroModule_t9FE15762D697CE969D187113502642D63988CDF4
+{
+	EnviroLightning_t45DAF18CD5F27052611E1ADCE2A57ED0C8F0CCD1* ___Settings;
+	EnviroLightningModule_t17C01CB77D27C55411FA6C54916A01AB0C5419D0* ___preset;
+	bool ___showLightningControls;
+	bool ___spawned;
+	float ___lightningStart;
+};
+struct EnviroSkyModule_tDD4EFC5DAD889848CC372D98D1FCBF3A9D0EA87F  : public EnviroModule_t9FE15762D697CE969D187113502642D63988CDF4
+{
+	EnviroSky_t220E6F8C8E28A4243EAB406BB6AABB81A08E7267* ___Settings;
+	EnviroSkyModule_tDD4EFC5DAD889848CC372D98D1FCBF3A9D0EA87F* ___preset;
+	bool ___showSkyControls;
+	bool ___showSkySunControls;
+	bool ___showSkyMoonControls;
+	bool ___showSkyStarsControls;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___mySkyboxMat;
+	float ___starsTwinkling;
+};
+struct EnviroTimeModule_t85B4F1EC06100D9097DF12EE44A975090DD42291  : public EnviroModule_t9FE15762D697CE969D187113502642D63988CDF4
+{
+	EnviroTime_t6555AEB04860E8536180315428FD708660958178* ___Settings;
+	EnviroTimeModule_t85B4F1EC06100D9097DF12EE44A975090DD42291* ___preset;
+	bool ___showTimeControls;
+	bool ___showLocationControls;
+	float ___LST;
+	float ___internalTimeOverflow;
+};
+struct EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC  : public EnviroModule_t9FE15762D697CE969D187113502642D63988CDF4
+{
+	EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* ___settingsVolume;
+	EnviroCloudGlobalSettings_t305AD4B282D7A6364CC6FCC3D256033BD8C2E62B* ___settingsGlobal;
+	EnviroVolumetricCloudsQuality_tAA201E985996CF008939901FAB03B91C3D3DAF79* ___settingsQuality;
+	EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* ___preset;
+	bool ___showGlobalControls;
+	bool ___showVolumeSettings;
+	bool ___showCoverageControls;
+	bool ___showLightingControls;
+	bool ___showDensityControls;
+	bool ___showTextureControls;
+	bool ___showWindControls;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___cloudAnimLayer1;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___cloudAnimLayer2;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___cloudAnimNonScaledLayer1;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___cloudAnimNonScaledLayer2;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___weatherMap;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___weatherMapMat;
+	ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8* ___weatherMapCS;
+	Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* ___dirLight;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___lastOffset;
+	Texture2DArray_t5ADB8D23A8AA2F2F3916F43852194B78E579E6BA* ___blackArray;
+};
+struct EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978  : public EnviroModule_t9FE15762D697CE969D187113502642D63988CDF4
+{
+	EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* ___Settings;
+	EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* ___preset;
+	EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* ___targetWeatherType;
+	float ___weatherBlendProgress;
+	bool ___globalAutoWeatherChange;
+	BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23* ___triggerCollider;
+	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___triggerRB;
+	bool ___showWeatherPresetsControls;
+	bool ___showTransitionControls;
+	bool ___showZoneControls;
+	bool ___instantTransition;
+};
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
+};
+struct EnviroManagerBase_tB87CACC2A3577D30A805E4B22A2888A00EED8850  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	EnviroConfiguration_t529EFCE2A026A2A1D48F81E90EDB5D7BB8B798D2* ___configuration;
+	EnviroConfiguration_t529EFCE2A026A2A1D48F81E90EDB5D7BB8B798D2* ___lastConfiguration;
+	EnviroTimeModule_t85B4F1EC06100D9097DF12EE44A975090DD42291* ___Time;
+	EnviroLightingModule_t16B1DDD44C14D35B2F513D4EE918D98883BF92E1* ___Lighting;
+	EnviroReflectionsModule_t7BAA0A0775D162B63146998CE93C153F84BD7743* ___Reflections;
+	EnviroSkyModule_tDD4EFC5DAD889848CC372D98D1FCBF3A9D0EA87F* ___Sky;
+	EnviroFogModule_tB87EBF49A482911AA5EF924483AD8F12FD40BB7A* ___Fog;
+	EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* ___VolumetricClouds;
+	EnviroFlatCloudsModule_t57F5F2E0F2767B6264811C5C9F39A69FA8D83324* ___FlatClouds;
+	EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* ___Weather;
+	EnviroAuroraModule_t58A1FBBF83DDFDF33906235180D799B5C3D722ED* ___Aurora;
+	EnviroAudioModule_t175EFD5CA1080C907BE8C38BD3E92A2A716B0097* ___Audio;
+	EnviroEffectsModule_tF358437C99012B6FBAB07F9B0E34397AC5C11D07* ___Effects;
+	EnviroLightningModule_t17C01CB77D27C55411FA6C54916A01AB0C5419D0* ___Lightning;
+	EnviroQualityModule_tE9E08E6FC3346A83A578719427580215FDBEC806* ___Quality;
+	EnviroEnvironmentModule_t336D0B203F7D196DD424C955791BB3F33FAA34E8* ___Environment;
+};
+struct EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* ___currentWeatherType;
+	EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* ___nextWeatherType;
+	bool ___autoWeatherChanges;
+	float ___weatherChangeIntervall;
+	double ___nextWeatherUpdate;
+	List_1_tEE7BE83F108B32E40244C32B8C5C06F9C3800223* ___weatherTypeList;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zoneScale;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___zoneGizmoColor;
+	BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23* ___zoneCollider;
+};
+struct EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84  : public EnviroManagerBase_tB87CACC2A3577D30A805E4B22A2888A00EED8850
+{
+	GeneralObjects_t54E72942BBB5F0E4AD4D46E01F65ACBC39BF8DE5* ___Objects;
+	bool ___dontDestroyOnLoad;
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___Camera;
+	String_t* ___CameraTag;
+	List_1_tE6E65D384AFBF279DC17928D9B7DA64EA330F136* ___Cameras;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___optionalFollowTransform;
+	bool ___showSetup;
+	bool ___showModules;
+	bool ___showEvents;
+	bool ___showThirdParty;
+	float ___dayNightSwitch;
+	bool ___isNight;
+	float ___solarTime;
+	float ___lunarTime;
+	bool ___notFirstFrame;
+	List_1_tD4E3F2C91259BE761FA2AA183EF38FB00DFDCC5C* ___removalZones;
+	ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* ___clearZoneCB;
+	ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* ___removeZoneParamsCB;
+	ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* ___clearCBPoint;
+	ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* ___clearCBSpot;
+	ZoneParamsU5BU5D_tCCE91648E9E1B6BF3FCEE8FC3575E6BF6262EE5D* ___removalZoneParams;
+	float ___sunRotationX;
+	float ___sunRotationY;
+	float ___moonRotationX;
+	float ___moonRotationY;
+	bool ___showNonTimeControls;
+	EnviroEvents_t9CD1278344E5D851A728306FF8E42D4B610769A3* ___Events;
+	HourPassed_tF4A5878C4D8ABCF2A1772C43C4769E79EBB2D6C2* ___OnHourPassed;
+	DayPassed_tF8C7932EC9FFE36F8891C43836E21AE7460CDEE2* ___OnDayPassed;
+	YearPassed_t387F1FA26C289EE32FBC2EA1E0DC3D64996A8D2C* ___OnYearPassed;
+	WeatherChanged_tAEA389588140804105C8D32FA037F0C21151045A* ___OnWeatherChanged;
+	ZoneWeatherChanged_tB19266F7FD18F40D9F288B12D620A3572E43D2DB* ___OnZoneWeatherChanged;
+	SeasonChanged_t8ACBDA958F10A21718A7F23A90E9DCB998364BAD* ___OnSeasonChanged;
+	isNightEvent_tA4D82208E5BAA02F539E29C766624405E0ABEC05* ___OnNightTime;
+	isDayEvent_tA9601F8FDD83EAD61BE9593EA3F6EA84A96932CD* ___OnDayTime;
+	EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* ___currentZone;
+	EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* ___defaultZone;
+	List_1_t02E666C10A9961D8746558E2691C1D89E8F6565D* ___zones;
+	bool ___updateSkyAndLighting;
+	bool ___updateSkyAndLightingHDRP;
+};
+struct List_1_tB8DA45B67C68EAE3F9465C9E7043EBA887F51AAF_StaticFields
+{
+	EnviroAudioClipU5BU5D_t452BF9AD0B478F139BB9C8BB9BF96E5E806C77A6* ___s_emptyArray;
+};
+struct List_1_tD86F44E0FD2760DB7FABBAB8BD2AF0A1DB96FF8F_StaticFields
+{
+	EnviroAudioOverrideTypeU5BU5D_t37F2DDD918753F76E2DD3EEF11BD5CAF3CFEBB8F* ___s_emptyArray;
+};
+struct List_1_t726ADB812DC32A8DA0B15840FF6AD7FA6AC2151B_StaticFields
+{
+	EnviroEffectTypesU5BU5D_t41DCF7F657BA3464168BD8EE55BD7C3C5F38DE04* ___s_emptyArray;
+};
+struct List_1_t9ABE3324A49D590AC7053A8FFA5F1EB8F2B52F26_StaticFields
+{
+	EnviroEffectsOverrideTypeU5BU5D_tE54B4BAB3C38CD035B10D3A52F1CA6EA9175E497* ___s_emptyArray;
+};
+struct List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE_StaticFields
+{
+	EnviroWeatherTypeU5BU5D_t11180ABFF9F01907B554612E0EFA8CD26CED3C86* ___s_emptyArray;
+};
+struct List_1_t02E666C10A9961D8746558E2691C1D89E8F6565D_StaticFields
+{
+	EnviroZoneU5BU5D_t128A1A13FA3D545E06458123C637173F7732D158* ___s_emptyArray;
+};
+struct List_1_tEE7BE83F108B32E40244C32B8C5C06F9C3800223_StaticFields
+{
+	EnviroZoneWeatherU5BU5D_tFDA62767A22B20A481E9E781944B4BCE384BF6D9* ___s_emptyArray;
+};
+struct List_1_t6959D78D53022948E65A4FDA6291D7F38FEFA02E_StaticFields
+{
+	__CanonU5BU5D_tFF96AE6C231BB36A6CEE54CEEB72ED8E90201979* ___s_emptyArray;
+};
+struct List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A_StaticFields
+{
+	__Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC* ___s_emptyArray;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_StaticFields
+{
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___zeroMatrix;
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___identityMatrix;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
+{
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___identityQuaternion;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
+};
+struct EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84_StaticFields
+{
+	EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* ____instance;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct __CanonU5BU5D_tFF96AE6C231BB36A6CEE54CEEB72ED8E90201979  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Il2CppSharedGenericObject* m_Items[1];
+
+	inline Il2CppSharedGenericObject* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Il2CppSharedGenericObject** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Il2CppSharedGenericObject* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline Il2CppSharedGenericObject* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Il2CppSharedGenericObject** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Il2CppSharedGenericObject* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m7378BA5FBCA1E88080985FB810820B3F47DAD54C_gshared (List_1_t6959D78D53022948E65A4FDA6291D7F38FEFA02E* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_mD2ED26ACAF3BAF386FFEA83893BA51DB9FD8BA30_fshared_inline (List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppSharedGenericObject* List_1_get_Item_m02336594E8F76D7313E2BCB7A3ED5ABD13B4D515_gshared (List_1_t6959D78D53022948E65A4FDA6291D7F38FEFA02E* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppSharedGenericObject* GameObject_GetComponent_TisIl2CppSharedGenericObject_m2326F15B03AC79F0FF91C22873C9679752F372D0_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppSharedGenericObject* GameObject_AddComponent_TisIl2CppSharedGenericObject_mEC1C0E045A5A771DA12CB28C8523DB16596946AD_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m0CE6E39234ED33F5195AABC8029D06D4756C75C1_gshared_inline (List_1_t6959D78D53022948E65A4FDA6291D7F38FEFA02E* __this, Il2CppSharedGenericObject* ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool List_1_Remove_m0AC731A08F1400089DD478E2D366804833660796_gshared (List_1_t6959D78D53022948E65A4FDA6291D7F38FEFA02E* __this, Il2CppSharedGenericObject* ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_RemoveAt_m36F68EA689DB109415094085A496D5EA21E2F23C_gshared (List_1_t6959D78D53022948E65A4FDA6291D7F38FEFA02E* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool List_1_Contains_m63E643DC9A821297E2EBF9085D93B39BFC2F9DCE_gshared (List_1_t6959D78D53022948E65A4FDA6291D7F38FEFA02E* __this, Il2CppSharedGenericObject* ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppSharedGenericObject* JsonUtility_FromJson_TisIl2CppSharedGenericObject_m4FD99228283D632E69F8A0B2E1EBED7287197604_gshared (String_t* ___0_json, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppSharedGenericObject* ScriptableObject_CreateInstance_TisIl2CppSharedGenericObject_mCBB59C30398DB494162F775DCD530D192A8D0A27_gshared (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_mCC24A812DFC30C3DE2230E3C8EE705871C1DFF81_gshared (List_1_t6959D78D53022948E65A4FDA6291D7F38FEFA02E* __this, Il2CppSharedGenericObject* ___0_item, const RuntimeMethod* method) ;
+
+inline void List_1__ctor_mBF6A2FF80E8FBF84AFEE352C01C7DA31F5995BBF (List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE*, const RuntimeMethod*))List_1__ctor_m7378BA5FBCA1E88080985FB810820B3F47DAD54C_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+inline int32_t List_1_get_Count_mA961EE51C7C60217F2210F534AC0947B63C73F58_inline (List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE*, const RuntimeMethod*))List_1_get_Count_mD2ED26ACAF3BAF386FFEA83893BA51DB9FD8BA30_fshared_inline)(__this, method);
+}
+inline EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* List_1_get_Item_m55677B8B1A79B76C2DE0818F418AE1B426738DF4 (List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* (*) (List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE*, int32_t, const RuntimeMethod*))List_1_get_Item_m02336594E8F76D7313E2BCB7A3ED5ABD13B4D515_gshared)(__this, ___0_index, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_Setup_m7B55708073CF157AF8D10F038700E8B0AAEEAE37 (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_Cleanup_m53C875F35FAD04FEF0A7821B440ACA286D184313 (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+inline BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23* GameObject_GetComponent_TisBoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23_m704160C10BDAB9B54429D2DEB921575D3DF7622C (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisIl2CppSharedGenericObject_m2326F15B03AC79F0FF91C22873C9679752F372D0_gshared)(__this, method);
+}
+inline BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23* GameObject_AddComponent_TisBoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23_m655518C8454E418FE8CF0E4770881B7A2B12BB23 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisIl2CppSharedGenericObject_mEC1C0E045A5A771DA12CB28C8523DB16596946AD_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider_set_isTrigger_mFCD22F3EB5E28C97863956AB725D53F7F4B7CA78 (Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxCollider_set_size_m8374267FDE5DD628973E0E5E1331E781552B855A (BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+inline Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* GameObject_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m2D7F86C77ECF9B82AAC077B511F1004280571B90 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisIl2CppSharedGenericObject_m2326F15B03AC79F0FF91C22873C9679752F372D0_gshared)(__this, method);
+}
+inline Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* GameObject_AddComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m03A761629A3F71B0248F1B26EF612F592B757093 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisIl2CppSharedGenericObject_mEC1C0E045A5A771DA12CB28C8523DB16596946AD_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody_set_isKinematic_m6C3FD3EA358DADA3B191F2449CF1C4F8B22695ED (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* EnviroWeatherTypeCreation_CreateMyAsset_mFE7E35D30BC503CDE016F183CEEC8A0E0DAB9604 (const RuntimeMethod* method) ;
+inline void List_1_Add_m558282449A7DB58AA27092BB6497000E33E460D5_inline (List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* __this, EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE*, EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4*, const RuntimeMethod*))List_1_Add_m0CE6E39234ED33F5195AABC8029D06D4756C75C1_gshared_inline)(__this, ___0_item, method);
+}
+inline bool List_1_Remove_mB22144A21C945AF5DB2E7330E26742C9184B25F7 (List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* __this, EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* ___0_item, const RuntimeMethod* method)
+{
+	return ((  bool (*) (List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE*, EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4*, const RuntimeMethod*))List_1_Remove_m0AC731A08F1400089DD478E2D366804833660796_gshared)(__this, ___0_item, method);
+}
+inline void List_1_RemoveAt_m9664735D2693A87AB18B233B2EB15585B2CB3A1D (List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE*, int32_t, const RuntimeMethod*))List_1_RemoveAt_m36F68EA689DB109415094085A496D5EA21E2F23C_gshared)(__this, ___0_index, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInstantTransitionU3Ed__18__ctor_m8E40BDE3E167E3FC28DED9621D0CBE6E268F0AD0 (U3CInstantTransitionU3Ed__18_tD8EDBEEE60F62B132B2E6907F01FDB4C37ECD4BA* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_BlendVolumetricCloudsOverride_m64C75FD14DE191B041C9951BD420C18B24B7E3F4 (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, float ___0_blendTime, float ___1_blendTime2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_BlendFlatCloudsOverride_m792E11D49FD0A70B653962D9668E2C94CB52C2DC (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, float ___0_blendTime, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_BlendLightingOverride_m1E5961F658AF745C4AA09D9DE5B5FCD27065FEC1 (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, float ___0_blendTime, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_BlendSkyOverride_mF4BA8EE621E4B7038C1C5043E31CA597B3E27E4B (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, float ___0_blendTime, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_BlendEffectsOverride_m65B17064F9FBEA538C448AC7700FBDCF50D24372 (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, float ___0_blendTime, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_BlendAuroraOverride_m180CDB939F666A0DBFD3890B427AF1D00251E405 (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, float ___0_blendTime, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_BlendFogOverride_mDEE449E88FCC89C71CFE891612F2C38C084B42A3 (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, float ___0_blendTime, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_BlendAudioOverride_mEB4B7C8F4751407B00DBF2AFD43DE3DB6D3C0FD5 (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, float ___0_blendTime, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_BlendEnvironmentOverride_m67A794C58CA3EE97C07B177FE2CF3A08B0B5FBF3 (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, float ___0_blendTime, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_BlendLightningOverride_m251D144DE811B4CA8A698D52C301920400862D94 (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, float ___0_blendTime, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_UpdateWeatherBlendProgress_mE7F7F19B7C8715E719C5D9B5540C3BD776694866 (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, float ___0_blendTime, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline (float ___0_a, float ___1_b, float ___2_t, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_Lerp_mE79F87889843ECDC188E4CB5B5E1F1B2256E5EBE_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_a, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_b, float ___2_t, const RuntimeMethod* method) ;
+inline EnviroEffectTypes_t195B779D6B2504CD4131CC2C64DFFD9D0320CBFF* List_1_get_Item_mD41BFD17CC4036E5D128EB24A003879EEFAA0B07 (List_1_t726ADB812DC32A8DA0B15840FF6AD7FA6AC2151B* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  EnviroEffectTypes_t195B779D6B2504CD4131CC2C64DFFD9D0320CBFF* (*) (List_1_t726ADB812DC32A8DA0B15840FF6AD7FA6AC2151B*, int32_t, const RuntimeMethod*))List_1_get_Item_m02336594E8F76D7313E2BCB7A3ED5ABD13B4D515_gshared)(__this, ___0_index, method);
+}
+inline EnviroEffectsOverrideType_tF276CE32D42E2F8092D48D7D8196BF3F0B7058EF* List_1_get_Item_m5DD293E52F4112D1997ADD6114A2C86D2287B615 (List_1_t9ABE3324A49D590AC7053A8FFA5F1EB8F2B52F26* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  EnviroEffectsOverrideType_tF276CE32D42E2F8092D48D7D8196BF3F0B7058EF* (*) (List_1_t9ABE3324A49D590AC7053A8FFA5F1EB8F2B52F26*, int32_t, const RuntimeMethod*))List_1_get_Item_m02336594E8F76D7313E2BCB7A3ED5ABD13B4D515_gshared)(__this, ___0_index, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1 (String_t* ___0_a, String_t* ___1_b, const RuntimeMethod* method) ;
+inline int32_t List_1_get_Count_m4FCCA450E73461A5815133A2C91A5E13042F6FA5_inline (List_1_t9ABE3324A49D590AC7053A8FFA5F1EB8F2B52F26* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_t9ABE3324A49D590AC7053A8FFA5F1EB8F2B52F26*, const RuntimeMethod*))List_1_get_Count_mD2ED26ACAF3BAF386FFEA83893BA51DB9FD8BA30_fshared_inline)(__this, method);
+}
+inline int32_t List_1_get_Count_m6F66F75017EC2058D9576487AD416FE1A4FB91AC_inline (List_1_t726ADB812DC32A8DA0B15840FF6AD7FA6AC2151B* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_t726ADB812DC32A8DA0B15840FF6AD7FA6AC2151B*, const RuntimeMethod*))List_1_get_Count_mD2ED26ACAF3BAF386FFEA83893BA51DB9FD8BA30_fshared_inline)(__this, method);
+}
+inline EnviroAudioOverrideType_t2EB753F14ABDCC9BF0C4E5E06EE53CB005C1E9E4* List_1_get_Item_m95EC23873D1F9F8F36132FBA273EB9F536CABEBC (List_1_tD86F44E0FD2760DB7FABBAB8BD2AF0A1DB96FF8F* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  EnviroAudioOverrideType_t2EB753F14ABDCC9BF0C4E5E06EE53CB005C1E9E4* (*) (List_1_tD86F44E0FD2760DB7FABBAB8BD2AF0A1DB96FF8F*, int32_t, const RuntimeMethod*))List_1_get_Item_m02336594E8F76D7313E2BCB7A3ED5ABD13B4D515_gshared)(__this, ___0_index, method);
+}
+inline EnviroAudioClip_tD41AC918D535EF3CC38AFED3B13A34A9976B86B0* List_1_get_Item_m7CD99D4CF070731C21261A7CDD7964FB830B3050 (List_1_tB8DA45B67C68EAE3F9465C9E7043EBA887F51AAF* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  EnviroAudioClip_tD41AC918D535EF3CC38AFED3B13A34A9976B86B0* (*) (List_1_tB8DA45B67C68EAE3F9465C9E7043EBA887F51AAF*, int32_t, const RuntimeMethod*))List_1_get_Item_m02336594E8F76D7313E2BCB7A3ED5ABD13B4D515_gshared)(__this, ___0_index, method);
+}
+inline int32_t List_1_get_Count_mC1C624C9A248445E5DBD5FE3C6F62A2D1B57AE2D_inline (List_1_tD86F44E0FD2760DB7FABBAB8BD2AF0A1DB96FF8F* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_tD86F44E0FD2760DB7FABBAB8BD2AF0A1DB96FF8F*, const RuntimeMethod*))List_1_get_Count_mD2ED26ACAF3BAF386FFEA83893BA51DB9FD8BA30_fshared_inline)(__this, method);
+}
+inline int32_t List_1_get_Count_mC1B07C8B11F9FB1559D66BEC255FE2DB6B1840A5_inline (List_1_tB8DA45B67C68EAE3F9465C9E7043EBA887F51AAF* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_tB8DA45B67C68EAE3F9465C9E7043EBA887F51AAF*, const RuntimeMethod*))List_1_get_Count_mD2ED26ACAF3BAF386FFEA83893BA51DB9FD8BA30_fshared_inline)(__this, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* __this, const RuntimeMethod* method) ;
+inline int32_t List_1_get_Count_m84E8F773192AD496738404E5F1E8FF06AF7FF95D_inline (List_1_t02E666C10A9961D8746558E2691C1D89E8F6565D* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_t02E666C10A9961D8746558E2691C1D89E8F6565D*, const RuntimeMethod*))List_1_get_Count_mD2ED26ACAF3BAF386FFEA83893BA51DB9FD8BA30_fshared_inline)(__this, method);
+}
+inline EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* List_1_get_Item_mBE6B68D4571F670393A7BEBB176A19E747740652 (List_1_t02E666C10A9961D8746558E2691C1D89E8F6565D* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* (*) (List_1_t02E666C10A9961D8746558E2691C1D89E8F6565D*, int32_t, const RuntimeMethod*))List_1_get_Item_m02336594E8F76D7313E2BCB7A3ED5ABD13B4D515_gshared)(__this, ___0_index, method);
+}
+inline void List_1_Add_mEC097CFC693F69D8144C5A3CB63400FEFDB67479_inline (List_1_t02E666C10A9961D8746558E2691C1D89E8F6565D* __this, EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t02E666C10A9961D8746558E2691C1D89E8F6565D*, EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F*, const RuntimeMethod*))List_1_Add_m0CE6E39234ED33F5195AABC8029D06D4756C75C1_gshared_inline)(__this, ___0_item, method);
+}
+inline bool List_1_Contains_mDD3CCE81CAA8BFC92AEABEF74FF43A822C96193B (List_1_t02E666C10A9961D8746558E2691C1D89E8F6565D* __this, EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* ___0_item, const RuntimeMethod* method)
+{
+	return ((  bool (*) (List_1_t02E666C10A9961D8746558E2691C1D89E8F6565D*, EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F*, const RuntimeMethod*))List_1_Contains_m63E643DC9A821297E2EBF9085D93B39BFC2F9DCE_gshared)(__this, ___0_item, method);
+}
+inline bool List_1_Remove_mF97194F3B320F002BD94B16DEC6587D795520347 (List_1_t02E666C10A9961D8746558E2691C1D89E8F6565D* __this, EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* ___0_item, const RuntimeMethod* method)
+{
+	return ((  bool (*) (List_1_t02E666C10A9961D8746558E2691C1D89E8F6565D*, EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F*, const RuntimeMethod*))List_1_Remove_m0AC731A08F1400089DD478E2D366804833660796_gshared)(__this, ___0_item, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JsonUtility_ToJson_m28CC6843B9D3723D88AD13EA3829B71FDE7826BA (RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
+inline EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* JsonUtility_FromJson_TisEnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665_m50086342F5BD373040263E6268D875CF86309AAB (String_t* ___0_json, const RuntimeMethod* method)
+{
+	return ((  EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* (*) (String_t*, const RuntimeMethod*))JsonUtility_FromJson_TisIl2CppSharedGenericObject_m4FD99228283D632E69F8A0B2E1EBED7287197604_gshared)(___0_json, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroModule__ctor_mD72E1556F44583608AEA5B34C8B59C19F21EE88A (EnviroModule_t9FE15762D697CE969D187113502642D63988CDF4* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline (const RuntimeMethod* method) ;
+inline void List_1__ctor_m4794B279BC8257C333031CDA7D79B9560222DAE0 (List_1_tD86F44E0FD2760DB7FABBAB8BD2AF0A1DB96FF8F* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tD86F44E0FD2760DB7FABBAB8BD2AF0A1DB96FF8F*, const RuntimeMethod*))List_1__ctor_m7378BA5FBCA1E88080985FB810820B3F47DAD54C_gshared)(__this, method);
+}
+inline void List_1__ctor_mB8EE18FD446531304714DBE45A219EFB77CFE27C (List_1_t9ABE3324A49D590AC7053A8FFA5F1EB8F2B52F26* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t9ABE3324A49D590AC7053A8FFA5F1EB8F2B52F26*, const RuntimeMethod*))List_1__ctor_m7378BA5FBCA1E88080985FB810820B3F47DAD54C_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF (ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A* __this, const RuntimeMethod* method) ;
+inline EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* ScriptableObject_CreateInstance_TisEnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4_m93ABAB39747A291383509440322E1F3E4A787555 (const RuntimeMethod* method)
+{
+	return ((  EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* (*) (const RuntimeMethod*))ScriptableObject_CreateInstance_TisIl2CppSharedGenericObject_mCBB59C30398DB494162F775DCD530D192A8D0A27_gshared)(method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_RegisterZone_m2C37CA750C22365369ECF50FCC19DD0A4F86B8F3 (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* ___0_zone, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double EnviroTimeModule_GetDateInHours_m56892ED2668F7ED5658A3F80A84E173FD3495565 (EnviroTimeModule_t85B4F1EC06100D9097DF12EE44A975090DD42291* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_RemoveZone_m85386E5D752FF0FF8C1E0A118700BFF7497FF17F (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* ___0_zone, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroZoneWeather__ctor_mE7FE3FCF26BB53F1C6DC1A9E69F32AD9E6718CA8 (EnviroZoneWeather_t76EA76EF491153BF9C6786E730C1BD57EFD4F0CC* __this, const RuntimeMethod* method) ;
+inline void List_1_Add_mD8BB81E7FF7D7FE245814F840AB89F43DA42A487_inline (List_1_tEE7BE83F108B32E40244C32B8C5C06F9C3800223* __this, EnviroZoneWeather_t76EA76EF491153BF9C6786E730C1BD57EFD4F0CC* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tEE7BE83F108B32E40244C32B8C5C06F9C3800223*, EnviroZoneWeather_t76EA76EF491153BF9C6786E730C1BD57EFD4F0CC*, const RuntimeMethod*))List_1_Add_m0CE6E39234ED33F5195AABC8029D06D4756C75C1_gshared_inline)(__this, ___0_item, method);
+}
+inline bool List_1_Remove_m21CA86299BA7F868215659596AF0A3FA40A5BEF7 (List_1_tEE7BE83F108B32E40244C32B8C5C06F9C3800223* __this, EnviroZoneWeather_t76EA76EF491153BF9C6786E730C1BD57EFD4F0CC* ___0_item, const RuntimeMethod* method)
+{
+	return ((  bool (*) (List_1_tEE7BE83F108B32E40244C32B8C5C06F9C3800223*, EnviroZoneWeather_t76EA76EF491153BF9C6786E730C1BD57EFD4F0CC*, const RuntimeMethod*))List_1_Remove_m0AC731A08F1400089DD478E2D366804833660796_gshared)(__this, ___0_item, method);
+}
+inline int32_t List_1_get_Count_m17953B00538489C9B850ABFD18D476574F0B2E8D_inline (List_1_tEE7BE83F108B32E40244C32B8C5C06F9C3800223* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_tEE7BE83F108B32E40244C32B8C5C06F9C3800223*, const RuntimeMethod*))List_1_get_Count_mD2ED26ACAF3BAF386FFEA83893BA51DB9FD8BA30_fshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494 (float ___0_minInclusive, float ___1_maxInclusive, const RuntimeMethod* method) ;
+inline EnviroZoneWeather_t76EA76EF491153BF9C6786E730C1BD57EFD4F0CC* List_1_get_Item_m6627B1BD8B37F97AAF150F8E7CA0CDD960158EC0 (List_1_tEE7BE83F108B32E40244C32B8C5C06F9C3800223* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  EnviroZoneWeather_t76EA76EF491153BF9C6786E730C1BD57EFD4F0CC* (*) (List_1_tEE7BE83F108B32E40244C32B8C5C06F9C3800223*, int32_t, const RuntimeMethod*))List_1_get_Item_m02336594E8F76D7313E2BCB7A3ED5ABD13B4D515_gshared)(__this, ___0_index, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void EnviroZone_ChangeZoneWeather_m0A6978E81C7DE0ED8B63EB510DC633423B892E84_inline (EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* __this, EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* ___0_type, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroZone_ChangeZoneWeatherInstant_mCD388610E0D305C720C90B50FF669545EE17EC67 (EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* __this, EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* ___0_type, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroZone_ChooseNextWeatherRandom_mE84FB1D6F6B3DB39FE40DFEDBB04BB67ED0C2BFF (EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroZone_UpdateZoneScale_mE85B3AB88A4F160CAE16B20B7C5D8887CA7F23F1 (EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroZone_UpdateZoneWeather_mB38B3DD1D96F29B3458A58E332D47EE112000956 (EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* __this, const RuntimeMethod* method) ;
+inline EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* GameObject_GetComponent_TisEnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84_mBC098807F2FE4D5EC28D8DFC8A6BDF6FCFA74332 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisIl2CppSharedGenericObject_m2326F15B03AC79F0FF91C22873C9679752F372D0_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_exists, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Gizmos_set_color_m53927A2741937484180B20B55F7F20F8F60C5797 (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_pos, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_q, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_s, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Gizmos_set_matrix_m100B4ACA7FBDFF65CE1BD0000E9E0D7566147A15 (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Gizmos_DrawCube_m4417EAEA479EF4AD52445810D840BA8FCBC6EF3F (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_center, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_size, const RuntimeMethod* method) ;
+inline void List_1__ctor_m4FE7C8F199F0A9A866DB79907F9A81CD75B423EC (List_1_tEE7BE83F108B32E40244C32B8C5C06F9C3800223* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tEE7BE83F108B32E40244C32B8C5C06F9C3800223*, const RuntimeMethod*))List_1__ctor_m7378BA5FBCA1E88080985FB810820B3F47DAD54C_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, float ___3_a, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 Matrix4x4_Internal_TRS_m39AB7D4719528E75EAEC127019A36907AABE52B4 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_pos, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* ___1_q, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___2_s, const RuntimeMethod* method) ;
+inline void List_1_AddWithResize_mCC24A812DFC30C3DE2230E3C8EE705871C1DFF81 (List_1_t6959D78D53022948E65A4FDA6291D7F38FEFA02E* __this, Il2CppSharedGenericObject* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t6959D78D53022948E65A4FDA6291D7F38FEFA02E*, Il2CppSharedGenericObject*, const RuntimeMethod*))List_1_AddWithResize_mCC24A812DFC30C3DE2230E3C8EE705871C1DFF81_gshared)(__this, ___0_item, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeather__ctor_m3478E1AB88EC7B68C643E2BDB0E4489A878B6AC3 (EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_mBF6A2FF80E8FBF84AFEE352C01C7DA31F5995BBF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* L_0 = (List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE*)il2cpp_codegen_object_new(List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE_il2cpp_TypeInfo_var);
+		List_1__ctor_mBF6A2FF80E8FBF84AFEE352C01C7DA31F5995BBF(L_0, List_1__ctor_mBF6A2FF80E8FBF84AFEE352C01C7DA31F5995BBF_RuntimeMethod_var);
+		__this->___weatherTypes = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___weatherTypes), (void*)L_0);
+		__this->___cloudsTransitionSpeed = (1.0f);
+		__this->___fogTransitionSpeed = (1.0f);
+		__this->___lightingTransitionSpeed = (1.0f);
+		__this->___skyTransitionSpeed = (1.0f);
+		__this->___effectsTransitionSpeed = (1.0f);
+		__this->___auroraTransitionSpeed = (1.0f);
+		__this->___environmentTransitionSpeed = (1.0f);
+		__this->___audioTransitionSpeed = (1.0f);
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_Enable_mD90E700988295E5AAD1B00DC6A084D297B82CCFB (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit);
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_0;
+		L_0 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000e:
+	{
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_2 = __this->___targetWeatherType;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_3;
+		L_3 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_0046;
+		}
+	}
+	{
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_4 = __this->___Settings;
+		NullCheck(L_4);
+		List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* L_5 = L_4->___weatherTypes;
+		NullCheck(L_5);
+		int32_t L_6;
+		L_6 = List_1_get_Count_mA961EE51C7C60217F2210F534AC0947B63C73F58_inline(L_5, NULL);
+		if ((((int32_t)L_6) <= ((int32_t)0)))
+		{
+			goto IL_0046;
+		}
+	}
+	{
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_7 = __this->___Settings;
+		NullCheck(L_7);
+		List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* L_8 = L_7->___weatherTypes;
+		NullCheck(L_8);
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_9;
+		L_9 = List_1_get_Item_m55677B8B1A79B76C2DE0818F418AE1B426738DF4(L_8, 0, NULL);
+		__this->___targetWeatherType = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___targetWeatherType), (void*)L_9);
+	}
+
+IL_0046:
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_10;
+		L_10 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_10);
+		EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* L_11 = L_10->___defaultZone;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_12;
+		L_12 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_11, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_12)
+		{
+			goto IL_006c;
+		}
+	}
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_13;
+		L_13 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_14;
+		L_14 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_14);
+		EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* L_15 = L_14->___defaultZone;
+		NullCheck(L_13);
+		L_13->___currentZone = L_15;
+		Il2CppCodeGenWriteBarrier((void**)(&L_13->___currentZone), (void*)L_15);
+	}
+
+IL_006c:
+	{
+		__this->___weatherBlendProgress = (1.0f);
+		EnviroWeatherModule_Setup_m7B55708073CF157AF8D10F038700E8B0AAEEAE37(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_Disable_m0562810B3540D9866533BFBE74EDEB8A3F7DF941 (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit);
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_0;
+		L_0 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000e:
+	{
+		EnviroWeatherModule_Cleanup_m53C875F35FAD04FEF0A7821B440ACA286D184313(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_Setup_m7B55708073CF157AF8D10F038700E8B0AAEEAE37 (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisBoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23_m655518C8454E418FE8CF0E4770881B7A2B12BB23_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m03A761629A3F71B0248F1B26EF612F592B757093_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisBoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23_m704160C10BDAB9B54429D2DEB921575D3DF7622C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m2D7F86C77ECF9B82AAC077B511F1004280571B90_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit);
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_0;
+		L_0 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_0);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
+		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_0, NULL);
+		NullCheck(L_1);
+		BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23* L_2;
+		L_2 = GameObject_GetComponent_TisBoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23_m704160C10BDAB9B54429D2DEB921575D3DF7622C(L_1, GameObject_GetComponent_TisBoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23_m704160C10BDAB9B54429D2DEB921575D3DF7622C_RuntimeMethod_var);
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_3;
+		L_3 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_4;
+		L_4 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_4);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
+		L_5 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_4, NULL);
+		NullCheck(L_5);
+		BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23* L_6;
+		L_6 = GameObject_AddComponent_TisBoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23_m655518C8454E418FE8CF0E4770881B7A2B12BB23(L_5, GameObject_AddComponent_TisBoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23_m655518C8454E418FE8CF0E4770881B7A2B12BB23_RuntimeMethod_var);
+		__this->___triggerCollider = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___triggerCollider), (void*)L_6);
+		goto IL_0043;
+	}
+
+IL_002e:
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_7;
+		L_7 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_7);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8;
+		L_8 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_7, NULL);
+		NullCheck(L_8);
+		BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23* L_9;
+		L_9 = GameObject_GetComponent_TisBoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23_m704160C10BDAB9B54429D2DEB921575D3DF7622C(L_8, GameObject_GetComponent_TisBoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23_m704160C10BDAB9B54429D2DEB921575D3DF7622C_RuntimeMethod_var);
+		__this->___triggerCollider = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___triggerCollider), (void*)L_9);
+	}
+
+IL_0043:
+	{
+		BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23* L_10 = __this->___triggerCollider;
+		NullCheck(L_10);
+		Collider_set_isTrigger_mFCD22F3EB5E28C97863956AB725D53F7F4B7CA78(L_10, (bool)1, NULL);
+		BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23* L_11 = __this->___triggerCollider;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_12), (0.100000001f), (0.100000001f), (0.100000001f), NULL);
+		NullCheck(L_11);
+		BoxCollider_set_size_m8374267FDE5DD628973E0E5E1331E781552B855A(L_11, L_12, NULL);
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_13;
+		L_13 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_13);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14;
+		L_14 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_13, NULL);
+		NullCheck(L_14);
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_15;
+		L_15 = GameObject_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m2D7F86C77ECF9B82AAC077B511F1004280571B90(L_14, GameObject_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m2D7F86C77ECF9B82AAC077B511F1004280571B90_RuntimeMethod_var);
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_16;
+		L_16 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_15, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_16)
+		{
+			goto IL_009c;
+		}
+	}
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_17;
+		L_17 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_17);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18;
+		L_18 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_17, NULL);
+		NullCheck(L_18);
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_19;
+		L_19 = GameObject_AddComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m03A761629A3F71B0248F1B26EF612F592B757093(L_18, GameObject_AddComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m03A761629A3F71B0248F1B26EF612F592B757093_RuntimeMethod_var);
+		__this->___triggerRB = L_19;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___triggerRB), (void*)L_19);
+		goto IL_00b1;
+	}
+
+IL_009c:
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_20;
+		L_20 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_20);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21;
+		L_21 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_20, NULL);
+		NullCheck(L_21);
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_22;
+		L_22 = GameObject_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m2D7F86C77ECF9B82AAC077B511F1004280571B90(L_21, GameObject_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m2D7F86C77ECF9B82AAC077B511F1004280571B90_RuntimeMethod_var);
+		__this->___triggerRB = L_22;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___triggerRB), (void*)L_22);
+	}
+
+IL_00b1:
+	{
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_23 = __this->___triggerRB;
+		NullCheck(L_23);
+		Rigidbody_set_isKinematic_m6C3FD3EA358DADA3B191F2449CF1C4F8B22695ED(L_23, (bool)1, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_Cleanup_m53C875F35FAD04FEF0A7821B440ACA286D184313 (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit);
+	{
+		BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23* L_0 = __this->___triggerCollider;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23* L_2 = __this->___triggerCollider;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(L_2, NULL);
+	}
+
+IL_0019:
+	{
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_3 = __this->___triggerRB;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_4;
+		L_4 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_4)
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_5 = __this->___triggerRB;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(L_5, NULL);
+	}
+
+IL_0032:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_CreateNewWeatherType_m1B8607BB777B70F94B7EB3C94C6583C1C56994A1 (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m558282449A7DB58AA27092BB6497000E33E460D5_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* V_0 = NULL;
+	{
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_0;
+		L_0 = EnviroWeatherTypeCreation_CreateMyAsset_mFE7E35D30BC503CDE016F183CEEC8A0E0DAB9604(NULL);
+		V_0 = L_0;
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_1 = __this->___Settings;
+		NullCheck(L_1);
+		List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* L_2 = L_1->___weatherTypes;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_3 = V_0;
+		NullCheck(L_2);
+		List_1_Add_m558282449A7DB58AA27092BB6497000E33E460D5_inline(L_2, L_3, List_1_Add_m558282449A7DB58AA27092BB6497000E33E460D5_RuntimeMethod_var);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_RemoveWeatherType_m509EB6040E0D814B170AACC43D46D7CA7A81876D (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* ___0_type, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Remove_mB22144A21C945AF5DB2E7330E26742C9184B25F7_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_0 = __this->___Settings;
+		NullCheck(L_0);
+		List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* L_1 = L_0->___weatherTypes;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_2 = ___0_type;
+		NullCheck(L_1);
+		bool L_3;
+		L_3 = List_1_Remove_mB22144A21C945AF5DB2E7330E26742C9184B25F7(L_1, L_2, List_1_Remove_mB22144A21C945AF5DB2E7330E26742C9184B25F7_RuntimeMethod_var);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_CleanupList_m72AD964EAB2E7998324E6B1572929ADB8F1BCED2 (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit);
+	int32_t V_0 = 0;
+	{
+		V_0 = 0;
+		goto IL_0032;
+	}
+
+IL_0004:
+	{
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_0 = __this->___Settings;
+		NullCheck(L_0);
+		List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* L_1 = L_0->___weatherTypes;
+		int32_t L_2 = V_0;
+		NullCheck(L_1);
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_3;
+		L_3 = List_1_get_Item_m55677B8B1A79B76C2DE0818F418AE1B426738DF4(L_1, L_2, NULL);
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_4;
+		L_4 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_4)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_5 = __this->___Settings;
+		NullCheck(L_5);
+		List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* L_6 = L_5->___weatherTypes;
+		int32_t L_7 = V_0;
+		NullCheck(L_6);
+		List_1_RemoveAt_m9664735D2693A87AB18B233B2EB15585B2CB3A1D(L_6, L_7, NULL);
+	}
+
+IL_002e:
+	{
+		int32_t L_8 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_8, 1));
+	}
+
+IL_0032:
+	{
+		int32_t L_9 = V_0;
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_10 = __this->___Settings;
+		NullCheck(L_10);
+		List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* L_11 = L_10->___weatherTypes;
+		NullCheck(L_11);
+		int32_t L_12;
+		L_12 = List_1_get_Count_mA961EE51C7C60217F2210F534AC0947B63C73F58_inline(L_11, NULL);
+		if ((((int32_t)L_9) < ((int32_t)L_12)))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* EnviroWeatherModule_InstantTransition_m307B096315E57CC0DECA1CC4B10DA172BEBBE581 (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CInstantTransitionU3Ed__18_tD8EDBEEE60F62B132B2E6907F01FDB4C37ECD4BA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CInstantTransitionU3Ed__18_tD8EDBEEE60F62B132B2E6907F01FDB4C37ECD4BA* L_0 = (U3CInstantTransitionU3Ed__18_tD8EDBEEE60F62B132B2E6907F01FDB4C37ECD4BA*)il2cpp_codegen_object_new(U3CInstantTransitionU3Ed__18_tD8EDBEEE60F62B132B2E6907F01FDB4C37ECD4BA_il2cpp_TypeInfo_var);
+		U3CInstantTransitionU3Ed__18__ctor_m8E40BDE3E167E3FC28DED9621D0CBE6E268F0AD0(L_0, 0, NULL);
+		U3CInstantTransitionU3Ed__18_tD8EDBEEE60F62B132B2E6907F01FDB4C37ECD4BA* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_UpdateModule_m099D3EDA758AEA86A7C4C010E003E423CC0E52C3 (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit);
+	CHECKED_LOCAL(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_StaticInit);
+	{
+		bool L_0 = ((EnviroModule_t9FE15762D697CE969D187113502642D63988CDF4*)__this)->___active;
+		if (L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0009:
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_1;
+		L_1 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_2;
+		L_2 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0017:
+	{
+		CHECKED_LOCAL_INIT(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_StaticInit,(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_3;
+		L_3 = Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34(NULL);
+		if (!L_3)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		bool L_4 = __this->___instantTransition;
+		if (!L_4)
+		{
+			goto IL_00bd;
+		}
+	}
+
+IL_0029:
+	{
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_5 = __this->___targetWeatherType;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_6;
+		L_6 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_6)
+		{
+			goto IL_00aa;
+		}
+	}
+	{
+		EnviroWeatherModule_BlendVolumetricCloudsOverride_m64C75FD14DE191B041C9951BD420C18B24B7E3F4(__this, (1.0f), (1.0f), NULL);
+		EnviroWeatherModule_BlendFlatCloudsOverride_m792E11D49FD0A70B653962D9668E2C94CB52C2DC(__this, (1.0f), NULL);
+		EnviroWeatherModule_BlendLightingOverride_m1E5961F658AF745C4AA09D9DE5B5FCD27065FEC1(__this, (1.0f), NULL);
+		EnviroWeatherModule_BlendSkyOverride_mF4BA8EE621E4B7038C1C5043E31CA597B3E27E4B(__this, (1.0f), NULL);
+		EnviroWeatherModule_BlendEffectsOverride_m65B17064F9FBEA538C448AC7700FBDCF50D24372(__this, (1.0f), NULL);
+		EnviroWeatherModule_BlendAuroraOverride_m180CDB939F666A0DBFD3890B427AF1D00251E405(__this, (1.0f), NULL);
+		EnviroWeatherModule_BlendFogOverride_mDEE449E88FCC89C71CFE891612F2C38C084B42A3(__this, (1.0f), NULL);
+		EnviroWeatherModule_BlendAudioOverride_mEB4B7C8F4751407B00DBF2AFD43DE3DB6D3C0FD5(__this, (1.0f), NULL);
+		EnviroWeatherModule_BlendEnvironmentOverride_m67A794C58CA3EE97C07B177FE2CF3A08B0B5FBF3(__this, (1.0f), NULL);
+		EnviroWeatherModule_BlendLightningOverride_m251D144DE811B4CA8A698D52C301920400862D94(__this, (1.0f), NULL);
+	}
+
+IL_00aa:
+	{
+		bool L_7 = __this->___instantTransition;
+		if (!L_7)
+		{
+			goto IL_01c4;
+		}
+	}
+	{
+		__this->___instantTransition = (bool)0;
+		return;
+	}
+
+IL_00bd:
+	{
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_8 = __this->___targetWeatherType;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_9;
+		L_9 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_9)
+		{
+			goto IL_01c4;
+		}
+	}
+	{
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_10 = __this->___Settings;
+		NullCheck(L_10);
+		float L_11 = L_10->___cloudsTransitionSpeed;
+		float L_12;
+		L_12 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		EnviroWeatherModule_BlendVolumetricCloudsOverride_m64C75FD14DE191B041C9951BD420C18B24B7E3F4(__this, ((float)il2cpp_codegen_multiply(L_11, L_12)), (1.0f), NULL);
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_13 = __this->___Settings;
+		NullCheck(L_13);
+		float L_14 = L_13->___cloudsTransitionSpeed;
+		float L_15;
+		L_15 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		EnviroWeatherModule_BlendFlatCloudsOverride_m792E11D49FD0A70B653962D9668E2C94CB52C2DC(__this, ((float)il2cpp_codegen_multiply(L_14, L_15)), NULL);
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_16 = __this->___Settings;
+		NullCheck(L_16);
+		float L_17 = L_16->___lightingTransitionSpeed;
+		float L_18;
+		L_18 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		EnviroWeatherModule_BlendLightingOverride_m1E5961F658AF745C4AA09D9DE5B5FCD27065FEC1(__this, ((float)il2cpp_codegen_multiply(L_17, L_18)), NULL);
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_19 = __this->___Settings;
+		NullCheck(L_19);
+		float L_20 = L_19->___skyTransitionSpeed;
+		float L_21;
+		L_21 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		EnviroWeatherModule_BlendSkyOverride_mF4BA8EE621E4B7038C1C5043E31CA597B3E27E4B(__this, ((float)il2cpp_codegen_multiply(L_20, L_21)), NULL);
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_22 = __this->___Settings;
+		NullCheck(L_22);
+		float L_23 = L_22->___effectsTransitionSpeed;
+		float L_24;
+		L_24 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		EnviroWeatherModule_BlendEffectsOverride_m65B17064F9FBEA538C448AC7700FBDCF50D24372(__this, ((float)il2cpp_codegen_multiply(L_23, L_24)), NULL);
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_25 = __this->___Settings;
+		NullCheck(L_25);
+		float L_26 = L_25->___auroraTransitionSpeed;
+		float L_27;
+		L_27 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		EnviroWeatherModule_BlendAuroraOverride_m180CDB939F666A0DBFD3890B427AF1D00251E405(__this, ((float)il2cpp_codegen_multiply(L_26, L_27)), NULL);
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_28 = __this->___Settings;
+		NullCheck(L_28);
+		float L_29 = L_28->___fogTransitionSpeed;
+		float L_30;
+		L_30 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		EnviroWeatherModule_BlendFogOverride_mDEE449E88FCC89C71CFE891612F2C38C084B42A3(__this, ((float)il2cpp_codegen_multiply(L_29, L_30)), NULL);
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_31 = __this->___Settings;
+		NullCheck(L_31);
+		float L_32 = L_31->___audioTransitionSpeed;
+		float L_33;
+		L_33 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		EnviroWeatherModule_BlendAudioOverride_mEB4B7C8F4751407B00DBF2AFD43DE3DB6D3C0FD5(__this, ((float)il2cpp_codegen_multiply(L_32, L_33)), NULL);
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_34 = __this->___Settings;
+		NullCheck(L_34);
+		float L_35 = L_34->___environmentTransitionSpeed;
+		float L_36;
+		L_36 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		EnviroWeatherModule_BlendEnvironmentOverride_m67A794C58CA3EE97C07B177FE2CF3A08B0B5FBF3(__this, ((float)il2cpp_codegen_multiply(L_35, L_36)), NULL);
+		EnviroWeatherModule_BlendLightningOverride_m251D144DE811B4CA8A698D52C301920400862D94(__this, (1.0f), NULL);
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_37 = __this->___Settings;
+		NullCheck(L_37);
+		float L_38 = L_37->___cloudsTransitionSpeed;
+		float L_39;
+		L_39 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		EnviroWeatherModule_UpdateWeatherBlendProgress_mE7F7F19B7C8715E719C5D9B5540C3BD776694866(__this, ((float)il2cpp_codegen_multiply(L_38, L_39)), NULL);
+	}
+
+IL_01c4:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_BlendLightingOverride_m1E5961F658AF745C4AA09D9DE5B5FCD27065FEC1 (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, float ___0_blendTime, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit);
+	EnviroLightingModule_t16B1DDD44C14D35B2F513D4EE918D98883BF92E1* V_0 = NULL;
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_0;
+		L_0 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_0);
+		EnviroLightingModule_t16B1DDD44C14D35B2F513D4EE918D98883BF92E1* L_1 = ((EnviroManagerBase_tB87CACC2A3577D30A805E4B22A2888A00EED8850*)L_0)->___Lighting;
+		V_0 = L_1;
+		EnviroLightingModule_t16B1DDD44C14D35B2F513D4EE918D98883BF92E1* L_2 = V_0;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_3;
+		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_009b;
+		}
+	}
+	{
+		EnviroLightingModule_t16B1DDD44C14D35B2F513D4EE918D98883BF92E1* L_4 = V_0;
+		NullCheck(L_4);
+		EnviroLighting_t62A6A24183B7B09761139558A9774C1DFB356C0B* L_5 = L_4->___Settings;
+		EnviroLightingModule_t16B1DDD44C14D35B2F513D4EE918D98883BF92E1* L_6 = V_0;
+		NullCheck(L_6);
+		EnviroLighting_t62A6A24183B7B09761139558A9774C1DFB356C0B* L_7 = L_6->___Settings;
+		NullCheck(L_7);
+		float L_8 = L_7->___directLightIntensityModifier;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_9 = __this->___targetWeatherType;
+		NullCheck(L_9);
+		EnviroWeatherTypeLightingOverride_t07F2CFA9E28401F87B688E9D0BB3B6F9FB06E1F3* L_10 = L_9->___lightingOverride;
+		NullCheck(L_10);
+		float L_11 = L_10->___directLightIntensityModifier;
+		float L_12 = ___0_blendTime;
+		float L_13;
+		L_13 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_8, L_11, L_12, NULL);
+		NullCheck(L_5);
+		L_5->___directLightIntensityModifier = L_13;
+		EnviroLightingModule_t16B1DDD44C14D35B2F513D4EE918D98883BF92E1* L_14 = V_0;
+		NullCheck(L_14);
+		EnviroLighting_t62A6A24183B7B09761139558A9774C1DFB356C0B* L_15 = L_14->___Settings;
+		EnviroLightingModule_t16B1DDD44C14D35B2F513D4EE918D98883BF92E1* L_16 = V_0;
+		NullCheck(L_16);
+		EnviroLighting_t62A6A24183B7B09761139558A9774C1DFB356C0B* L_17 = L_16->___Settings;
+		NullCheck(L_17);
+		float L_18 = L_17->___ambientIntensityModifier;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_19 = __this->___targetWeatherType;
+		NullCheck(L_19);
+		EnviroWeatherTypeLightingOverride_t07F2CFA9E28401F87B688E9D0BB3B6F9FB06E1F3* L_20 = L_19->___lightingOverride;
+		NullCheck(L_20);
+		float L_21 = L_20->___ambientIntensityModifier;
+		float L_22 = ___0_blendTime;
+		float L_23;
+		L_23 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_18, L_21, L_22, NULL);
+		NullCheck(L_15);
+		L_15->___ambientIntensityModifier = L_23;
+		EnviroLightingModule_t16B1DDD44C14D35B2F513D4EE918D98883BF92E1* L_24 = V_0;
+		NullCheck(L_24);
+		EnviroLighting_t62A6A24183B7B09761139558A9774C1DFB356C0B* L_25 = L_24->___Settings;
+		EnviroLightingModule_t16B1DDD44C14D35B2F513D4EE918D98883BF92E1* L_26 = V_0;
+		NullCheck(L_26);
+		EnviroLighting_t62A6A24183B7B09761139558A9774C1DFB356C0B* L_27 = L_26->___Settings;
+		NullCheck(L_27);
+		float L_28 = L_27->___shadowIntensity;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_29 = __this->___targetWeatherType;
+		NullCheck(L_29);
+		EnviroWeatherTypeLightingOverride_t07F2CFA9E28401F87B688E9D0BB3B6F9FB06E1F3* L_30 = L_29->___lightingOverride;
+		NullCheck(L_30);
+		float L_31 = L_30->___shadowIntensity;
+		float L_32 = ___0_blendTime;
+		float L_33;
+		L_33 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_28, L_31, L_32, NULL);
+		NullCheck(L_25);
+		L_25->___shadowIntensity = L_33;
+	}
+
+IL_009b:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_BlendSkyOverride_mF4BA8EE621E4B7038C1C5043E31CA597B3E27E4B (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, float ___0_blendTime, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit);
+	EnviroSkyModule_tDD4EFC5DAD889848CC372D98D1FCBF3A9D0EA87F* V_0 = NULL;
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_0;
+		L_0 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_0);
+		EnviroSkyModule_tDD4EFC5DAD889848CC372D98D1FCBF3A9D0EA87F* L_1 = ((EnviroManagerBase_tB87CACC2A3577D30A805E4B22A2888A00EED8850*)L_0)->___Sky;
+		V_0 = L_1;
+		EnviroSkyModule_tDD4EFC5DAD889848CC372D98D1FCBF3A9D0EA87F* L_2 = V_0;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_3;
+		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_009b;
+		}
+	}
+	{
+		EnviroSkyModule_tDD4EFC5DAD889848CC372D98D1FCBF3A9D0EA87F* L_4 = V_0;
+		NullCheck(L_4);
+		EnviroSky_t220E6F8C8E28A4243EAB406BB6AABB81A08E7267* L_5 = L_4->___Settings;
+		EnviroSkyModule_tDD4EFC5DAD889848CC372D98D1FCBF3A9D0EA87F* L_6 = V_0;
+		NullCheck(L_6);
+		EnviroSky_t220E6F8C8E28A4243EAB406BB6AABB81A08E7267* L_7 = L_6->___Settings;
+		NullCheck(L_7);
+		float L_8 = L_7->___mieScatteringMultiplier;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_9 = __this->___targetWeatherType;
+		NullCheck(L_9);
+		EnviroWeatherTypeSkyOverride_t64CE5477522574795E84C3C6A114B5EE17B7B6F0* L_10 = L_9->___skyOverride;
+		NullCheck(L_10);
+		float L_11 = L_10->___mieScatteringMultiplier;
+		float L_12 = ___0_blendTime;
+		float L_13;
+		L_13 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_8, L_11, L_12, NULL);
+		NullCheck(L_5);
+		L_5->___mieScatteringMultiplier = L_13;
+		EnviroSkyModule_tDD4EFC5DAD889848CC372D98D1FCBF3A9D0EA87F* L_14 = V_0;
+		NullCheck(L_14);
+		EnviroSky_t220E6F8C8E28A4243EAB406BB6AABB81A08E7267* L_15 = L_14->___Settings;
+		EnviroSkyModule_tDD4EFC5DAD889848CC372D98D1FCBF3A9D0EA87F* L_16 = V_0;
+		NullCheck(L_16);
+		EnviroSky_t220E6F8C8E28A4243EAB406BB6AABB81A08E7267* L_17 = L_16->___Settings;
+		NullCheck(L_17);
+		float L_18 = L_17->___skyColorExponent;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_19 = __this->___targetWeatherType;
+		NullCheck(L_19);
+		EnviroWeatherTypeSkyOverride_t64CE5477522574795E84C3C6A114B5EE17B7B6F0* L_20 = L_19->___skyOverride;
+		NullCheck(L_20);
+		float L_21 = L_20->___skyColorExponent;
+		float L_22 = ___0_blendTime;
+		float L_23;
+		L_23 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_18, L_21, L_22, NULL);
+		NullCheck(L_15);
+		L_15->___skyColorExponent = L_23;
+		EnviroSkyModule_tDD4EFC5DAD889848CC372D98D1FCBF3A9D0EA87F* L_24 = V_0;
+		NullCheck(L_24);
+		EnviroSky_t220E6F8C8E28A4243EAB406BB6AABB81A08E7267* L_25 = L_24->___Settings;
+		EnviroSkyModule_tDD4EFC5DAD889848CC372D98D1FCBF3A9D0EA87F* L_26 = V_0;
+		NullCheck(L_26);
+		EnviroSky_t220E6F8C8E28A4243EAB406BB6AABB81A08E7267* L_27 = L_26->___Settings;
+		NullCheck(L_27);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_28 = L_27->___skyColorTint;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_29 = __this->___targetWeatherType;
+		NullCheck(L_29);
+		EnviroWeatherTypeSkyOverride_t64CE5477522574795E84C3C6A114B5EE17B7B6F0* L_30 = L_29->___skyOverride;
+		NullCheck(L_30);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_31 = L_30->___skyColorTint;
+		float L_32 = ___0_blendTime;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_33;
+		L_33 = Color_Lerp_mE79F87889843ECDC188E4CB5B5E1F1B2256E5EBE_inline(L_28, L_31, L_32, NULL);
+		NullCheck(L_25);
+		L_25->___skyColorTint = L_33;
+	}
+
+IL_009b:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_BlendFogOverride_mDEE449E88FCC89C71CFE891612F2C38C084B42A3 (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, float ___0_blendTime, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit);
+	EnviroFogModule_tB87EBF49A482911AA5EF924483AD8F12FD40BB7A* V_0 = NULL;
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_0;
+		L_0 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_0);
+		EnviroFogModule_tB87EBF49A482911AA5EF924483AD8F12FD40BB7A* L_1 = ((EnviroManagerBase_tB87CACC2A3577D30A805E4B22A2888A00EED8850*)L_0)->___Fog;
+		V_0 = L_1;
+		EnviroFogModule_tB87EBF49A482911AA5EF924483AD8F12FD40BB7A* L_2 = V_0;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_3;
+		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_027f;
+		}
+	}
+	{
+		EnviroFogModule_tB87EBF49A482911AA5EF924483AD8F12FD40BB7A* L_4 = V_0;
+		NullCheck(L_4);
+		EnviroFogSettings_tF33D1D37949F52B12864740FD7B82AFB45C3AC7B* L_5 = L_4->___Settings;
+		EnviroFogModule_tB87EBF49A482911AA5EF924483AD8F12FD40BB7A* L_6 = V_0;
+		NullCheck(L_6);
+		EnviroFogSettings_tF33D1D37949F52B12864740FD7B82AFB45C3AC7B* L_7 = L_6->___Settings;
+		NullCheck(L_7);
+		float L_8 = L_7->___fogDensity;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_9 = __this->___targetWeatherType;
+		NullCheck(L_9);
+		EnviroWeatherTypeFogOverride_tB985178916BAD05543FE7263E677DA574FAB7BBA* L_10 = L_9->___fogOverride;
+		NullCheck(L_10);
+		float L_11 = L_10->___fogDensity;
+		float L_12 = ___0_blendTime;
+		float L_13;
+		L_13 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_8, L_11, L_12, NULL);
+		NullCheck(L_5);
+		L_5->___fogDensity = L_13;
+		EnviroFogModule_tB87EBF49A482911AA5EF924483AD8F12FD40BB7A* L_14 = V_0;
+		NullCheck(L_14);
+		EnviroFogSettings_tF33D1D37949F52B12864740FD7B82AFB45C3AC7B* L_15 = L_14->___Settings;
+		EnviroFogModule_tB87EBF49A482911AA5EF924483AD8F12FD40BB7A* L_16 = V_0;
+		NullCheck(L_16);
+		EnviroFogSettings_tF33D1D37949F52B12864740FD7B82AFB45C3AC7B* L_17 = L_16->___Settings;
+		NullCheck(L_17);
+		float L_18 = L_17->___fogHeightFalloff;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_19 = __this->___targetWeatherType;
+		NullCheck(L_19);
+		EnviroWeatherTypeFogOverride_tB985178916BAD05543FE7263E677DA574FAB7BBA* L_20 = L_19->___fogOverride;
+		NullCheck(L_20);
+		float L_21 = L_20->___fogHeightFalloff;
+		float L_22 = ___0_blendTime;
+		float L_23;
+		L_23 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_18, L_21, L_22, NULL);
+		NullCheck(L_15);
+		L_15->___fogHeightFalloff = L_23;
+		EnviroFogModule_tB87EBF49A482911AA5EF924483AD8F12FD40BB7A* L_24 = V_0;
+		NullCheck(L_24);
+		EnviroFogSettings_tF33D1D37949F52B12864740FD7B82AFB45C3AC7B* L_25 = L_24->___Settings;
+		EnviroFogModule_tB87EBF49A482911AA5EF924483AD8F12FD40BB7A* L_26 = V_0;
+		NullCheck(L_26);
+		EnviroFogSettings_tF33D1D37949F52B12864740FD7B82AFB45C3AC7B* L_27 = L_26->___Settings;
+		NullCheck(L_27);
+		float L_28 = L_27->___fogHeight;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_29 = __this->___targetWeatherType;
+		NullCheck(L_29);
+		EnviroWeatherTypeFogOverride_tB985178916BAD05543FE7263E677DA574FAB7BBA* L_30 = L_29->___fogOverride;
+		NullCheck(L_30);
+		float L_31 = L_30->___fogHeight;
+		float L_32 = ___0_blendTime;
+		float L_33;
+		L_33 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_28, L_31, L_32, NULL);
+		NullCheck(L_25);
+		L_25->___fogHeight = L_33;
+		EnviroFogModule_tB87EBF49A482911AA5EF924483AD8F12FD40BB7A* L_34 = V_0;
+		NullCheck(L_34);
+		EnviroFogSettings_tF33D1D37949F52B12864740FD7B82AFB45C3AC7B* L_35 = L_34->___Settings;
+		EnviroFogModule_tB87EBF49A482911AA5EF924483AD8F12FD40BB7A* L_36 = V_0;
+		NullCheck(L_36);
+		EnviroFogSettings_tF33D1D37949F52B12864740FD7B82AFB45C3AC7B* L_37 = L_36->___Settings;
+		NullCheck(L_37);
+		float L_38 = L_37->___fogDensity2;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_39 = __this->___targetWeatherType;
+		NullCheck(L_39);
+		EnviroWeatherTypeFogOverride_tB985178916BAD05543FE7263E677DA574FAB7BBA* L_40 = L_39->___fogOverride;
+		NullCheck(L_40);
+		float L_41 = L_40->___fogDensity2;
+		float L_42 = ___0_blendTime;
+		float L_43;
+		L_43 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_38, L_41, L_42, NULL);
+		NullCheck(L_35);
+		L_35->___fogDensity2 = L_43;
+		EnviroFogModule_tB87EBF49A482911AA5EF924483AD8F12FD40BB7A* L_44 = V_0;
+		NullCheck(L_44);
+		EnviroFogSettings_tF33D1D37949F52B12864740FD7B82AFB45C3AC7B* L_45 = L_44->___Settings;
+		EnviroFogModule_tB87EBF49A482911AA5EF924483AD8F12FD40BB7A* L_46 = V_0;
+		NullCheck(L_46);
+		EnviroFogSettings_tF33D1D37949F52B12864740FD7B82AFB45C3AC7B* L_47 = L_46->___Settings;
+		NullCheck(L_47);
+		float L_48 = L_47->___fogHeightFalloff2;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_49 = __this->___targetWeatherType;
+		NullCheck(L_49);
+		EnviroWeatherTypeFogOverride_tB985178916BAD05543FE7263E677DA574FAB7BBA* L_50 = L_49->___fogOverride;
+		NullCheck(L_50);
+		float L_51 = L_50->___fogHeightFalloff2;
+		float L_52 = ___0_blendTime;
+		float L_53;
+		L_53 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_48, L_51, L_52, NULL);
+		NullCheck(L_45);
+		L_45->___fogHeightFalloff2 = L_53;
+		EnviroFogModule_tB87EBF49A482911AA5EF924483AD8F12FD40BB7A* L_54 = V_0;
+		NullCheck(L_54);
+		EnviroFogSettings_tF33D1D37949F52B12864740FD7B82AFB45C3AC7B* L_55 = L_54->___Settings;
+		EnviroFogModule_tB87EBF49A482911AA5EF924483AD8F12FD40BB7A* L_56 = V_0;
+		NullCheck(L_56);
+		EnviroFogSettings_tF33D1D37949F52B12864740FD7B82AFB45C3AC7B* L_57 = L_56->___Settings;
+		NullCheck(L_57);
+		float L_58 = L_57->___fogHeight2;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_59 = __this->___targetWeatherType;
+		NullCheck(L_59);
+		EnviroWeatherTypeFogOverride_tB985178916BAD05543FE7263E677DA574FAB7BBA* L_60 = L_59->___fogOverride;
+		NullCheck(L_60);
+		float L_61 = L_60->___fogHeight2;
+		float L_62 = ___0_blendTime;
+		float L_63;
+		L_63 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_58, L_61, L_62, NULL);
+		NullCheck(L_55);
+		L_55->___fogHeight2 = L_63;
+		EnviroFogModule_tB87EBF49A482911AA5EF924483AD8F12FD40BB7A* L_64 = V_0;
+		NullCheck(L_64);
+		EnviroFogSettings_tF33D1D37949F52B12864740FD7B82AFB45C3AC7B* L_65 = L_64->___Settings;
+		EnviroFogModule_tB87EBF49A482911AA5EF924483AD8F12FD40BB7A* L_66 = V_0;
+		NullCheck(L_66);
+		EnviroFogSettings_tF33D1D37949F52B12864740FD7B82AFB45C3AC7B* L_67 = L_66->___Settings;
+		NullCheck(L_67);
+		float L_68 = L_67->___fogColorBlend;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_69 = __this->___targetWeatherType;
+		NullCheck(L_69);
+		EnviroWeatherTypeFogOverride_tB985178916BAD05543FE7263E677DA574FAB7BBA* L_70 = L_69->___fogOverride;
+		NullCheck(L_70);
+		float L_71 = L_70->___fogColorBlend;
+		float L_72 = ___0_blendTime;
+		float L_73;
+		L_73 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_68, L_71, L_72, NULL);
+		NullCheck(L_65);
+		L_65->___fogColorBlend = L_73;
+		EnviroFogModule_tB87EBF49A482911AA5EF924483AD8F12FD40BB7A* L_74 = V_0;
+		NullCheck(L_74);
+		EnviroFogSettings_tF33D1D37949F52B12864740FD7B82AFB45C3AC7B* L_75 = L_74->___Settings;
+		EnviroFogModule_tB87EBF49A482911AA5EF924483AD8F12FD40BB7A* L_76 = V_0;
+		NullCheck(L_76);
+		EnviroFogSettings_tF33D1D37949F52B12864740FD7B82AFB45C3AC7B* L_77 = L_76->___Settings;
+		NullCheck(L_77);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_78 = L_77->___fogColorMod;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_79 = __this->___targetWeatherType;
+		NullCheck(L_79);
+		EnviroWeatherTypeFogOverride_tB985178916BAD05543FE7263E677DA574FAB7BBA* L_80 = L_79->___fogOverride;
+		NullCheck(L_80);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_81 = L_80->___fogColorMod;
+		float L_82 = ___0_blendTime;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_83;
+		L_83 = Color_Lerp_mE79F87889843ECDC188E4CB5B5E1F1B2256E5EBE_inline(L_78, L_81, L_82, NULL);
+		NullCheck(L_75);
+		L_75->___fogColorMod = L_83;
+		EnviroFogModule_tB87EBF49A482911AA5EF924483AD8F12FD40BB7A* L_84 = V_0;
+		NullCheck(L_84);
+		EnviroFogSettings_tF33D1D37949F52B12864740FD7B82AFB45C3AC7B* L_85 = L_84->___Settings;
+		EnviroFogModule_tB87EBF49A482911AA5EF924483AD8F12FD40BB7A* L_86 = V_0;
+		NullCheck(L_86);
+		EnviroFogSettings_tF33D1D37949F52B12864740FD7B82AFB45C3AC7B* L_87 = L_86->___Settings;
+		NullCheck(L_87);
+		float L_88 = L_87->___scattering;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_89 = __this->___targetWeatherType;
+		NullCheck(L_89);
+		EnviroWeatherTypeFogOverride_tB985178916BAD05543FE7263E677DA574FAB7BBA* L_90 = L_89->___fogOverride;
+		NullCheck(L_90);
+		float L_91 = L_90->___scattering;
+		float L_92 = ___0_blendTime;
+		float L_93;
+		L_93 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_88, L_91, L_92, NULL);
+		NullCheck(L_85);
+		L_85->___scattering = L_93;
+		EnviroFogModule_tB87EBF49A482911AA5EF924483AD8F12FD40BB7A* L_94 = V_0;
+		NullCheck(L_94);
+		EnviroFogSettings_tF33D1D37949F52B12864740FD7B82AFB45C3AC7B* L_95 = L_94->___Settings;
+		EnviroFogModule_tB87EBF49A482911AA5EF924483AD8F12FD40BB7A* L_96 = V_0;
+		NullCheck(L_96);
+		EnviroFogSettings_tF33D1D37949F52B12864740FD7B82AFB45C3AC7B* L_97 = L_96->___Settings;
+		NullCheck(L_97);
+		float L_98 = L_97->___extinction;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_99 = __this->___targetWeatherType;
+		NullCheck(L_99);
+		EnviroWeatherTypeFogOverride_tB985178916BAD05543FE7263E677DA574FAB7BBA* L_100 = L_99->___fogOverride;
+		NullCheck(L_100);
+		float L_101 = L_100->___extinction;
+		float L_102 = ___0_blendTime;
+		float L_103;
+		L_103 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_98, L_101, L_102, NULL);
+		NullCheck(L_95);
+		L_95->___extinction = L_103;
+		EnviroFogModule_tB87EBF49A482911AA5EF924483AD8F12FD40BB7A* L_104 = V_0;
+		NullCheck(L_104);
+		EnviroFogSettings_tF33D1D37949F52B12864740FD7B82AFB45C3AC7B* L_105 = L_104->___Settings;
+		EnviroFogModule_tB87EBF49A482911AA5EF924483AD8F12FD40BB7A* L_106 = V_0;
+		NullCheck(L_106);
+		EnviroFogSettings_tF33D1D37949F52B12864740FD7B82AFB45C3AC7B* L_107 = L_106->___Settings;
+		NullCheck(L_107);
+		float L_108 = L_107->___anistropy;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_109 = __this->___targetWeatherType;
+		NullCheck(L_109);
+		EnviroWeatherTypeFogOverride_tB985178916BAD05543FE7263E677DA574FAB7BBA* L_110 = L_109->___fogOverride;
+		NullCheck(L_110);
+		float L_111 = L_110->___anistropy;
+		float L_112 = ___0_blendTime;
+		float L_113;
+		L_113 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_108, L_111, L_112, NULL);
+		NullCheck(L_105);
+		L_105->___anistropy = L_113;
+		EnviroFogModule_tB87EBF49A482911AA5EF924483AD8F12FD40BB7A* L_114 = V_0;
+		NullCheck(L_114);
+		EnviroFogSettings_tF33D1D37949F52B12864740FD7B82AFB45C3AC7B* L_115 = L_114->___Settings;
+		EnviroFogModule_tB87EBF49A482911AA5EF924483AD8F12FD40BB7A* L_116 = V_0;
+		NullCheck(L_116);
+		EnviroFogSettings_tF33D1D37949F52B12864740FD7B82AFB45C3AC7B* L_117 = L_116->___Settings;
+		NullCheck(L_117);
+		float L_118 = L_117->___unityFogDensity;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_119 = __this->___targetWeatherType;
+		NullCheck(L_119);
+		EnviroWeatherTypeFogOverride_tB985178916BAD05543FE7263E677DA574FAB7BBA* L_120 = L_119->___fogOverride;
+		NullCheck(L_120);
+		float L_121 = L_120->___unityFogDensity;
+		float L_122 = ___0_blendTime;
+		float L_123;
+		L_123 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_118, L_121, L_122, NULL);
+		NullCheck(L_115);
+		L_115->___unityFogDensity = L_123;
+		EnviroFogModule_tB87EBF49A482911AA5EF924483AD8F12FD40BB7A* L_124 = V_0;
+		NullCheck(L_124);
+		EnviroFogSettings_tF33D1D37949F52B12864740FD7B82AFB45C3AC7B* L_125 = L_124->___Settings;
+		EnviroFogModule_tB87EBF49A482911AA5EF924483AD8F12FD40BB7A* L_126 = V_0;
+		NullCheck(L_126);
+		EnviroFogSettings_tF33D1D37949F52B12864740FD7B82AFB45C3AC7B* L_127 = L_126->___Settings;
+		NullCheck(L_127);
+		float L_128 = L_127->___unityFogStartDistance;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_129 = __this->___targetWeatherType;
+		NullCheck(L_129);
+		EnviroWeatherTypeFogOverride_tB985178916BAD05543FE7263E677DA574FAB7BBA* L_130 = L_129->___fogOverride;
+		NullCheck(L_130);
+		float L_131 = L_130->___unityFogStartDistance;
+		float L_132 = ___0_blendTime;
+		float L_133;
+		L_133 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_128, L_131, L_132, NULL);
+		NullCheck(L_125);
+		L_125->___unityFogStartDistance = L_133;
+		EnviroFogModule_tB87EBF49A482911AA5EF924483AD8F12FD40BB7A* L_134 = V_0;
+		NullCheck(L_134);
+		EnviroFogSettings_tF33D1D37949F52B12864740FD7B82AFB45C3AC7B* L_135 = L_134->___Settings;
+		EnviroFogModule_tB87EBF49A482911AA5EF924483AD8F12FD40BB7A* L_136 = V_0;
+		NullCheck(L_136);
+		EnviroFogSettings_tF33D1D37949F52B12864740FD7B82AFB45C3AC7B* L_137 = L_136->___Settings;
+		NullCheck(L_137);
+		float L_138 = L_137->___unityFogEndDistance;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_139 = __this->___targetWeatherType;
+		NullCheck(L_139);
+		EnviroWeatherTypeFogOverride_tB985178916BAD05543FE7263E677DA574FAB7BBA* L_140 = L_139->___fogOverride;
+		NullCheck(L_140);
+		float L_141 = L_140->___unityFogEndDistance;
+		float L_142 = ___0_blendTime;
+		float L_143;
+		L_143 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_138, L_141, L_142, NULL);
+		NullCheck(L_135);
+		L_135->___unityFogEndDistance = L_143;
+	}
+
+IL_027f:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_BlendEffectsOverride_m65B17064F9FBEA538C448AC7700FBDCF50D24372 (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, float ___0_blendTime, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit);
+	EnviroEffectsModule_tF358437C99012B6FBAB07F9B0E34397AC5C11D07* V_0 = NULL;
+	int32_t V_1 = 0;
+	bool V_2 = false;
+	int32_t V_3 = 0;
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_0;
+		L_0 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_0);
+		EnviroEffectsModule_tF358437C99012B6FBAB07F9B0E34397AC5C11D07* L_1 = ((EnviroManagerBase_tB87CACC2A3577D30A805E4B22A2888A00EED8850*)L_0)->___Effects;
+		V_0 = L_1;
+		EnviroEffectsModule_tF358437C99012B6FBAB07F9B0E34397AC5C11D07* L_2 = V_0;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_3;
+		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_0121;
+		}
+	}
+	{
+		V_1 = 0;
+		goto IL_010b;
+	}
+
+IL_001e:
+	{
+		V_2 = (bool)0;
+		V_3 = 0;
+		goto IL_00b2;
+	}
+
+IL_0027:
+	{
+		EnviroEffectsModule_tF358437C99012B6FBAB07F9B0E34397AC5C11D07* L_4 = V_0;
+		NullCheck(L_4);
+		EnviroEffects_t006FB5D6FC9AD75B1A17F1101FA0CE5295E3EC68* L_5 = L_4->___Settings;
+		NullCheck(L_5);
+		List_1_t726ADB812DC32A8DA0B15840FF6AD7FA6AC2151B* L_6 = L_5->___effectTypes;
+		int32_t L_7 = V_1;
+		NullCheck(L_6);
+		EnviroEffectTypes_t195B779D6B2504CD4131CC2C64DFFD9D0320CBFF* L_8;
+		L_8 = List_1_get_Item_mD41BFD17CC4036E5D128EB24A003879EEFAA0B07(L_6, L_7, NULL);
+		NullCheck(L_8);
+		String_t* L_9 = L_8->___name;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_10 = __this->___targetWeatherType;
+		NullCheck(L_10);
+		EnviroWeatherTypeEffectsOverride_tFA4A348F0EA0113AB82B4AE1829CD2156B1DF674* L_11 = L_10->___effectsOverride;
+		NullCheck(L_11);
+		List_1_t9ABE3324A49D590AC7053A8FFA5F1EB8F2B52F26* L_12 = L_11->___effectsOverride;
+		int32_t L_13 = V_3;
+		NullCheck(L_12);
+		EnviroEffectsOverrideType_tF276CE32D42E2F8092D48D7D8196BF3F0B7058EF* L_14;
+		L_14 = List_1_get_Item_m5DD293E52F4112D1997ADD6114A2C86D2287B615(L_12, L_13, NULL);
+		NullCheck(L_14);
+		String_t* L_15 = L_14->___name;
+		bool L_16;
+		L_16 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_9, L_15, NULL);
+		if (!L_16)
+		{
+			goto IL_00ae;
+		}
+	}
+	{
+		EnviroEffectsModule_tF358437C99012B6FBAB07F9B0E34397AC5C11D07* L_17 = V_0;
+		NullCheck(L_17);
+		EnviroEffects_t006FB5D6FC9AD75B1A17F1101FA0CE5295E3EC68* L_18 = L_17->___Settings;
+		NullCheck(L_18);
+		List_1_t726ADB812DC32A8DA0B15840FF6AD7FA6AC2151B* L_19 = L_18->___effectTypes;
+		int32_t L_20 = V_1;
+		NullCheck(L_19);
+		EnviroEffectTypes_t195B779D6B2504CD4131CC2C64DFFD9D0320CBFF* L_21;
+		L_21 = List_1_get_Item_mD41BFD17CC4036E5D128EB24A003879EEFAA0B07(L_19, L_20, NULL);
+		EnviroEffectsModule_tF358437C99012B6FBAB07F9B0E34397AC5C11D07* L_22 = V_0;
+		NullCheck(L_22);
+		EnviroEffects_t006FB5D6FC9AD75B1A17F1101FA0CE5295E3EC68* L_23 = L_22->___Settings;
+		NullCheck(L_23);
+		List_1_t726ADB812DC32A8DA0B15840FF6AD7FA6AC2151B* L_24 = L_23->___effectTypes;
+		int32_t L_25 = V_1;
+		NullCheck(L_24);
+		EnviroEffectTypes_t195B779D6B2504CD4131CC2C64DFFD9D0320CBFF* L_26;
+		L_26 = List_1_get_Item_mD41BFD17CC4036E5D128EB24A003879EEFAA0B07(L_24, L_25, NULL);
+		NullCheck(L_26);
+		float L_27 = L_26->___emissionRate;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_28 = __this->___targetWeatherType;
+		NullCheck(L_28);
+		EnviroWeatherTypeEffectsOverride_tFA4A348F0EA0113AB82B4AE1829CD2156B1DF674* L_29 = L_28->___effectsOverride;
+		NullCheck(L_29);
+		List_1_t9ABE3324A49D590AC7053A8FFA5F1EB8F2B52F26* L_30 = L_29->___effectsOverride;
+		int32_t L_31 = V_3;
+		NullCheck(L_30);
+		EnviroEffectsOverrideType_tF276CE32D42E2F8092D48D7D8196BF3F0B7058EF* L_32;
+		L_32 = List_1_get_Item_m5DD293E52F4112D1997ADD6114A2C86D2287B615(L_30, L_31, NULL);
+		NullCheck(L_32);
+		float L_33 = L_32->___emission;
+		float L_34 = ___0_blendTime;
+		float L_35;
+		L_35 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_27, L_33, L_34, NULL);
+		NullCheck(L_21);
+		L_21->___emissionRate = L_35;
+		V_2 = (bool)1;
+	}
+
+IL_00ae:
+	{
+		int32_t L_36 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_36, 1));
+	}
+
+IL_00b2:
+	{
+		int32_t L_37 = V_3;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_38 = __this->___targetWeatherType;
+		NullCheck(L_38);
+		EnviroWeatherTypeEffectsOverride_tFA4A348F0EA0113AB82B4AE1829CD2156B1DF674* L_39 = L_38->___effectsOverride;
+		NullCheck(L_39);
+		List_1_t9ABE3324A49D590AC7053A8FFA5F1EB8F2B52F26* L_40 = L_39->___effectsOverride;
+		NullCheck(L_40);
+		int32_t L_41;
+		L_41 = List_1_get_Count_m4FCCA450E73461A5815133A2C91A5E13042F6FA5_inline(L_40, NULL);
+		if ((((int32_t)L_37) < ((int32_t)L_41)))
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		bool L_42 = V_2;
+		if (L_42)
+		{
+			goto IL_0107;
+		}
+	}
+	{
+		EnviroEffectsModule_tF358437C99012B6FBAB07F9B0E34397AC5C11D07* L_43 = V_0;
+		NullCheck(L_43);
+		EnviroEffects_t006FB5D6FC9AD75B1A17F1101FA0CE5295E3EC68* L_44 = L_43->___Settings;
+		NullCheck(L_44);
+		List_1_t726ADB812DC32A8DA0B15840FF6AD7FA6AC2151B* L_45 = L_44->___effectTypes;
+		int32_t L_46 = V_1;
+		NullCheck(L_45);
+		EnviroEffectTypes_t195B779D6B2504CD4131CC2C64DFFD9D0320CBFF* L_47;
+		L_47 = List_1_get_Item_mD41BFD17CC4036E5D128EB24A003879EEFAA0B07(L_45, L_46, NULL);
+		EnviroEffectsModule_tF358437C99012B6FBAB07F9B0E34397AC5C11D07* L_48 = V_0;
+		NullCheck(L_48);
+		EnviroEffects_t006FB5D6FC9AD75B1A17F1101FA0CE5295E3EC68* L_49 = L_48->___Settings;
+		NullCheck(L_49);
+		List_1_t726ADB812DC32A8DA0B15840FF6AD7FA6AC2151B* L_50 = L_49->___effectTypes;
+		int32_t L_51 = V_1;
+		NullCheck(L_50);
+		EnviroEffectTypes_t195B779D6B2504CD4131CC2C64DFFD9D0320CBFF* L_52;
+		L_52 = List_1_get_Item_mD41BFD17CC4036E5D128EB24A003879EEFAA0B07(L_50, L_51, NULL);
+		NullCheck(L_52);
+		float L_53 = L_52->___emissionRate;
+		float L_54 = ___0_blendTime;
+		float L_55;
+		L_55 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_53, (0.0f), L_54, NULL);
+		NullCheck(L_47);
+		L_47->___emissionRate = L_55;
+	}
+
+IL_0107:
+	{
+		int32_t L_56 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_56, 1));
+	}
+
+IL_010b:
+	{
+		int32_t L_57 = V_1;
+		EnviroEffectsModule_tF358437C99012B6FBAB07F9B0E34397AC5C11D07* L_58 = V_0;
+		NullCheck(L_58);
+		EnviroEffects_t006FB5D6FC9AD75B1A17F1101FA0CE5295E3EC68* L_59 = L_58->___Settings;
+		NullCheck(L_59);
+		List_1_t726ADB812DC32A8DA0B15840FF6AD7FA6AC2151B* L_60 = L_59->___effectTypes;
+		NullCheck(L_60);
+		int32_t L_61;
+		L_61 = List_1_get_Count_m6F66F75017EC2058D9576487AD416FE1A4FB91AC_inline(L_60, NULL);
+		if ((((int32_t)L_57) < ((int32_t)L_61)))
+		{
+			goto IL_001e;
+		}
+	}
+
+IL_0121:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_BlendVolumetricCloudsOverride_m64C75FD14DE191B041C9951BD420C18B24B7E3F4 (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, float ___0_blendTime, float ___1_blendTime2, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit);
+	EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* V_0 = NULL;
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_0;
+		L_0 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_0);
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_1 = ((EnviroManagerBase_tB87CACC2A3577D30A805E4B22A2888A00EED8850*)L_0)->___VolumetricClouds;
+		V_0 = L_1;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_2 = V_0;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_3;
+		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_053f;
+		}
+	}
+	{
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_4 = V_0;
+		NullCheck(L_4);
+		EnviroCloudGlobalSettings_t305AD4B282D7A6364CC6FCC3D256033BD8C2E62B* L_5 = L_4->___settingsGlobal;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_6 = V_0;
+		NullCheck(L_6);
+		EnviroCloudGlobalSettings_t305AD4B282D7A6364CC6FCC3D256033BD8C2E62B* L_7 = L_6->___settingsGlobal;
+		NullCheck(L_7);
+		float L_8 = L_7->___ambientLighIntensity;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_9 = __this->___targetWeatherType;
+		NullCheck(L_9);
+		EnviroWeatherTypeCloudsOverride_tC1AFB55E8041AE7EA97280859B3FA34021AB6CA0* L_10 = L_9->___cloudsOverride;
+		NullCheck(L_10);
+		float L_11 = L_10->___ambientLightIntensity;
+		float L_12 = ___0_blendTime;
+		float L_13;
+		L_13 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_8, L_11, L_12, NULL);
+		NullCheck(L_5);
+		L_5->___ambientLighIntensity = L_13;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_14 = V_0;
+		NullCheck(L_14);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_15 = L_14->___settingsVolume;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_16 = V_0;
+		NullCheck(L_16);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_17 = L_16->___settingsVolume;
+		NullCheck(L_17);
+		float L_18 = L_17->___baseNoiseUVMultiplier;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_19 = __this->___targetWeatherType;
+		NullCheck(L_19);
+		EnviroWeatherTypeCloudsOverride_tC1AFB55E8041AE7EA97280859B3FA34021AB6CA0* L_20 = L_19->___cloudsOverride;
+		NullCheck(L_20);
+		float L_21 = L_20->___baseNoiseUVMultiplier;
+		float L_22 = ___1_blendTime2;
+		float L_23;
+		L_23 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_18, L_21, L_22, NULL);
+		NullCheck(L_15);
+		L_15->___baseNoiseUVMultiplier = L_23;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_24 = V_0;
+		NullCheck(L_24);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_25 = L_24->___settingsVolume;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_26 = V_0;
+		NullCheck(L_26);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_27 = L_26->___settingsVolume;
+		NullCheck(L_27);
+		float L_28 = L_27->___detailNoiseUVMultiplier;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_29 = __this->___targetWeatherType;
+		NullCheck(L_29);
+		EnviroWeatherTypeCloudsOverride_tC1AFB55E8041AE7EA97280859B3FA34021AB6CA0* L_30 = L_29->___cloudsOverride;
+		NullCheck(L_30);
+		float L_31 = L_30->___detailNoiseUVMultiplier;
+		float L_32 = ___1_blendTime2;
+		float L_33;
+		L_33 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_28, L_31, L_32, NULL);
+		NullCheck(L_25);
+		L_25->___detailNoiseUVMultiplier = L_33;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_34 = V_0;
+		NullCheck(L_34);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_35 = L_34->___settingsVolume;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_36 = V_0;
+		NullCheck(L_36);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_37 = L_36->___settingsVolume;
+		NullCheck(L_37);
+		float L_38 = L_37->___coverage;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_39 = __this->___targetWeatherType;
+		NullCheck(L_39);
+		EnviroWeatherTypeCloudsOverride_tC1AFB55E8041AE7EA97280859B3FA34021AB6CA0* L_40 = L_39->___cloudsOverride;
+		NullCheck(L_40);
+		float L_41 = L_40->___coverage;
+		float L_42 = ___0_blendTime;
+		float L_43;
+		L_43 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_38, L_41, L_42, NULL);
+		NullCheck(L_35);
+		L_35->___coverage = L_43;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_44 = V_0;
+		NullCheck(L_44);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_45 = L_44->___settingsVolume;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_46 = V_0;
+		NullCheck(L_46);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_47 = L_46->___settingsVolume;
+		NullCheck(L_47);
+		float L_48 = L_47->___dilateCoverage;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_49 = __this->___targetWeatherType;
+		NullCheck(L_49);
+		EnviroWeatherTypeCloudsOverride_tC1AFB55E8041AE7EA97280859B3FA34021AB6CA0* L_50 = L_49->___cloudsOverride;
+		NullCheck(L_50);
+		float L_51 = L_50->___dilateCoverage;
+		float L_52 = ___0_blendTime;
+		float L_53;
+		L_53 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_48, L_51, L_52, NULL);
+		NullCheck(L_45);
+		L_45->___dilateCoverage = L_53;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_54 = V_0;
+		NullCheck(L_54);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_55 = L_54->___settingsVolume;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_56 = V_0;
+		NullCheck(L_56);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_57 = L_56->___settingsVolume;
+		NullCheck(L_57);
+		float L_58 = L_57->___dilateType;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_59 = __this->___targetWeatherType;
+		NullCheck(L_59);
+		EnviroWeatherTypeCloudsOverride_tC1AFB55E8041AE7EA97280859B3FA34021AB6CA0* L_60 = L_59->___cloudsOverride;
+		NullCheck(L_60);
+		float L_61 = L_60->___dilateType;
+		float L_62 = ___0_blendTime;
+		float L_63;
+		L_63 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_58, L_61, L_62, NULL);
+		NullCheck(L_55);
+		L_55->___dilateType = L_63;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_64 = V_0;
+		NullCheck(L_64);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_65 = L_64->___settingsVolume;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_66 = V_0;
+		NullCheck(L_66);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_67 = L_66->___settingsVolume;
+		NullCheck(L_67);
+		float L_68 = L_67->___cloudsTypeModifier;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_69 = __this->___targetWeatherType;
+		NullCheck(L_69);
+		EnviroWeatherTypeCloudsOverride_tC1AFB55E8041AE7EA97280859B3FA34021AB6CA0* L_70 = L_69->___cloudsOverride;
+		NullCheck(L_70);
+		float L_71 = L_70->___typeModifier;
+		float L_72 = ___0_blendTime;
+		float L_73;
+		L_73 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_68, L_71, L_72, NULL);
+		NullCheck(L_65);
+		L_65->___cloudsTypeModifier = L_73;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_74 = V_0;
+		NullCheck(L_74);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_75 = L_74->___settingsVolume;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_76 = V_0;
+		NullCheck(L_76);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_77 = L_76->___settingsVolume;
+		NullCheck(L_77);
+		float L_78 = L_77->___cloudTypeShaping;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_79 = __this->___targetWeatherType;
+		NullCheck(L_79);
+		EnviroWeatherTypeCloudsOverride_tC1AFB55E8041AE7EA97280859B3FA34021AB6CA0* L_80 = L_79->___cloudsOverride;
+		NullCheck(L_80);
+		float L_81 = L_80->___cloudTypeShaping;
+		float L_82 = ___0_blendTime;
+		float L_83;
+		L_83 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_78, L_81, L_82, NULL);
+		NullCheck(L_75);
+		L_75->___cloudTypeShaping = L_83;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_84 = V_0;
+		NullCheck(L_84);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_85 = L_84->___settingsVolume;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_86 = V_0;
+		NullCheck(L_86);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_87 = L_86->___settingsVolume;
+		NullCheck(L_87);
+		float L_88 = L_87->___silverLiningIntensity;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_89 = __this->___targetWeatherType;
+		NullCheck(L_89);
+		EnviroWeatherTypeCloudsOverride_tC1AFB55E8041AE7EA97280859B3FA34021AB6CA0* L_90 = L_89->___cloudsOverride;
+		NullCheck(L_90);
+		float L_91 = L_90->___silverLiningIntensity;
+		float L_92 = ___0_blendTime;
+		float L_93;
+		L_93 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_88, L_91, L_92, NULL);
+		NullCheck(L_85);
+		L_85->___silverLiningIntensity = L_93;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_94 = V_0;
+		NullCheck(L_94);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_95 = L_94->___settingsVolume;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_96 = V_0;
+		NullCheck(L_96);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_97 = L_96->___settingsVolume;
+		NullCheck(L_97);
+		float L_98 = L_97->___edgeHighlightStrength;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_99 = __this->___targetWeatherType;
+		NullCheck(L_99);
+		EnviroWeatherTypeCloudsOverride_tC1AFB55E8041AE7EA97280859B3FA34021AB6CA0* L_100 = L_99->___cloudsOverride;
+		NullCheck(L_100);
+		float L_101 = L_100->___edgeHighlightStrength;
+		float L_102 = ___0_blendTime;
+		float L_103;
+		L_103 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_98, L_101, L_102, NULL);
+		NullCheck(L_95);
+		L_95->___edgeHighlightStrength = L_103;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_104 = V_0;
+		NullCheck(L_104);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_105 = L_104->___settingsVolume;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_106 = V_0;
+		NullCheck(L_106);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_107 = L_106->___settingsVolume;
+		NullCheck(L_107);
+		float L_108 = L_107->___bottomShape;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_109 = __this->___targetWeatherType;
+		NullCheck(L_109);
+		EnviroWeatherTypeCloudsOverride_tC1AFB55E8041AE7EA97280859B3FA34021AB6CA0* L_110 = L_109->___cloudsOverride;
+		NullCheck(L_110);
+		float L_111 = L_110->___bottomShape;
+		float L_112 = ___0_blendTime;
+		float L_113;
+		L_113 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_108, L_111, L_112, NULL);
+		NullCheck(L_105);
+		L_105->___bottomShape = L_113;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_114 = V_0;
+		NullCheck(L_114);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_115 = L_114->___settingsVolume;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_116 = V_0;
+		NullCheck(L_116);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_117 = L_116->___settingsVolume;
+		NullCheck(L_117);
+		float L_118 = L_117->___midShape;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_119 = __this->___targetWeatherType;
+		NullCheck(L_119);
+		EnviroWeatherTypeCloudsOverride_tC1AFB55E8041AE7EA97280859B3FA34021AB6CA0* L_120 = L_119->___cloudsOverride;
+		NullCheck(L_120);
+		float L_121 = L_120->___midShape;
+		float L_122 = ___0_blendTime;
+		float L_123;
+		L_123 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_118, L_121, L_122, NULL);
+		NullCheck(L_115);
+		L_115->___midShape = L_123;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_124 = V_0;
+		NullCheck(L_124);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_125 = L_124->___settingsVolume;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_126 = V_0;
+		NullCheck(L_126);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_127 = L_126->___settingsVolume;
+		NullCheck(L_127);
+		float L_128 = L_127->___topShape;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_129 = __this->___targetWeatherType;
+		NullCheck(L_129);
+		EnviroWeatherTypeCloudsOverride_tC1AFB55E8041AE7EA97280859B3FA34021AB6CA0* L_130 = L_129->___cloudsOverride;
+		NullCheck(L_130);
+		float L_131 = L_130->___topShape;
+		float L_132 = ___0_blendTime;
+		float L_133;
+		L_133 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_128, L_131, L_132, NULL);
+		NullCheck(L_125);
+		L_125->___topShape = L_133;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_134 = V_0;
+		NullCheck(L_134);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_135 = L_134->___settingsVolume;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_136 = V_0;
+		NullCheck(L_136);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_137 = L_136->___settingsVolume;
+		NullCheck(L_137);
+		float L_138 = L_137->___topLayer;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_139 = __this->___targetWeatherType;
+		NullCheck(L_139);
+		EnviroWeatherTypeCloudsOverride_tC1AFB55E8041AE7EA97280859B3FA34021AB6CA0* L_140 = L_139->___cloudsOverride;
+		NullCheck(L_140);
+		float L_141 = L_140->___topLayer;
+		float L_142 = ___0_blendTime;
+		float L_143;
+		L_143 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_138, L_141, L_142, NULL);
+		NullCheck(L_135);
+		L_135->___topLayer = L_143;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_144 = V_0;
+		NullCheck(L_144);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_145 = L_144->___settingsVolume;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_146 = V_0;
+		NullCheck(L_146);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_147 = L_146->___settingsVolume;
+		NullCheck(L_147);
+		float L_148 = L_147->___rampShape;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_149 = __this->___targetWeatherType;
+		NullCheck(L_149);
+		EnviroWeatherTypeCloudsOverride_tC1AFB55E8041AE7EA97280859B3FA34021AB6CA0* L_150 = L_149->___cloudsOverride;
+		NullCheck(L_150);
+		float L_151 = L_150->___rampShape;
+		float L_152 = ___0_blendTime;
+		float L_153;
+		L_153 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_148, L_151, L_152, NULL);
+		NullCheck(L_145);
+		L_145->___rampShape = L_153;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_154 = V_0;
+		NullCheck(L_154);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_155 = L_154->___settingsVolume;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_156 = V_0;
+		NullCheck(L_156);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_157 = L_156->___settingsVolume;
+		NullCheck(L_157);
+		float L_158 = L_157->___scatteringIntensity;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_159 = __this->___targetWeatherType;
+		NullCheck(L_159);
+		EnviroWeatherTypeCloudsOverride_tC1AFB55E8041AE7EA97280859B3FA34021AB6CA0* L_160 = L_159->___cloudsOverride;
+		NullCheck(L_160);
+		float L_161 = L_160->___scatteringIntensity;
+		float L_162 = ___0_blendTime;
+		float L_163;
+		L_163 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_158, L_161, L_162, NULL);
+		NullCheck(L_155);
+		L_155->___scatteringIntensity = L_163;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_164 = V_0;
+		NullCheck(L_164);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_165 = L_164->___settingsVolume;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_166 = V_0;
+		NullCheck(L_166);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_167 = L_166->___settingsVolume;
+		NullCheck(L_167);
+		float L_168 = L_167->___multiScatterStrength;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_169 = __this->___targetWeatherType;
+		NullCheck(L_169);
+		EnviroWeatherTypeCloudsOverride_tC1AFB55E8041AE7EA97280859B3FA34021AB6CA0* L_170 = L_169->___cloudsOverride;
+		NullCheck(L_170);
+		float L_171 = L_170->___multiScatterStrength;
+		float L_172 = ___0_blendTime;
+		float L_173;
+		L_173 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_168, L_171, L_172, NULL);
+		NullCheck(L_165);
+		L_165->___multiScatterStrength = L_173;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_174 = V_0;
+		NullCheck(L_174);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_175 = L_174->___settingsVolume;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_176 = V_0;
+		NullCheck(L_176);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_177 = L_176->___settingsVolume;
+		NullCheck(L_177);
+		float L_178 = L_177->___multiScatterFalloff;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_179 = __this->___targetWeatherType;
+		NullCheck(L_179);
+		EnviroWeatherTypeCloudsOverride_tC1AFB55E8041AE7EA97280859B3FA34021AB6CA0* L_180 = L_179->___cloudsOverride;
+		NullCheck(L_180);
+		float L_181 = L_180->___multiScatterFalloff;
+		float L_182 = ___0_blendTime;
+		float L_183;
+		L_183 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_178, L_181, L_182, NULL);
+		NullCheck(L_175);
+		L_175->___multiScatterFalloff = L_183;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_184 = V_0;
+		NullCheck(L_184);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_185 = L_184->___settingsVolume;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_186 = V_0;
+		NullCheck(L_186);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_187 = L_186->___settingsVolume;
+		NullCheck(L_187);
+		float L_188 = L_187->___ambientFloor;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_189 = __this->___targetWeatherType;
+		NullCheck(L_189);
+		EnviroWeatherTypeCloudsOverride_tC1AFB55E8041AE7EA97280859B3FA34021AB6CA0* L_190 = L_189->___cloudsOverride;
+		NullCheck(L_190);
+		float L_191 = L_190->___ambientFloor;
+		float L_192 = ___0_blendTime;
+		float L_193;
+		L_193 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_188, L_191, L_192, NULL);
+		NullCheck(L_185);
+		L_185->___ambientFloor = L_193;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_194 = V_0;
+		NullCheck(L_194);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_195 = L_194->___settingsVolume;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_196 = V_0;
+		NullCheck(L_196);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_197 = L_196->___settingsVolume;
+		NullCheck(L_197);
+		float L_198 = L_197->___lightningIntensity;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_199 = __this->___targetWeatherType;
+		NullCheck(L_199);
+		EnviroWeatherTypeCloudsOverride_tC1AFB55E8041AE7EA97280859B3FA34021AB6CA0* L_200 = L_199->___cloudsOverride;
+		NullCheck(L_200);
+		float L_201 = L_200->___lightningIntensity;
+		float L_202 = ___0_blendTime;
+		float L_203;
+		L_203 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_198, L_201, L_202, NULL);
+		NullCheck(L_195);
+		L_195->___lightningIntensity = L_203;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_204 = V_0;
+		NullCheck(L_204);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_205 = L_204->___settingsVolume;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_206 = V_0;
+		NullCheck(L_206);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_207 = L_206->___settingsVolume;
+		NullCheck(L_207);
+		float L_208 = L_207->___exposure;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_209 = __this->___targetWeatherType;
+		NullCheck(L_209);
+		EnviroWeatherTypeCloudsOverride_tC1AFB55E8041AE7EA97280859B3FA34021AB6CA0* L_210 = L_209->___cloudsOverride;
+		NullCheck(L_210);
+		float L_211 = L_210->___exposure;
+		float L_212 = ___0_blendTime;
+		float L_213;
+		L_213 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_208, L_211, L_212, NULL);
+		NullCheck(L_205);
+		L_205->___exposure = L_213;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_214 = V_0;
+		NullCheck(L_214);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_215 = L_214->___settingsVolume;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_216 = V_0;
+		NullCheck(L_216);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_217 = L_216->___settingsVolume;
+		NullCheck(L_217);
+		float L_218 = L_217->___silverLiningSpread;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_219 = __this->___targetWeatherType;
+		NullCheck(L_219);
+		EnviroWeatherTypeCloudsOverride_tC1AFB55E8041AE7EA97280859B3FA34021AB6CA0* L_220 = L_219->___cloudsOverride;
+		NullCheck(L_220);
+		float L_221 = L_220->___silverLiningSpread;
+		float L_222 = ___0_blendTime;
+		float L_223;
+		L_223 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_218, L_221, L_222, NULL);
+		NullCheck(L_215);
+		L_215->___silverLiningSpread = L_223;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_224 = V_0;
+		NullCheck(L_224);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_225 = L_224->___settingsVolume;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_226 = V_0;
+		NullCheck(L_226);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_227 = L_226->___settingsVolume;
+		NullCheck(L_227);
+		float L_228 = L_227->___absorbtion;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_229 = __this->___targetWeatherType;
+		NullCheck(L_229);
+		EnviroWeatherTypeCloudsOverride_tC1AFB55E8041AE7EA97280859B3FA34021AB6CA0* L_230 = L_229->___cloudsOverride;
+		NullCheck(L_230);
+		float L_231 = L_230->___ligthAbsorbtion;
+		float L_232 = ___0_blendTime;
+		float L_233;
+		L_233 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_228, L_231, L_232, NULL);
+		NullCheck(L_225);
+		L_225->___absorbtion = L_233;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_234 = V_0;
+		NullCheck(L_234);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_235 = L_234->___settingsVolume;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_236 = V_0;
+		NullCheck(L_236);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_237 = L_236->___settingsVolume;
+		NullCheck(L_237);
+		float L_238 = L_237->___density;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_239 = __this->___targetWeatherType;
+		NullCheck(L_239);
+		EnviroWeatherTypeCloudsOverride_tC1AFB55E8041AE7EA97280859B3FA34021AB6CA0* L_240 = L_239->___cloudsOverride;
+		NullCheck(L_240);
+		float L_241 = L_240->___density;
+		float L_242 = ___0_blendTime;
+		float L_243;
+		L_243 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_238, L_241, L_242, NULL);
+		NullCheck(L_235);
+		L_235->___density = L_243;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_244 = V_0;
+		NullCheck(L_244);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_245 = L_244->___settingsVolume;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_246 = V_0;
+		NullCheck(L_246);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_247 = L_246->___settingsVolume;
+		NullCheck(L_247);
+		float L_248 = L_247->___densitySmoothness;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_249 = __this->___targetWeatherType;
+		NullCheck(L_249);
+		EnviroWeatherTypeCloudsOverride_tC1AFB55E8041AE7EA97280859B3FA34021AB6CA0* L_250 = L_249->___cloudsOverride;
+		NullCheck(L_250);
+		float L_251 = L_250->___densitySmoothness;
+		float L_252 = ___0_blendTime;
+		float L_253;
+		L_253 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_248, L_251, L_252, NULL);
+		NullCheck(L_245);
+		L_245->___densitySmoothness = L_253;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_254 = V_0;
+		NullCheck(L_254);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_255 = L_254->___settingsVolume;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_256 = V_0;
+		NullCheck(L_256);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_257 = L_256->___settingsVolume;
+		NullCheck(L_257);
+		float L_258 = L_257->___baseErosionIntensity;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_259 = __this->___targetWeatherType;
+		NullCheck(L_259);
+		EnviroWeatherTypeCloudsOverride_tC1AFB55E8041AE7EA97280859B3FA34021AB6CA0* L_260 = L_259->___cloudsOverride;
+		NullCheck(L_260);
+		float L_261 = L_260->___baseErosionIntensity;
+		float L_262 = ___0_blendTime;
+		float L_263;
+		L_263 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_258, L_261, L_262, NULL);
+		NullCheck(L_255);
+		L_255->___baseErosionIntensity = L_263;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_264 = V_0;
+		NullCheck(L_264);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_265 = L_264->___settingsVolume;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_266 = V_0;
+		NullCheck(L_266);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_267 = L_266->___settingsVolume;
+		NullCheck(L_267);
+		float L_268 = L_267->___detailErosionIntensity;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_269 = __this->___targetWeatherType;
+		NullCheck(L_269);
+		EnviroWeatherTypeCloudsOverride_tC1AFB55E8041AE7EA97280859B3FA34021AB6CA0* L_270 = L_269->___cloudsOverride;
+		NullCheck(L_270);
+		float L_271 = L_270->___detailErosionIntensity;
+		float L_272 = ___0_blendTime;
+		float L_273;
+		L_273 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_268, L_271, L_272, NULL);
+		NullCheck(L_265);
+		L_265->___detailErosionIntensity = L_273;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_274 = V_0;
+		NullCheck(L_274);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_275 = L_274->___settingsVolume;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_276 = V_0;
+		NullCheck(L_276);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_277 = L_276->___settingsVolume;
+		NullCheck(L_277);
+		float L_278 = L_277->___curlIntensity;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_279 = __this->___targetWeatherType;
+		NullCheck(L_279);
+		EnviroWeatherTypeCloudsOverride_tC1AFB55E8041AE7EA97280859B3FA34021AB6CA0* L_280 = L_279->___cloudsOverride;
+		NullCheck(L_280);
+		float L_281 = L_280->___curlIntensity;
+		float L_282 = ___0_blendTime;
+		float L_283;
+		L_283 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_278, L_281, L_282, NULL);
+		NullCheck(L_275);
+		L_275->___curlIntensity = L_283;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_284 = V_0;
+		NullCheck(L_284);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_285 = L_284->___settingsVolume;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_286 = V_0;
+		NullCheck(L_286);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_287 = L_286->___settingsVolume;
+		NullCheck(L_287);
+		float L_288 = L_287->___baseNoiseMultiplier;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_289 = __this->___targetWeatherType;
+		NullCheck(L_289);
+		EnviroWeatherTypeCloudsOverride_tC1AFB55E8041AE7EA97280859B3FA34021AB6CA0* L_290 = L_289->___cloudsOverride;
+		NullCheck(L_290);
+		float L_291 = L_290->___baseNoiseMultiplier;
+		float L_292 = ___0_blendTime;
+		float L_293;
+		L_293 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_288, L_291, L_292, NULL);
+		NullCheck(L_285);
+		L_285->___baseNoiseMultiplier = L_293;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_294 = V_0;
+		NullCheck(L_294);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_295 = L_294->___settingsVolume;
+		EnviroVolumetricCloudsModule_tB23B9C5F3F2E9D5081A0D4E137F1C1334904B0FC* L_296 = V_0;
+		NullCheck(L_296);
+		EnviroCloudLayerSettings_t9FA34A6F4B25DBCE919C73E75F395054FE7C66F2* L_297 = L_296->___settingsVolume;
+		NullCheck(L_297);
+		float L_298 = L_297->___detailNoiseMultiplier;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_299 = __this->___targetWeatherType;
+		NullCheck(L_299);
+		EnviroWeatherTypeCloudsOverride_tC1AFB55E8041AE7EA97280859B3FA34021AB6CA0* L_300 = L_299->___cloudsOverride;
+		NullCheck(L_300);
+		float L_301 = L_300->___detailNoiseMultiplier;
+		float L_302 = ___0_blendTime;
+		float L_303;
+		L_303 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_298, L_301, L_302, NULL);
+		NullCheck(L_295);
+		L_295->___detailNoiseMultiplier = L_303;
+	}
+
+IL_053f:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_BlendFlatCloudsOverride_m792E11D49FD0A70B653962D9668E2C94CB52C2DC (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, float ___0_blendTime, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit);
+	EnviroFlatCloudsModule_t57F5F2E0F2767B6264811C5C9F39A69FA8D83324* V_0 = NULL;
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_0;
+		L_0 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_0);
+		EnviroFlatCloudsModule_t57F5F2E0F2767B6264811C5C9F39A69FA8D83324* L_1 = ((EnviroManagerBase_tB87CACC2A3577D30A805E4B22A2888A00EED8850*)L_0)->___FlatClouds;
+		V_0 = L_1;
+		EnviroFlatCloudsModule_t57F5F2E0F2767B6264811C5C9F39A69FA8D83324* L_2 = V_0;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_3;
+		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_0177;
+		}
+	}
+	{
+		EnviroFlatCloudsModule_t57F5F2E0F2767B6264811C5C9F39A69FA8D83324* L_4 = V_0;
+		NullCheck(L_4);
+		EnviroFlatClouds_t1D77B22A4C1AE52E4891108B356013E099B54293* L_5 = L_4->___settings;
+		EnviroFlatCloudsModule_t57F5F2E0F2767B6264811C5C9F39A69FA8D83324* L_6 = V_0;
+		NullCheck(L_6);
+		EnviroFlatClouds_t1D77B22A4C1AE52E4891108B356013E099B54293* L_7 = L_6->___settings;
+		NullCheck(L_7);
+		float L_8 = L_7->___cirrusCloudsAlpha;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_9 = __this->___targetWeatherType;
+		NullCheck(L_9);
+		EnviroWeatherTypeFlatCloudsOverride_tA180726BCB3ED2915FD024EE82684B9822AE1E81* L_10 = L_9->___flatCloudsOverride;
+		NullCheck(L_10);
+		float L_11 = L_10->___cirrusCloudsAlpha;
+		float L_12 = ___0_blendTime;
+		float L_13;
+		L_13 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_8, L_11, L_12, NULL);
+		NullCheck(L_5);
+		L_5->___cirrusCloudsAlpha = L_13;
+		EnviroFlatCloudsModule_t57F5F2E0F2767B6264811C5C9F39A69FA8D83324* L_14 = V_0;
+		NullCheck(L_14);
+		EnviroFlatClouds_t1D77B22A4C1AE52E4891108B356013E099B54293* L_15 = L_14->___settings;
+		EnviroFlatCloudsModule_t57F5F2E0F2767B6264811C5C9F39A69FA8D83324* L_16 = V_0;
+		NullCheck(L_16);
+		EnviroFlatClouds_t1D77B22A4C1AE52E4891108B356013E099B54293* L_17 = L_16->___settings;
+		NullCheck(L_17);
+		float L_18 = L_17->___cirrusCloudsCoverage;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_19 = __this->___targetWeatherType;
+		NullCheck(L_19);
+		EnviroWeatherTypeFlatCloudsOverride_tA180726BCB3ED2915FD024EE82684B9822AE1E81* L_20 = L_19->___flatCloudsOverride;
+		NullCheck(L_20);
+		float L_21 = L_20->___cirrusCloudsCoverage;
+		float L_22 = ___0_blendTime;
+		float L_23;
+		L_23 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_18, L_21, L_22, NULL);
+		NullCheck(L_15);
+		L_15->___cirrusCloudsCoverage = L_23;
+		EnviroFlatCloudsModule_t57F5F2E0F2767B6264811C5C9F39A69FA8D83324* L_24 = V_0;
+		NullCheck(L_24);
+		EnviroFlatClouds_t1D77B22A4C1AE52E4891108B356013E099B54293* L_25 = L_24->___settings;
+		EnviroFlatCloudsModule_t57F5F2E0F2767B6264811C5C9F39A69FA8D83324* L_26 = V_0;
+		NullCheck(L_26);
+		EnviroFlatClouds_t1D77B22A4C1AE52E4891108B356013E099B54293* L_27 = L_26->___settings;
+		NullCheck(L_27);
+		float L_28 = L_27->___cirrusCloudsColorPower;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_29 = __this->___targetWeatherType;
+		NullCheck(L_29);
+		EnviroWeatherTypeFlatCloudsOverride_tA180726BCB3ED2915FD024EE82684B9822AE1E81* L_30 = L_29->___flatCloudsOverride;
+		NullCheck(L_30);
+		float L_31 = L_30->___cirrusCloudsColorPower;
+		float L_32 = ___0_blendTime;
+		float L_33;
+		L_33 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_28, L_31, L_32, NULL);
+		NullCheck(L_25);
+		L_25->___cirrusCloudsColorPower = L_33;
+		EnviroFlatCloudsModule_t57F5F2E0F2767B6264811C5C9F39A69FA8D83324* L_34 = V_0;
+		NullCheck(L_34);
+		EnviroFlatClouds_t1D77B22A4C1AE52E4891108B356013E099B54293* L_35 = L_34->___settings;
+		EnviroFlatCloudsModule_t57F5F2E0F2767B6264811C5C9F39A69FA8D83324* L_36 = V_0;
+		NullCheck(L_36);
+		EnviroFlatClouds_t1D77B22A4C1AE52E4891108B356013E099B54293* L_37 = L_36->___settings;
+		NullCheck(L_37);
+		float L_38 = L_37->___flatCloudsCoverage;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_39 = __this->___targetWeatherType;
+		NullCheck(L_39);
+		EnviroWeatherTypeFlatCloudsOverride_tA180726BCB3ED2915FD024EE82684B9822AE1E81* L_40 = L_39->___flatCloudsOverride;
+		NullCheck(L_40);
+		float L_41 = L_40->___flatCloudsCoverage;
+		float L_42 = ___0_blendTime;
+		float L_43;
+		L_43 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_38, L_41, L_42, NULL);
+		NullCheck(L_35);
+		L_35->___flatCloudsCoverage = L_43;
+		EnviroFlatCloudsModule_t57F5F2E0F2767B6264811C5C9F39A69FA8D83324* L_44 = V_0;
+		NullCheck(L_44);
+		EnviroFlatClouds_t1D77B22A4C1AE52E4891108B356013E099B54293* L_45 = L_44->___settings;
+		EnviroFlatCloudsModule_t57F5F2E0F2767B6264811C5C9F39A69FA8D83324* L_46 = V_0;
+		NullCheck(L_46);
+		EnviroFlatClouds_t1D77B22A4C1AE52E4891108B356013E099B54293* L_47 = L_46->___settings;
+		NullCheck(L_47);
+		float L_48 = L_47->___flatCloudsDensity;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_49 = __this->___targetWeatherType;
+		NullCheck(L_49);
+		EnviroWeatherTypeFlatCloudsOverride_tA180726BCB3ED2915FD024EE82684B9822AE1E81* L_50 = L_49->___flatCloudsOverride;
+		NullCheck(L_50);
+		float L_51 = L_50->___flatCloudsDensity;
+		float L_52 = ___0_blendTime;
+		float L_53;
+		L_53 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_48, L_51, L_52, NULL);
+		NullCheck(L_45);
+		L_45->___flatCloudsDensity = L_53;
+		EnviroFlatCloudsModule_t57F5F2E0F2767B6264811C5C9F39A69FA8D83324* L_54 = V_0;
+		NullCheck(L_54);
+		EnviroFlatClouds_t1D77B22A4C1AE52E4891108B356013E099B54293* L_55 = L_54->___settings;
+		EnviroFlatCloudsModule_t57F5F2E0F2767B6264811C5C9F39A69FA8D83324* L_56 = V_0;
+		NullCheck(L_56);
+		EnviroFlatClouds_t1D77B22A4C1AE52E4891108B356013E099B54293* L_57 = L_56->___settings;
+		NullCheck(L_57);
+		float L_58 = L_57->___flatCloudsLightIntensity;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_59 = __this->___targetWeatherType;
+		NullCheck(L_59);
+		EnviroWeatherTypeFlatCloudsOverride_tA180726BCB3ED2915FD024EE82684B9822AE1E81* L_60 = L_59->___flatCloudsOverride;
+		NullCheck(L_60);
+		float L_61 = L_60->___flatCloudsLightIntensity;
+		float L_62 = ___0_blendTime;
+		float L_63;
+		L_63 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_58, L_61, L_62, NULL);
+		NullCheck(L_55);
+		L_55->___flatCloudsLightIntensity = L_63;
+		EnviroFlatCloudsModule_t57F5F2E0F2767B6264811C5C9F39A69FA8D83324* L_64 = V_0;
+		NullCheck(L_64);
+		EnviroFlatClouds_t1D77B22A4C1AE52E4891108B356013E099B54293* L_65 = L_64->___settings;
+		EnviroFlatCloudsModule_t57F5F2E0F2767B6264811C5C9F39A69FA8D83324* L_66 = V_0;
+		NullCheck(L_66);
+		EnviroFlatClouds_t1D77B22A4C1AE52E4891108B356013E099B54293* L_67 = L_66->___settings;
+		NullCheck(L_67);
+		float L_68 = L_67->___flatCloudsAmbientIntensity;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_69 = __this->___targetWeatherType;
+		NullCheck(L_69);
+		EnviroWeatherTypeFlatCloudsOverride_tA180726BCB3ED2915FD024EE82684B9822AE1E81* L_70 = L_69->___flatCloudsOverride;
+		NullCheck(L_70);
+		float L_71 = L_70->___flatCloudsAmbientIntensity;
+		float L_72 = ___0_blendTime;
+		float L_73;
+		L_73 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_68, L_71, L_72, NULL);
+		NullCheck(L_65);
+		L_65->___flatCloudsAmbientIntensity = L_73;
+		EnviroFlatCloudsModule_t57F5F2E0F2767B6264811C5C9F39A69FA8D83324* L_74 = V_0;
+		NullCheck(L_74);
+		EnviroFlatClouds_t1D77B22A4C1AE52E4891108B356013E099B54293* L_75 = L_74->___settings;
+		EnviroFlatCloudsModule_t57F5F2E0F2767B6264811C5C9F39A69FA8D83324* L_76 = V_0;
+		NullCheck(L_76);
+		EnviroFlatClouds_t1D77B22A4C1AE52E4891108B356013E099B54293* L_77 = L_76->___settings;
+		NullCheck(L_77);
+		float L_78 = L_77->___flatCloudsShadowIntensity;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_79 = __this->___targetWeatherType;
+		NullCheck(L_79);
+		EnviroWeatherTypeFlatCloudsOverride_tA180726BCB3ED2915FD024EE82684B9822AE1E81* L_80 = L_79->___flatCloudsOverride;
+		NullCheck(L_80);
+		float L_81 = L_80->___flatCloudsShadowIntensity;
+		float L_82 = ___0_blendTime;
+		float L_83;
+		L_83 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_78, L_81, L_82, NULL);
+		NullCheck(L_75);
+		L_75->___flatCloudsShadowIntensity = L_83;
+	}
+
+IL_0177:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_BlendAuroraOverride_m180CDB939F666A0DBFD3890B427AF1D00251E405 (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, float ___0_blendTime, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit);
+	EnviroAuroraModule_t58A1FBBF83DDFDF33906235180D799B5C3D722ED* V_0 = NULL;
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_0;
+		L_0 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_0);
+		EnviroAuroraModule_t58A1FBBF83DDFDF33906235180D799B5C3D722ED* L_1 = ((EnviroManagerBase_tB87CACC2A3577D30A805E4B22A2888A00EED8850*)L_0)->___Aurora;
+		V_0 = L_1;
+		EnviroAuroraModule_t58A1FBBF83DDFDF33906235180D799B5C3D722ED* L_2 = V_0;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_3;
+		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		EnviroAuroraModule_t58A1FBBF83DDFDF33906235180D799B5C3D722ED* L_4 = V_0;
+		NullCheck(L_4);
+		EnviroAurora_t68814EAAC1A4D270B0680260B38DEB81517ECAE6* L_5 = L_4->___Settings;
+		EnviroAuroraModule_t58A1FBBF83DDFDF33906235180D799B5C3D722ED* L_6 = V_0;
+		NullCheck(L_6);
+		EnviroAurora_t68814EAAC1A4D270B0680260B38DEB81517ECAE6* L_7 = L_6->___Settings;
+		NullCheck(L_7);
+		float L_8 = L_7->___auroraIntensityModifier;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_9 = __this->___targetWeatherType;
+		NullCheck(L_9);
+		EnviroWeatherTypeAuroraOverride_t001DA21A27F2B703F5FC32BAF07C010946F3856E* L_10 = L_9->___auroraOverride;
+		NullCheck(L_10);
+		float L_11 = L_10->___auroraIntensity;
+		float L_12 = ___0_blendTime;
+		float L_13;
+		L_13 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_8, L_11, L_12, NULL);
+		NullCheck(L_5);
+		L_5->___auroraIntensityModifier = L_13;
+	}
+
+IL_0040:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_BlendEnvironmentOverride_m67A794C58CA3EE97C07B177FE2CF3A08B0B5FBF3 (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, float ___0_blendTime, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit);
+	EnviroEnvironmentModule_t336D0B203F7D196DD424C955791BB3F33FAA34E8* V_0 = NULL;
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_0;
+		L_0 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_0);
+		EnviroEnvironmentModule_t336D0B203F7D196DD424C955791BB3F33FAA34E8* L_1 = ((EnviroManagerBase_tB87CACC2A3577D30A805E4B22A2888A00EED8850*)L_0)->___Environment;
+		V_0 = L_1;
+		EnviroEnvironmentModule_t336D0B203F7D196DD424C955791BB3F33FAA34E8* L_2 = V_0;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_3;
+		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_014b;
+		}
+	}
+	{
+		EnviroEnvironmentModule_t336D0B203F7D196DD424C955791BB3F33FAA34E8* L_4 = V_0;
+		NullCheck(L_4);
+		EnviroEnvironment_tA3E1E6A42D58A5AB1230F7241311B1775E39B720* L_5 = L_4->___Settings;
+		EnviroEnvironmentModule_t336D0B203F7D196DD424C955791BB3F33FAA34E8* L_6 = V_0;
+		NullCheck(L_6);
+		EnviroEnvironment_tA3E1E6A42D58A5AB1230F7241311B1775E39B720* L_7 = L_6->___Settings;
+		NullCheck(L_7);
+		float L_8 = L_7->___temperatureWeatherMod;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_9 = __this->___targetWeatherType;
+		NullCheck(L_9);
+		EnviroWeatherTypeEnvironmentOverride_t06F01D07920F9D78079839A2BE38874F55710645* L_10 = L_9->___environmentOverride;
+		NullCheck(L_10);
+		float L_11 = L_10->___temperatureWeatherMod;
+		float L_12 = ___0_blendTime;
+		float L_13;
+		L_13 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_8, L_11, L_12, NULL);
+		NullCheck(L_5);
+		L_5->___temperatureWeatherMod = L_13;
+		EnviroEnvironmentModule_t336D0B203F7D196DD424C955791BB3F33FAA34E8* L_14 = V_0;
+		NullCheck(L_14);
+		EnviroEnvironment_tA3E1E6A42D58A5AB1230F7241311B1775E39B720* L_15 = L_14->___Settings;
+		EnviroEnvironmentModule_t336D0B203F7D196DD424C955791BB3F33FAA34E8* L_16 = V_0;
+		NullCheck(L_16);
+		EnviroEnvironment_tA3E1E6A42D58A5AB1230F7241311B1775E39B720* L_17 = L_16->___Settings;
+		NullCheck(L_17);
+		float L_18 = L_17->___wetnessTarget;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_19 = __this->___targetWeatherType;
+		NullCheck(L_19);
+		EnviroWeatherTypeEnvironmentOverride_t06F01D07920F9D78079839A2BE38874F55710645* L_20 = L_19->___environmentOverride;
+		NullCheck(L_20);
+		float L_21 = L_20->___wetnessTarget;
+		float L_22 = ___0_blendTime;
+		float L_23;
+		L_23 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_18, L_21, L_22, NULL);
+		NullCheck(L_15);
+		L_15->___wetnessTarget = L_23;
+		EnviroEnvironmentModule_t336D0B203F7D196DD424C955791BB3F33FAA34E8* L_24 = V_0;
+		NullCheck(L_24);
+		EnviroEnvironment_tA3E1E6A42D58A5AB1230F7241311B1775E39B720* L_25 = L_24->___Settings;
+		EnviroEnvironmentModule_t336D0B203F7D196DD424C955791BB3F33FAA34E8* L_26 = V_0;
+		NullCheck(L_26);
+		EnviroEnvironment_tA3E1E6A42D58A5AB1230F7241311B1775E39B720* L_27 = L_26->___Settings;
+		NullCheck(L_27);
+		float L_28 = L_27->___snowTarget;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_29 = __this->___targetWeatherType;
+		NullCheck(L_29);
+		EnviroWeatherTypeEnvironmentOverride_t06F01D07920F9D78079839A2BE38874F55710645* L_30 = L_29->___environmentOverride;
+		NullCheck(L_30);
+		float L_31 = L_30->___snowTarget;
+		float L_32 = ___0_blendTime;
+		float L_33;
+		L_33 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_28, L_31, L_32, NULL);
+		NullCheck(L_25);
+		L_25->___snowTarget = L_33;
+		EnviroEnvironmentModule_t336D0B203F7D196DD424C955791BB3F33FAA34E8* L_34 = V_0;
+		NullCheck(L_34);
+		EnviroEnvironment_tA3E1E6A42D58A5AB1230F7241311B1775E39B720* L_35 = L_34->___Settings;
+		EnviroEnvironmentModule_t336D0B203F7D196DD424C955791BB3F33FAA34E8* L_36 = V_0;
+		NullCheck(L_36);
+		EnviroEnvironment_tA3E1E6A42D58A5AB1230F7241311B1775E39B720* L_37 = L_36->___Settings;
+		NullCheck(L_37);
+		float L_38 = L_37->___windDirectionX;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_39 = __this->___targetWeatherType;
+		NullCheck(L_39);
+		EnviroWeatherTypeEnvironmentOverride_t06F01D07920F9D78079839A2BE38874F55710645* L_40 = L_39->___environmentOverride;
+		NullCheck(L_40);
+		float L_41 = L_40->___windDirectionX;
+		float L_42 = ___0_blendTime;
+		float L_43;
+		L_43 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_38, L_41, L_42, NULL);
+		NullCheck(L_35);
+		L_35->___windDirectionX = L_43;
+		EnviroEnvironmentModule_t336D0B203F7D196DD424C955791BB3F33FAA34E8* L_44 = V_0;
+		NullCheck(L_44);
+		EnviroEnvironment_tA3E1E6A42D58A5AB1230F7241311B1775E39B720* L_45 = L_44->___Settings;
+		EnviroEnvironmentModule_t336D0B203F7D196DD424C955791BB3F33FAA34E8* L_46 = V_0;
+		NullCheck(L_46);
+		EnviroEnvironment_tA3E1E6A42D58A5AB1230F7241311B1775E39B720* L_47 = L_46->___Settings;
+		NullCheck(L_47);
+		float L_48 = L_47->___windDirectionY;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_49 = __this->___targetWeatherType;
+		NullCheck(L_49);
+		EnviroWeatherTypeEnvironmentOverride_t06F01D07920F9D78079839A2BE38874F55710645* L_50 = L_49->___environmentOverride;
+		NullCheck(L_50);
+		float L_51 = L_50->___windDirectionY;
+		float L_52 = ___0_blendTime;
+		float L_53;
+		L_53 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_48, L_51, L_52, NULL);
+		NullCheck(L_45);
+		L_45->___windDirectionY = L_53;
+		EnviroEnvironmentModule_t336D0B203F7D196DD424C955791BB3F33FAA34E8* L_54 = V_0;
+		NullCheck(L_54);
+		EnviroEnvironment_tA3E1E6A42D58A5AB1230F7241311B1775E39B720* L_55 = L_54->___Settings;
+		EnviroEnvironmentModule_t336D0B203F7D196DD424C955791BB3F33FAA34E8* L_56 = V_0;
+		NullCheck(L_56);
+		EnviroEnvironment_tA3E1E6A42D58A5AB1230F7241311B1775E39B720* L_57 = L_56->___Settings;
+		NullCheck(L_57);
+		float L_58 = L_57->___windSpeed;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_59 = __this->___targetWeatherType;
+		NullCheck(L_59);
+		EnviroWeatherTypeEnvironmentOverride_t06F01D07920F9D78079839A2BE38874F55710645* L_60 = L_59->___environmentOverride;
+		NullCheck(L_60);
+		float L_61 = L_60->___windSpeed;
+		float L_62 = ___0_blendTime;
+		float L_63;
+		L_63 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_58, L_61, L_62, NULL);
+		NullCheck(L_55);
+		L_55->___windSpeed = L_63;
+		EnviroEnvironmentModule_t336D0B203F7D196DD424C955791BB3F33FAA34E8* L_64 = V_0;
+		NullCheck(L_64);
+		EnviroEnvironment_tA3E1E6A42D58A5AB1230F7241311B1775E39B720* L_65 = L_64->___Settings;
+		EnviroEnvironmentModule_t336D0B203F7D196DD424C955791BB3F33FAA34E8* L_66 = V_0;
+		NullCheck(L_66);
+		EnviroEnvironment_tA3E1E6A42D58A5AB1230F7241311B1775E39B720* L_67 = L_66->___Settings;
+		NullCheck(L_67);
+		float L_68 = L_67->___windTurbulence;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_69 = __this->___targetWeatherType;
+		NullCheck(L_69);
+		EnviroWeatherTypeEnvironmentOverride_t06F01D07920F9D78079839A2BE38874F55710645* L_70 = L_69->___environmentOverride;
+		NullCheck(L_70);
+		float L_71 = L_70->___windTurbulence;
+		float L_72 = ___0_blendTime;
+		float L_73;
+		L_73 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_68, L_71, L_72, NULL);
+		NullCheck(L_65);
+		L_65->___windTurbulence = L_73;
+	}
+
+IL_014b:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_BlendAudioOverride_mEB4B7C8F4751407B00DBF2AFD43DE3DB6D3C0FD5 (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, float ___0_blendTime, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit);
+	EnviroAudioModule_t175EFD5CA1080C907BE8C38BD3E92A2A716B0097* V_0 = NULL;
+	int32_t V_1 = 0;
+	bool V_2 = false;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	bool V_5 = false;
+	int32_t V_6 = 0;
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_0;
+		L_0 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_0);
+		EnviroAudioModule_t175EFD5CA1080C907BE8C38BD3E92A2A716B0097* L_1 = ((EnviroManagerBase_tB87CACC2A3577D30A805E4B22A2888A00EED8850*)L_0)->___Audio;
+		V_0 = L_1;
+		EnviroAudioModule_t175EFD5CA1080C907BE8C38BD3E92A2A716B0097* L_2 = V_0;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_3;
+		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_023d;
+		}
+	}
+	{
+		V_1 = 0;
+		goto IL_010b;
+	}
+
+IL_001e:
+	{
+		V_2 = (bool)0;
+		V_3 = 0;
+		goto IL_00b2;
+	}
+
+IL_0027:
+	{
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_4 = __this->___targetWeatherType;
+		NullCheck(L_4);
+		EnviroWeatherTypeAudioOverride_tC05695CE647B159D2CB78F2881362FFBAE5CA7E1* L_5 = L_4->___audioOverride;
+		NullCheck(L_5);
+		List_1_tD86F44E0FD2760DB7FABBAB8BD2AF0A1DB96FF8F* L_6 = L_5->___ambientOverride;
+		int32_t L_7 = V_3;
+		NullCheck(L_6);
+		EnviroAudioOverrideType_t2EB753F14ABDCC9BF0C4E5E06EE53CB005C1E9E4* L_8;
+		L_8 = List_1_get_Item_m95EC23873D1F9F8F36132FBA273EB9F536CABEBC(L_6, L_7, NULL);
+		NullCheck(L_8);
+		String_t* L_9 = L_8->___name;
+		EnviroAudioModule_t175EFD5CA1080C907BE8C38BD3E92A2A716B0097* L_10 = V_0;
+		NullCheck(L_10);
+		EnviroAudio_t5AD4901FC2AC4D395D9F099BB22A5CE23B043C9F* L_11 = L_10->___Settings;
+		NullCheck(L_11);
+		List_1_tB8DA45B67C68EAE3F9465C9E7043EBA887F51AAF* L_12 = L_11->___ambientClips;
+		int32_t L_13 = V_1;
+		NullCheck(L_12);
+		EnviroAudioClip_tD41AC918D535EF3CC38AFED3B13A34A9976B86B0* L_14;
+		L_14 = List_1_get_Item_m7CD99D4CF070731C21261A7CDD7964FB830B3050(L_12, L_13, NULL);
+		NullCheck(L_14);
+		String_t* L_15 = L_14->___name;
+		bool L_16;
+		L_16 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_9, L_15, NULL);
+		if (!L_16)
+		{
+			goto IL_00ae;
+		}
+	}
+	{
+		EnviroAudioModule_t175EFD5CA1080C907BE8C38BD3E92A2A716B0097* L_17 = V_0;
+		NullCheck(L_17);
+		EnviroAudio_t5AD4901FC2AC4D395D9F099BB22A5CE23B043C9F* L_18 = L_17->___Settings;
+		NullCheck(L_18);
+		List_1_tB8DA45B67C68EAE3F9465C9E7043EBA887F51AAF* L_19 = L_18->___ambientClips;
+		int32_t L_20 = V_1;
+		NullCheck(L_19);
+		EnviroAudioClip_tD41AC918D535EF3CC38AFED3B13A34A9976B86B0* L_21;
+		L_21 = List_1_get_Item_m7CD99D4CF070731C21261A7CDD7964FB830B3050(L_19, L_20, NULL);
+		EnviroAudioModule_t175EFD5CA1080C907BE8C38BD3E92A2A716B0097* L_22 = V_0;
+		NullCheck(L_22);
+		EnviroAudio_t5AD4901FC2AC4D395D9F099BB22A5CE23B043C9F* L_23 = L_22->___Settings;
+		NullCheck(L_23);
+		List_1_tB8DA45B67C68EAE3F9465C9E7043EBA887F51AAF* L_24 = L_23->___ambientClips;
+		int32_t L_25 = V_1;
+		NullCheck(L_24);
+		EnviroAudioClip_tD41AC918D535EF3CC38AFED3B13A34A9976B86B0* L_26;
+		L_26 = List_1_get_Item_m7CD99D4CF070731C21261A7CDD7964FB830B3050(L_24, L_25, NULL);
+		NullCheck(L_26);
+		float L_27 = L_26->___volume;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_28 = __this->___targetWeatherType;
+		NullCheck(L_28);
+		EnviroWeatherTypeAudioOverride_tC05695CE647B159D2CB78F2881362FFBAE5CA7E1* L_29 = L_28->___audioOverride;
+		NullCheck(L_29);
+		List_1_tD86F44E0FD2760DB7FABBAB8BD2AF0A1DB96FF8F* L_30 = L_29->___ambientOverride;
+		int32_t L_31 = V_3;
+		NullCheck(L_30);
+		EnviroAudioOverrideType_t2EB753F14ABDCC9BF0C4E5E06EE53CB005C1E9E4* L_32;
+		L_32 = List_1_get_Item_m95EC23873D1F9F8F36132FBA273EB9F536CABEBC(L_30, L_31, NULL);
+		NullCheck(L_32);
+		float L_33 = L_32->___volume;
+		float L_34 = ___0_blendTime;
+		float L_35;
+		L_35 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_27, L_33, L_34, NULL);
+		NullCheck(L_21);
+		L_21->___volume = L_35;
+		V_2 = (bool)1;
+	}
+
+IL_00ae:
+	{
+		int32_t L_36 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_36, 1));
+	}
+
+IL_00b2:
+	{
+		int32_t L_37 = V_3;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_38 = __this->___targetWeatherType;
+		NullCheck(L_38);
+		EnviroWeatherTypeAudioOverride_tC05695CE647B159D2CB78F2881362FFBAE5CA7E1* L_39 = L_38->___audioOverride;
+		NullCheck(L_39);
+		List_1_tD86F44E0FD2760DB7FABBAB8BD2AF0A1DB96FF8F* L_40 = L_39->___ambientOverride;
+		NullCheck(L_40);
+		int32_t L_41;
+		L_41 = List_1_get_Count_mC1C624C9A248445E5DBD5FE3C6F62A2D1B57AE2D_inline(L_40, NULL);
+		if ((((int32_t)L_37) < ((int32_t)L_41)))
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		bool L_42 = V_2;
+		if (L_42)
+		{
+			goto IL_0107;
+		}
+	}
+	{
+		EnviroAudioModule_t175EFD5CA1080C907BE8C38BD3E92A2A716B0097* L_43 = V_0;
+		NullCheck(L_43);
+		EnviroAudio_t5AD4901FC2AC4D395D9F099BB22A5CE23B043C9F* L_44 = L_43->___Settings;
+		NullCheck(L_44);
+		List_1_tB8DA45B67C68EAE3F9465C9E7043EBA887F51AAF* L_45 = L_44->___ambientClips;
+		int32_t L_46 = V_1;
+		NullCheck(L_45);
+		EnviroAudioClip_tD41AC918D535EF3CC38AFED3B13A34A9976B86B0* L_47;
+		L_47 = List_1_get_Item_m7CD99D4CF070731C21261A7CDD7964FB830B3050(L_45, L_46, NULL);
+		EnviroAudioModule_t175EFD5CA1080C907BE8C38BD3E92A2A716B0097* L_48 = V_0;
+		NullCheck(L_48);
+		EnviroAudio_t5AD4901FC2AC4D395D9F099BB22A5CE23B043C9F* L_49 = L_48->___Settings;
+		NullCheck(L_49);
+		List_1_tB8DA45B67C68EAE3F9465C9E7043EBA887F51AAF* L_50 = L_49->___ambientClips;
+		int32_t L_51 = V_1;
+		NullCheck(L_50);
+		EnviroAudioClip_tD41AC918D535EF3CC38AFED3B13A34A9976B86B0* L_52;
+		L_52 = List_1_get_Item_m7CD99D4CF070731C21261A7CDD7964FB830B3050(L_50, L_51, NULL);
+		NullCheck(L_52);
+		float L_53 = L_52->___volume;
+		float L_54 = ___0_blendTime;
+		float L_55;
+		L_55 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_53, (0.0f), L_54, NULL);
+		NullCheck(L_47);
+		L_47->___volume = L_55;
+	}
+
+IL_0107:
+	{
+		int32_t L_56 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_56, 1));
+	}
+
+IL_010b:
+	{
+		int32_t L_57 = V_1;
+		EnviroAudioModule_t175EFD5CA1080C907BE8C38BD3E92A2A716B0097* L_58 = V_0;
+		NullCheck(L_58);
+		EnviroAudio_t5AD4901FC2AC4D395D9F099BB22A5CE23B043C9F* L_59 = L_58->___Settings;
+		NullCheck(L_59);
+		List_1_tB8DA45B67C68EAE3F9465C9E7043EBA887F51AAF* L_60 = L_59->___ambientClips;
+		NullCheck(L_60);
+		int32_t L_61;
+		L_61 = List_1_get_Count_mC1B07C8B11F9FB1559D66BEC255FE2DB6B1840A5_inline(L_60, NULL);
+		if ((((int32_t)L_57) < ((int32_t)L_61)))
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		V_4 = 0;
+		goto IL_0226;
+	}
+
+IL_0129:
+	{
+		V_5 = (bool)0;
+		V_6 = 0;
+		goto IL_01c7;
+	}
+
+IL_0134:
+	{
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_62 = __this->___targetWeatherType;
+		NullCheck(L_62);
+		EnviroWeatherTypeAudioOverride_tC05695CE647B159D2CB78F2881362FFBAE5CA7E1* L_63 = L_62->___audioOverride;
+		NullCheck(L_63);
+		List_1_tD86F44E0FD2760DB7FABBAB8BD2AF0A1DB96FF8F* L_64 = L_63->___weatherOverride;
+		int32_t L_65 = V_6;
+		NullCheck(L_64);
+		EnviroAudioOverrideType_t2EB753F14ABDCC9BF0C4E5E06EE53CB005C1E9E4* L_66;
+		L_66 = List_1_get_Item_m95EC23873D1F9F8F36132FBA273EB9F536CABEBC(L_64, L_65, NULL);
+		NullCheck(L_66);
+		String_t* L_67 = L_66->___name;
+		EnviroAudioModule_t175EFD5CA1080C907BE8C38BD3E92A2A716B0097* L_68 = V_0;
+		NullCheck(L_68);
+		EnviroAudio_t5AD4901FC2AC4D395D9F099BB22A5CE23B043C9F* L_69 = L_68->___Settings;
+		NullCheck(L_69);
+		List_1_tB8DA45B67C68EAE3F9465C9E7043EBA887F51AAF* L_70 = L_69->___weatherClips;
+		int32_t L_71 = V_4;
+		NullCheck(L_70);
+		EnviroAudioClip_tD41AC918D535EF3CC38AFED3B13A34A9976B86B0* L_72;
+		L_72 = List_1_get_Item_m7CD99D4CF070731C21261A7CDD7964FB830B3050(L_70, L_71, NULL);
+		NullCheck(L_72);
+		String_t* L_73 = L_72->___name;
+		bool L_74;
+		L_74 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_67, L_73, NULL);
+		if (!L_74)
+		{
+			goto IL_01c1;
+		}
+	}
+	{
+		EnviroAudioModule_t175EFD5CA1080C907BE8C38BD3E92A2A716B0097* L_75 = V_0;
+		NullCheck(L_75);
+		EnviroAudio_t5AD4901FC2AC4D395D9F099BB22A5CE23B043C9F* L_76 = L_75->___Settings;
+		NullCheck(L_76);
+		List_1_tB8DA45B67C68EAE3F9465C9E7043EBA887F51AAF* L_77 = L_76->___weatherClips;
+		int32_t L_78 = V_4;
+		NullCheck(L_77);
+		EnviroAudioClip_tD41AC918D535EF3CC38AFED3B13A34A9976B86B0* L_79;
+		L_79 = List_1_get_Item_m7CD99D4CF070731C21261A7CDD7964FB830B3050(L_77, L_78, NULL);
+		EnviroAudioModule_t175EFD5CA1080C907BE8C38BD3E92A2A716B0097* L_80 = V_0;
+		NullCheck(L_80);
+		EnviroAudio_t5AD4901FC2AC4D395D9F099BB22A5CE23B043C9F* L_81 = L_80->___Settings;
+		NullCheck(L_81);
+		List_1_tB8DA45B67C68EAE3F9465C9E7043EBA887F51AAF* L_82 = L_81->___weatherClips;
+		int32_t L_83 = V_4;
+		NullCheck(L_82);
+		EnviroAudioClip_tD41AC918D535EF3CC38AFED3B13A34A9976B86B0* L_84;
+		L_84 = List_1_get_Item_m7CD99D4CF070731C21261A7CDD7964FB830B3050(L_82, L_83, NULL);
+		NullCheck(L_84);
+		float L_85 = L_84->___volume;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_86 = __this->___targetWeatherType;
+		NullCheck(L_86);
+		EnviroWeatherTypeAudioOverride_tC05695CE647B159D2CB78F2881362FFBAE5CA7E1* L_87 = L_86->___audioOverride;
+		NullCheck(L_87);
+		List_1_tD86F44E0FD2760DB7FABBAB8BD2AF0A1DB96FF8F* L_88 = L_87->___weatherOverride;
+		int32_t L_89 = V_6;
+		NullCheck(L_88);
+		EnviroAudioOverrideType_t2EB753F14ABDCC9BF0C4E5E06EE53CB005C1E9E4* L_90;
+		L_90 = List_1_get_Item_m95EC23873D1F9F8F36132FBA273EB9F536CABEBC(L_88, L_89, NULL);
+		NullCheck(L_90);
+		float L_91 = L_90->___volume;
+		float L_92 = ___0_blendTime;
+		float L_93;
+		L_93 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_85, L_91, L_92, NULL);
+		NullCheck(L_79);
+		L_79->___volume = L_93;
+		V_5 = (bool)1;
+	}
+
+IL_01c1:
+	{
+		int32_t L_94 = V_6;
+		V_6 = ((int32_t)il2cpp_codegen_add(L_94, 1));
+	}
+
+IL_01c7:
+	{
+		int32_t L_95 = V_6;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_96 = __this->___targetWeatherType;
+		NullCheck(L_96);
+		EnviroWeatherTypeAudioOverride_tC05695CE647B159D2CB78F2881362FFBAE5CA7E1* L_97 = L_96->___audioOverride;
+		NullCheck(L_97);
+		List_1_tD86F44E0FD2760DB7FABBAB8BD2AF0A1DB96FF8F* L_98 = L_97->___weatherOverride;
+		NullCheck(L_98);
+		int32_t L_99;
+		L_99 = List_1_get_Count_mC1C624C9A248445E5DBD5FE3C6F62A2D1B57AE2D_inline(L_98, NULL);
+		if ((((int32_t)L_95) < ((int32_t)L_99)))
+		{
+			goto IL_0134;
+		}
+	}
+	{
+		bool L_100 = V_5;
+		if (L_100)
+		{
+			goto IL_0220;
+		}
+	}
+	{
+		EnviroAudioModule_t175EFD5CA1080C907BE8C38BD3E92A2A716B0097* L_101 = V_0;
+		NullCheck(L_101);
+		EnviroAudio_t5AD4901FC2AC4D395D9F099BB22A5CE23B043C9F* L_102 = L_101->___Settings;
+		NullCheck(L_102);
+		List_1_tB8DA45B67C68EAE3F9465C9E7043EBA887F51AAF* L_103 = L_102->___weatherClips;
+		int32_t L_104 = V_4;
+		NullCheck(L_103);
+		EnviroAudioClip_tD41AC918D535EF3CC38AFED3B13A34A9976B86B0* L_105;
+		L_105 = List_1_get_Item_m7CD99D4CF070731C21261A7CDD7964FB830B3050(L_103, L_104, NULL);
+		EnviroAudioModule_t175EFD5CA1080C907BE8C38BD3E92A2A716B0097* L_106 = V_0;
+		NullCheck(L_106);
+		EnviroAudio_t5AD4901FC2AC4D395D9F099BB22A5CE23B043C9F* L_107 = L_106->___Settings;
+		NullCheck(L_107);
+		List_1_tB8DA45B67C68EAE3F9465C9E7043EBA887F51AAF* L_108 = L_107->___weatherClips;
+		int32_t L_109 = V_4;
+		NullCheck(L_108);
+		EnviroAudioClip_tD41AC918D535EF3CC38AFED3B13A34A9976B86B0* L_110;
+		L_110 = List_1_get_Item_m7CD99D4CF070731C21261A7CDD7964FB830B3050(L_108, L_109, NULL);
+		NullCheck(L_110);
+		float L_111 = L_110->___volume;
+		float L_112 = ___0_blendTime;
+		float L_113;
+		L_113 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_111, (0.0f), L_112, NULL);
+		NullCheck(L_105);
+		L_105->___volume = L_113;
+	}
+
+IL_0220:
+	{
+		int32_t L_114 = V_4;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_114, 1));
+	}
+
+IL_0226:
+	{
+		int32_t L_115 = V_4;
+		EnviroAudioModule_t175EFD5CA1080C907BE8C38BD3E92A2A716B0097* L_116 = V_0;
+		NullCheck(L_116);
+		EnviroAudio_t5AD4901FC2AC4D395D9F099BB22A5CE23B043C9F* L_117 = L_116->___Settings;
+		NullCheck(L_117);
+		List_1_tB8DA45B67C68EAE3F9465C9E7043EBA887F51AAF* L_118 = L_117->___weatherClips;
+		NullCheck(L_118);
+		int32_t L_119;
+		L_119 = List_1_get_Count_mC1B07C8B11F9FB1559D66BEC255FE2DB6B1840A5_inline(L_118, NULL);
+		if ((((int32_t)L_115) < ((int32_t)L_119)))
+		{
+			goto IL_0129;
+		}
+	}
+
+IL_023d:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_BlendLightningOverride_m251D144DE811B4CA8A698D52C301920400862D94 (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, float ___0_blendTime, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit);
+	EnviroLightningModule_t17C01CB77D27C55411FA6C54916A01AB0C5419D0* V_0 = NULL;
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_0;
+		L_0 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_0);
+		EnviroLightningModule_t17C01CB77D27C55411FA6C54916A01AB0C5419D0* L_1 = ((EnviroManagerBase_tB87CACC2A3577D30A805E4B22A2888A00EED8850*)L_0)->___Lightning;
+		V_0 = L_1;
+		EnviroLightningModule_t17C01CB77D27C55411FA6C54916A01AB0C5419D0* L_2 = V_0;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_3;
+		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		EnviroLightningModule_t17C01CB77D27C55411FA6C54916A01AB0C5419D0* L_4 = V_0;
+		NullCheck(L_4);
+		EnviroLightning_t45DAF18CD5F27052611E1ADCE2A57ED0C8F0CCD1* L_5 = L_4->___Settings;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_6 = __this->___targetWeatherType;
+		NullCheck(L_6);
+		EnviroWeatherTypeLightningOverride_t9FF02C170D6EB2488BE996BE033E7342E73CFA56* L_7 = L_6->___lightningOverride;
+		NullCheck(L_7);
+		bool L_8 = L_7->___lightningStorm;
+		NullCheck(L_5);
+		L_5->___lightningStorm = L_8;
+		EnviroLightningModule_t17C01CB77D27C55411FA6C54916A01AB0C5419D0* L_9 = V_0;
+		NullCheck(L_9);
+		EnviroLightning_t45DAF18CD5F27052611E1ADCE2A57ED0C8F0CCD1* L_10 = L_9->___Settings;
+		EnviroLightningModule_t17C01CB77D27C55411FA6C54916A01AB0C5419D0* L_11 = V_0;
+		NullCheck(L_11);
+		EnviroLightning_t45DAF18CD5F27052611E1ADCE2A57ED0C8F0CCD1* L_12 = L_11->___Settings;
+		NullCheck(L_12);
+		float L_13 = L_12->___randomLightingDelay;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_14 = __this->___targetWeatherType;
+		NullCheck(L_14);
+		EnviroWeatherTypeLightningOverride_t9FF02C170D6EB2488BE996BE033E7342E73CFA56* L_15 = L_14->___lightningOverride;
+		NullCheck(L_15);
+		float L_16 = L_15->___randomLightningDelay;
+		float L_17 = ___0_blendTime;
+		float L_18;
+		L_18 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_13, L_16, L_17, NULL);
+		NullCheck(L_10);
+		L_10->___randomLightingDelay = L_18;
+	}
+
+IL_005b:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_UpdateWeatherBlendProgress_mE7F7F19B7C8715E719C5D9B5540C3BD776694866 (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, float ___0_blendTime, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = __this->___weatherBlendProgress;
+		float L_1 = ___0_blendTime;
+		float L_2;
+		L_2 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_0, (1.0f), L_1, NULL);
+		__this->___weatherBlendProgress = L_2;
+		float L_3 = __this->___weatherBlendProgress;
+		float L_4;
+		L_4 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_3, NULL);
+		__this->___weatherBlendProgress = L_4;
+		float L_5 = __this->___weatherBlendProgress;
+		double L_6 = (il2cpp_codegen_conv<double,float,float,false,false>(L_5,NULL));
+		if ((!(((double)L_6) >= ((double)(0.98999999999999999)))))
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		__this->___weatherBlendProgress = (1.0f);
+	}
+
+IL_0045:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_ChangeWeather_m179BF1C13CB2EACBD1819D39CA765A9F909C1DBD (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* ___0_type, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit);
+	{
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_0 = __this->___targetWeatherType;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_1 = ___0_type;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_2;
+		L_2 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, L_1, NULL);
+		if (!L_2)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_3;
+		L_3 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_4 = ___0_type;
+		NullCheck(L_3);
+		VirtualActionInvoker1< EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* >::Invoke(7, L_3, L_4);
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_5;
+		L_5 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_6 = ___0_type;
+		NullCheck(L_5);
+		VirtualActionInvoker2< EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4*, EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* >::Invoke(8, L_5, L_6, (EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F*)NULL);
+	}
+
+IL_0025:
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_7;
+		L_7 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_7);
+		EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* L_8 = L_7->___currentZone;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_9;
+		L_9 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_9)
+		{
+			goto IL_0047;
+		}
+	}
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_10;
+		L_10 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_10);
+		EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* L_11 = L_10->___currentZone;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_12 = ___0_type;
+		NullCheck(L_11);
+		L_11->___currentWeatherType = L_12;
+		Il2CppCodeGenWriteBarrier((void**)(&L_11->___currentWeatherType), (void*)L_12);
+	}
+
+IL_0047:
+	{
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_13 = ___0_type;
+		__this->___targetWeatherType = L_13;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___targetWeatherType), (void*)L_13);
+		__this->___weatherBlendProgress = (0.0f);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_ChangeWeather_m0E0D58F6DDB7E1FE947D484595BC3904081BFAEB (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, String_t* ___0_typeName, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit);
+	int32_t V_0 = 0;
+	{
+		V_0 = 0;
+		goto IL_00d5;
+	}
+
+IL_0007:
+	{
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_0 = __this->___Settings;
+		NullCheck(L_0);
+		List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* L_1 = L_0->___weatherTypes;
+		int32_t L_2 = V_0;
+		NullCheck(L_1);
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_3;
+		L_3 = List_1_get_Item_m55677B8B1A79B76C2DE0818F418AE1B426738DF4(L_1, L_2, NULL);
+		NullCheck(L_3);
+		String_t* L_4;
+		L_4 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_3, NULL);
+		String_t* L_5 = ___0_typeName;
+		bool L_6;
+		L_6 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_4, L_5, NULL);
+		if (!L_6)
+		{
+			goto IL_00d1;
+		}
+	}
+	{
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_7 = __this->___targetWeatherType;
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_8 = __this->___Settings;
+		NullCheck(L_8);
+		List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* L_9 = L_8->___weatherTypes;
+		int32_t L_10 = V_0;
+		NullCheck(L_9);
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_11;
+		L_11 = List_1_get_Item_m55677B8B1A79B76C2DE0818F418AE1B426738DF4(L_9, L_10, NULL);
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_12;
+		L_12 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_7, L_11, NULL);
+		if (!L_12)
+		{
+			goto IL_007d;
+		}
+	}
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_13;
+		L_13 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_14 = __this->___Settings;
+		NullCheck(L_14);
+		List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* L_15 = L_14->___weatherTypes;
+		int32_t L_16 = V_0;
+		NullCheck(L_15);
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_17;
+		L_17 = List_1_get_Item_m55677B8B1A79B76C2DE0818F418AE1B426738DF4(L_15, L_16, NULL);
+		NullCheck(L_13);
+		VirtualActionInvoker1< EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* >::Invoke(7, L_13, L_17);
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_18;
+		L_18 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_19 = __this->___Settings;
+		NullCheck(L_19);
+		List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* L_20 = L_19->___weatherTypes;
+		int32_t L_21 = V_0;
+		NullCheck(L_20);
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_22;
+		L_22 = List_1_get_Item_m55677B8B1A79B76C2DE0818F418AE1B426738DF4(L_20, L_21, NULL);
+		NullCheck(L_18);
+		VirtualActionInvoker2< EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4*, EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* >::Invoke(8, L_18, L_22, (EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F*)NULL);
+	}
+
+IL_007d:
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_23;
+		L_23 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_23);
+		EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* L_24 = L_23->___currentZone;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_25;
+		L_25 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_24, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_25)
+		{
+			goto IL_00af;
+		}
+	}
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_26;
+		L_26 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_26);
+		EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* L_27 = L_26->___currentZone;
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_28 = __this->___Settings;
+		NullCheck(L_28);
+		List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* L_29 = L_28->___weatherTypes;
+		int32_t L_30 = V_0;
+		NullCheck(L_29);
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_31;
+		L_31 = List_1_get_Item_m55677B8B1A79B76C2DE0818F418AE1B426738DF4(L_29, L_30, NULL);
+		NullCheck(L_27);
+		L_27->___currentWeatherType = L_31;
+		Il2CppCodeGenWriteBarrier((void**)(&L_27->___currentWeatherType), (void*)L_31);
+	}
+
+IL_00af:
+	{
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_32 = __this->___Settings;
+		NullCheck(L_32);
+		List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* L_33 = L_32->___weatherTypes;
+		int32_t L_34 = V_0;
+		NullCheck(L_33);
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_35;
+		L_35 = List_1_get_Item_m55677B8B1A79B76C2DE0818F418AE1B426738DF4(L_33, L_34, NULL);
+		__this->___targetWeatherType = L_35;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___targetWeatherType), (void*)L_35);
+		__this->___weatherBlendProgress = (0.0f);
+	}
+
+IL_00d1:
+	{
+		int32_t L_36 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_36, 1));
+	}
+
+IL_00d5:
+	{
+		int32_t L_37 = V_0;
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_38 = __this->___Settings;
+		NullCheck(L_38);
+		List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* L_39 = L_38->___weatherTypes;
+		NullCheck(L_39);
+		int32_t L_40;
+		L_40 = List_1_get_Count_mA961EE51C7C60217F2210F534AC0947B63C73F58_inline(L_39, NULL);
+		if ((((int32_t)L_37) < ((int32_t)L_40)))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_ChangeWeather_m888E19061B42ED558946333E30FB25FEDC262B51 (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, int32_t ___0_index, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit);
+	int32_t V_0 = 0;
+	{
+		V_0 = 0;
+		goto IL_00bc;
+	}
+
+IL_0007:
+	{
+		int32_t L_0 = V_0;
+		int32_t L_1 = ___0_index;
+		if ((!(((uint32_t)L_0) == ((uint32_t)L_1))))
+		{
+			goto IL_00b8;
+		}
+	}
+	{
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_2 = __this->___targetWeatherType;
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_3 = __this->___Settings;
+		NullCheck(L_3);
+		List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* L_4 = L_3->___weatherTypes;
+		int32_t L_5 = V_0;
+		NullCheck(L_4);
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_6;
+		L_6 = List_1_get_Item_m55677B8B1A79B76C2DE0818F418AE1B426738DF4(L_4, L_5, NULL);
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_7;
+		L_7 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, L_6, NULL);
+		if (!L_7)
+		{
+			goto IL_0063;
+		}
+	}
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_8;
+		L_8 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_9 = __this->___Settings;
+		NullCheck(L_9);
+		List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* L_10 = L_9->___weatherTypes;
+		int32_t L_11 = V_0;
+		NullCheck(L_10);
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_12;
+		L_12 = List_1_get_Item_m55677B8B1A79B76C2DE0818F418AE1B426738DF4(L_10, L_11, NULL);
+		NullCheck(L_8);
+		VirtualActionInvoker1< EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* >::Invoke(7, L_8, L_12);
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_13;
+		L_13 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_14 = __this->___Settings;
+		NullCheck(L_14);
+		List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* L_15 = L_14->___weatherTypes;
+		int32_t L_16 = V_0;
+		NullCheck(L_15);
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_17;
+		L_17 = List_1_get_Item_m55677B8B1A79B76C2DE0818F418AE1B426738DF4(L_15, L_16, NULL);
+		NullCheck(L_13);
+		VirtualActionInvoker2< EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4*, EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* >::Invoke(8, L_13, L_17, (EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F*)NULL);
+	}
+
+IL_0063:
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_18;
+		L_18 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_18);
+		EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* L_19 = L_18->___currentZone;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_20;
+		L_20 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_19, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_20)
+		{
+			goto IL_0095;
+		}
+	}
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_21;
+		L_21 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_21);
+		EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* L_22 = L_21->___currentZone;
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_23 = __this->___Settings;
+		NullCheck(L_23);
+		List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* L_24 = L_23->___weatherTypes;
+		int32_t L_25 = V_0;
+		NullCheck(L_24);
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_26;
+		L_26 = List_1_get_Item_m55677B8B1A79B76C2DE0818F418AE1B426738DF4(L_24, L_25, NULL);
+		NullCheck(L_22);
+		L_22->___currentWeatherType = L_26;
+		Il2CppCodeGenWriteBarrier((void**)(&L_22->___currentWeatherType), (void*)L_26);
+	}
+
+IL_0095:
+	{
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_27 = __this->___Settings;
+		NullCheck(L_27);
+		List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* L_28 = L_27->___weatherTypes;
+		int32_t L_29 = V_0;
+		NullCheck(L_28);
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_30;
+		L_30 = List_1_get_Item_m55677B8B1A79B76C2DE0818F418AE1B426738DF4(L_28, L_29, NULL);
+		__this->___targetWeatherType = L_30;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___targetWeatherType), (void*)L_30);
+		__this->___weatherBlendProgress = (0.0f);
+		return;
+	}
+
+IL_00b8:
+	{
+		int32_t L_31 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_31, 1));
+	}
+
+IL_00bc:
+	{
+		int32_t L_32 = V_0;
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_33 = __this->___Settings;
+		NullCheck(L_33);
+		List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* L_34 = L_33->___weatherTypes;
+		NullCheck(L_34);
+		int32_t L_35;
+		L_35 = List_1_get_Count_mA961EE51C7C60217F2210F534AC0947B63C73F58_inline(L_34, NULL);
+		if ((((int32_t)L_32) < ((int32_t)L_35)))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_ChangeZoneWeather_m2AC48770F8FB18089E51B5324AFFE5D3D49CE70C (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, int32_t ___0_weather, int32_t ___1_zone, const RuntimeMethod* method) 
+{
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_0;
+		L_0 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_0);
+		List_1_t02E666C10A9961D8746558E2691C1D89E8F6565D* L_1 = L_0->___zones;
+		NullCheck(L_1);
+		int32_t L_2;
+		L_2 = List_1_get_Count_m84E8F773192AD496738404E5F1E8FF06AF7FF95D_inline(L_1, NULL);
+		int32_t L_3 = ___1_zone;
+		if ((((int32_t)L_2) < ((int32_t)L_3)))
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_4 = __this->___Settings;
+		NullCheck(L_4);
+		List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* L_5 = L_4->___weatherTypes;
+		NullCheck(L_5);
+		int32_t L_6;
+		L_6 = List_1_get_Count_mA961EE51C7C60217F2210F534AC0947B63C73F58_inline(L_5, NULL);
+		int32_t L_7 = ___0_weather;
+		if ((((int32_t)L_6) < ((int32_t)L_7)))
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_8;
+		L_8 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_8);
+		List_1_t02E666C10A9961D8746558E2691C1D89E8F6565D* L_9 = L_8->___zones;
+		int32_t L_10 = ___1_zone;
+		NullCheck(L_9);
+		EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* L_11;
+		L_11 = List_1_get_Item_mBE6B68D4571F670393A7BEBB176A19E747740652(L_9, L_10, NULL);
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_12 = __this->___Settings;
+		NullCheck(L_12);
+		List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* L_13 = L_12->___weatherTypes;
+		int32_t L_14 = ___0_weather;
+		NullCheck(L_13);
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_15;
+		L_15 = List_1_get_Item_m55677B8B1A79B76C2DE0818F418AE1B426738DF4(L_13, L_14, NULL);
+		NullCheck(L_11);
+		L_11->___currentWeatherType = L_15;
+		Il2CppCodeGenWriteBarrier((void**)(&L_11->___currentWeatherType), (void*)L_15);
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_16;
+		L_16 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_17 = __this->___Settings;
+		NullCheck(L_17);
+		List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* L_18 = L_17->___weatherTypes;
+		int32_t L_19 = ___0_weather;
+		NullCheck(L_18);
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_20;
+		L_20 = List_1_get_Item_m55677B8B1A79B76C2DE0818F418AE1B426738DF4(L_18, L_19, NULL);
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_21;
+		L_21 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_21);
+		List_1_t02E666C10A9961D8746558E2691C1D89E8F6565D* L_22 = L_21->___zones;
+		int32_t L_23 = ___1_zone;
+		NullCheck(L_22);
+		EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* L_24;
+		L_24 = List_1_get_Item_mBE6B68D4571F670393A7BEBB176A19E747740652(L_22, L_23, NULL);
+		NullCheck(L_16);
+		VirtualActionInvoker2< EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4*, EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* >::Invoke(8, L_16, L_20, L_24);
+	}
+
+IL_0076:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_ChangeWeatherInstant_mF106436E3281B0AEC5142E75B06AEE260AFB5285 (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* ___0_type, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit);
+	{
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_0 = __this->___targetWeatherType;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_1 = ___0_type;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_2;
+		L_2 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, L_1, NULL);
+		if (!L_2)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_3;
+		L_3 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_4 = ___0_type;
+		NullCheck(L_3);
+		VirtualActionInvoker1< EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* >::Invoke(7, L_3, L_4);
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_5;
+		L_5 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_6 = ___0_type;
+		NullCheck(L_5);
+		VirtualActionInvoker2< EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4*, EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* >::Invoke(8, L_5, L_6, (EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F*)NULL);
+	}
+
+IL_0025:
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_7;
+		L_7 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_7);
+		EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* L_8 = L_7->___currentZone;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_9;
+		L_9 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_9)
+		{
+			goto IL_0047;
+		}
+	}
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_10;
+		L_10 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_10);
+		EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* L_11 = L_10->___currentZone;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_12 = ___0_type;
+		NullCheck(L_11);
+		L_11->___currentWeatherType = L_12;
+		Il2CppCodeGenWriteBarrier((void**)(&L_11->___currentWeatherType), (void*)L_12);
+	}
+
+IL_0047:
+	{
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_13 = ___0_type;
+		__this->___targetWeatherType = L_13;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___targetWeatherType), (void*)L_13);
+		__this->___weatherBlendProgress = (1.0f);
+		__this->___instantTransition = (bool)1;
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_ChangeWeatherInstant_mE144E2A1EFDDC3ADA757762CE85A83E6C04C6D63 (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, String_t* ___0_typeName, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit);
+	int32_t V_0 = 0;
+	{
+		V_0 = 0;
+		goto IL_00dc;
+	}
+
+IL_0007:
+	{
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_0 = __this->___Settings;
+		NullCheck(L_0);
+		List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* L_1 = L_0->___weatherTypes;
+		int32_t L_2 = V_0;
+		NullCheck(L_1);
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_3;
+		L_3 = List_1_get_Item_m55677B8B1A79B76C2DE0818F418AE1B426738DF4(L_1, L_2, NULL);
+		NullCheck(L_3);
+		String_t* L_4;
+		L_4 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_3, NULL);
+		String_t* L_5 = ___0_typeName;
+		bool L_6;
+		L_6 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_4, L_5, NULL);
+		if (!L_6)
+		{
+			goto IL_00d8;
+		}
+	}
+	{
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_7 = __this->___targetWeatherType;
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_8 = __this->___Settings;
+		NullCheck(L_8);
+		List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* L_9 = L_8->___weatherTypes;
+		int32_t L_10 = V_0;
+		NullCheck(L_9);
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_11;
+		L_11 = List_1_get_Item_m55677B8B1A79B76C2DE0818F418AE1B426738DF4(L_9, L_10, NULL);
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_12;
+		L_12 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_7, L_11, NULL);
+		if (!L_12)
+		{
+			goto IL_007d;
+		}
+	}
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_13;
+		L_13 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_14 = __this->___Settings;
+		NullCheck(L_14);
+		List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* L_15 = L_14->___weatherTypes;
+		int32_t L_16 = V_0;
+		NullCheck(L_15);
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_17;
+		L_17 = List_1_get_Item_m55677B8B1A79B76C2DE0818F418AE1B426738DF4(L_15, L_16, NULL);
+		NullCheck(L_13);
+		VirtualActionInvoker1< EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* >::Invoke(7, L_13, L_17);
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_18;
+		L_18 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_19 = __this->___Settings;
+		NullCheck(L_19);
+		List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* L_20 = L_19->___weatherTypes;
+		int32_t L_21 = V_0;
+		NullCheck(L_20);
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_22;
+		L_22 = List_1_get_Item_m55677B8B1A79B76C2DE0818F418AE1B426738DF4(L_20, L_21, NULL);
+		NullCheck(L_18);
+		VirtualActionInvoker2< EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4*, EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* >::Invoke(8, L_18, L_22, (EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F*)NULL);
+	}
+
+IL_007d:
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_23;
+		L_23 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_23);
+		EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* L_24 = L_23->___currentZone;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_25;
+		L_25 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_24, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_25)
+		{
+			goto IL_00af;
+		}
+	}
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_26;
+		L_26 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_26);
+		EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* L_27 = L_26->___currentZone;
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_28 = __this->___Settings;
+		NullCheck(L_28);
+		List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* L_29 = L_28->___weatherTypes;
+		int32_t L_30 = V_0;
+		NullCheck(L_29);
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_31;
+		L_31 = List_1_get_Item_m55677B8B1A79B76C2DE0818F418AE1B426738DF4(L_29, L_30, NULL);
+		NullCheck(L_27);
+		L_27->___currentWeatherType = L_31;
+		Il2CppCodeGenWriteBarrier((void**)(&L_27->___currentWeatherType), (void*)L_31);
+	}
+
+IL_00af:
+	{
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_32 = __this->___Settings;
+		NullCheck(L_32);
+		List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* L_33 = L_32->___weatherTypes;
+		int32_t L_34 = V_0;
+		NullCheck(L_33);
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_35;
+		L_35 = List_1_get_Item_m55677B8B1A79B76C2DE0818F418AE1B426738DF4(L_33, L_34, NULL);
+		__this->___targetWeatherType = L_35;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___targetWeatherType), (void*)L_35);
+		__this->___weatherBlendProgress = (1.0f);
+		__this->___instantTransition = (bool)1;
+	}
+
+IL_00d8:
+	{
+		int32_t L_36 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_36, 1));
+	}
+
+IL_00dc:
+	{
+		int32_t L_37 = V_0;
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_38 = __this->___Settings;
+		NullCheck(L_38);
+		List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* L_39 = L_38->___weatherTypes;
+		NullCheck(L_39);
+		int32_t L_40;
+		L_40 = List_1_get_Count_mA961EE51C7C60217F2210F534AC0947B63C73F58_inline(L_39, NULL);
+		if ((((int32_t)L_37) < ((int32_t)L_40)))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_ChangeWeatherInstant_m56D68D7E303A78880F01B87C2A2E8AF68CB182D5 (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, int32_t ___0_index, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit);
+	int32_t V_0 = 0;
+	{
+		V_0 = 0;
+		goto IL_00c3;
+	}
+
+IL_0007:
+	{
+		int32_t L_0 = V_0;
+		int32_t L_1 = ___0_index;
+		if ((!(((uint32_t)L_0) == ((uint32_t)L_1))))
+		{
+			goto IL_00bf;
+		}
+	}
+	{
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_2 = __this->___targetWeatherType;
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_3 = __this->___Settings;
+		NullCheck(L_3);
+		List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* L_4 = L_3->___weatherTypes;
+		int32_t L_5 = V_0;
+		NullCheck(L_4);
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_6;
+		L_6 = List_1_get_Item_m55677B8B1A79B76C2DE0818F418AE1B426738DF4(L_4, L_5, NULL);
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_7;
+		L_7 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, L_6, NULL);
+		if (!L_7)
+		{
+			goto IL_0063;
+		}
+	}
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_8;
+		L_8 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_9 = __this->___Settings;
+		NullCheck(L_9);
+		List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* L_10 = L_9->___weatherTypes;
+		int32_t L_11 = V_0;
+		NullCheck(L_10);
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_12;
+		L_12 = List_1_get_Item_m55677B8B1A79B76C2DE0818F418AE1B426738DF4(L_10, L_11, NULL);
+		NullCheck(L_8);
+		VirtualActionInvoker1< EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* >::Invoke(7, L_8, L_12);
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_13;
+		L_13 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_14 = __this->___Settings;
+		NullCheck(L_14);
+		List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* L_15 = L_14->___weatherTypes;
+		int32_t L_16 = V_0;
+		NullCheck(L_15);
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_17;
+		L_17 = List_1_get_Item_m55677B8B1A79B76C2DE0818F418AE1B426738DF4(L_15, L_16, NULL);
+		NullCheck(L_13);
+		VirtualActionInvoker2< EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4*, EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* >::Invoke(8, L_13, L_17, (EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F*)NULL);
+	}
+
+IL_0063:
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_18;
+		L_18 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_18);
+		EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* L_19 = L_18->___currentZone;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_20;
+		L_20 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_19, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_20)
+		{
+			goto IL_0095;
+		}
+	}
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_21;
+		L_21 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_21);
+		EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* L_22 = L_21->___currentZone;
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_23 = __this->___Settings;
+		NullCheck(L_23);
+		List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* L_24 = L_23->___weatherTypes;
+		int32_t L_25 = V_0;
+		NullCheck(L_24);
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_26;
+		L_26 = List_1_get_Item_m55677B8B1A79B76C2DE0818F418AE1B426738DF4(L_24, L_25, NULL);
+		NullCheck(L_22);
+		L_22->___currentWeatherType = L_26;
+		Il2CppCodeGenWriteBarrier((void**)(&L_22->___currentWeatherType), (void*)L_26);
+	}
+
+IL_0095:
+	{
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_27 = __this->___Settings;
+		NullCheck(L_27);
+		List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* L_28 = L_27->___weatherTypes;
+		int32_t L_29 = V_0;
+		NullCheck(L_28);
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_30;
+		L_30 = List_1_get_Item_m55677B8B1A79B76C2DE0818F418AE1B426738DF4(L_28, L_29, NULL);
+		__this->___targetWeatherType = L_30;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___targetWeatherType), (void*)L_30);
+		__this->___weatherBlendProgress = (1.0f);
+		__this->___instantTransition = (bool)1;
+		return;
+	}
+
+IL_00bf:
+	{
+		int32_t L_31 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_31, 1));
+	}
+
+IL_00c3:
+	{
+		int32_t L_32 = V_0;
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_33 = __this->___Settings;
+		NullCheck(L_33);
+		List_1_tA05062DA73F1A582DC11B65ECA5D9FBC7FD3DBAE* L_34 = L_33->___weatherTypes;
+		NullCheck(L_34);
+		int32_t L_35;
+		L_35 = List_1_get_Count_mA961EE51C7C60217F2210F534AC0947B63C73F58_inline(L_34, NULL);
+		if ((((int32_t)L_32) < ((int32_t)L_35)))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_RegisterZone_m2C37CA750C22365369ECF50FCC19DD0A4F86B8F3 (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* ___0_zone, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_mEC097CFC693F69D8144C5A3CB63400FEFDB67479_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_0;
+		L_0 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_0);
+		List_1_t02E666C10A9961D8746558E2691C1D89E8F6565D* L_1 = L_0->___zones;
+		EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* L_2 = ___0_zone;
+		NullCheck(L_1);
+		List_1_Add_mEC097CFC693F69D8144C5A3CB63400FEFDB67479_inline(L_1, L_2, List_1_Add_mEC097CFC693F69D8144C5A3CB63400FEFDB67479_RuntimeMethod_var);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_RemoveZone_m85386E5D752FF0FF8C1E0A118700BFF7497FF17F (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* ___0_zone, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Contains_mDD3CCE81CAA8BFC92AEABEF74FF43A822C96193B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Remove_mF97194F3B320F002BD94B16DEC6587D795520347_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_0;
+		L_0 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_0);
+		List_1_t02E666C10A9961D8746558E2691C1D89E8F6565D* L_1 = L_0->___zones;
+		EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* L_2 = ___0_zone;
+		NullCheck(L_1);
+		bool L_3;
+		L_3 = List_1_Contains_mDD3CCE81CAA8BFC92AEABEF74FF43A822C96193B(L_1, L_2, List_1_Contains_mDD3CCE81CAA8BFC92AEABEF74FF43A822C96193B_RuntimeMethod_var);
+		if (!L_3)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_4;
+		L_4 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_4);
+		List_1_t02E666C10A9961D8746558E2691C1D89E8F6565D* L_5 = L_4->___zones;
+		EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* L_6 = ___0_zone;
+		NullCheck(L_5);
+		bool L_7;
+		L_7 = List_1_Remove_mF97194F3B320F002BD94B16DEC6587D795520347(L_5, L_6, List_1_Remove_mF97194F3B320F002BD94B16DEC6587D795520347_RuntimeMethod_var);
+	}
+
+IL_0023:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_LoadModuleValues_mD945CE730539362BCA7441B638E4AC19020DFB95 (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JsonUtility_FromJson_TisEnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665_m50086342F5BD373040263E6268D875CF86309AAB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3B378D9E65AAF03281200668E33468F461D35AA1);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit);
+	CHECKED_LOCAL(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_StaticInit);
+	{
+		EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* L_0 = __this->___preset;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* L_2 = __this->___preset;
+		NullCheck(L_2);
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_3 = L_2->___Settings;
+		String_t* L_4;
+		L_4 = JsonUtility_ToJson_m28CC6843B9D3723D88AD13EA3829B71FDE7826BA(L_3, NULL);
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_5;
+		L_5 = JsonUtility_FromJson_TisEnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665_m50086342F5BD373040263E6268D875CF86309AAB(L_4, JsonUtility_FromJson_TisEnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665_m50086342F5BD373040263E6268D875CF86309AAB_RuntimeMethod_var);
+		__this->___Settings = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___Settings), (void*)L_5);
+		return;
+	}
+
+IL_002a:
+	{
+		CHECKED_LOCAL_INIT(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_StaticInit,(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral3B378D9E65AAF03281200668E33468F461D35AA1, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule_SaveModuleValues_mD3DE470CB84EF580B9DD4435DFA149D42DCE15BF (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* ___0_module, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JsonUtility_FromJson_TisEnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665_m50086342F5BD373040263E6268D875CF86309AAB_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* L_0 = ___0_module;
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_1 = __this->___Settings;
+		String_t* L_2;
+		L_2 = JsonUtility_ToJson_m28CC6843B9D3723D88AD13EA3829B71FDE7826BA(L_1, NULL);
+		EnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665* L_3;
+		L_3 = JsonUtility_FromJson_TisEnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665_m50086342F5BD373040263E6268D875CF86309AAB(L_2, JsonUtility_FromJson_TisEnviroWeather_t9F164A1952FDFA902BAC7B1500DA3BD6B1DA6665_m50086342F5BD373040263E6268D875CF86309AAB_RuntimeMethod_var);
+		NullCheck(L_0);
+		L_0->___Settings = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&L_0->___Settings), (void*)L_3);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherModule__ctor_m4CB7D48EEBF42C51C3443D7241D7F8CC8A488892 (EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* __this, const RuntimeMethod* method) 
+{
+	{
+		__this->___globalAutoWeatherChange = (bool)1;
+		EnviroModule__ctor_mD72E1556F44583608AEA5B34C8B59C19F21EE88A(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInstantTransitionU3Ed__18__ctor_m8E40BDE3E167E3FC28DED9621D0CBE6E268F0AD0 (U3CInstantTransitionU3Ed__18_tD8EDBEEE60F62B132B2E6907F01FDB4C37ECD4BA* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInstantTransitionU3Ed__18_System_IDisposable_Dispose_m7938EB1A4EFA21EA8194459CAFEB1D71E5222C54 (U3CInstantTransitionU3Ed__18_tD8EDBEEE60F62B132B2E6907F01FDB4C37ECD4BA* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CInstantTransitionU3Ed__18_MoveNext_m2E287101CB1E71B5670183A34852376422C88ACD (U3CInstantTransitionU3Ed__18_tD8EDBEEE60F62B132B2E6907F01FDB4C37ECD4BA* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		__this->___U3CU3E1__state = (-1);
+		__this->___U3CU3E2__current = NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_002e:
+	{
+		__this->___U3CU3E1__state = (-1);
+		EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* L_4 = V_1;
+		NullCheck(L_4);
+		L_4->___instantTransition = (bool)0;
+		return (bool)0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CInstantTransitionU3Ed__18_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m162884964E26E851C72332F290FA96F75E60F73D (U3CInstantTransitionU3Ed__18_tD8EDBEEE60F62B132B2E6907F01FDB4C37ECD4BA* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CInstantTransitionU3Ed__18_System_Collections_IEnumerator_Reset_mAA05ED60F8C6DFDAA81DCEE1DE46B00ADB830356 (U3CInstantTransitionU3Ed__18_tD8EDBEEE60F62B132B2E6907F01FDB4C37ECD4BA* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CInstantTransitionU3Ed__18_System_Collections_IEnumerator_Reset_mAA05ED60F8C6DFDAA81DCEE1DE46B00ADB830356_RuntimeMethod_var)));
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CInstantTransitionU3Ed__18_System_Collections_IEnumerator_get_Current_mB719A78FA5BD1509CA9BD12BEDC8DA06442CC9A6 (U3CInstantTransitionU3Ed__18_tD8EDBEEE60F62B132B2E6907F01FDB4C37ECD4BA* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherTypeCloudsOverride__ctor_m6880BEA8AA9F33B0846E5B30084030200E7B6461 (EnviroWeatherTypeCloudsOverride_tC1AFB55E8041AE7EA97280859B3FA34021AB6CA0* __this, const RuntimeMethod* method) 
+{
+	{
+		__this->___ambientLightIntensity = (1.0f);
+		__this->___dilateCoverage = (0.5f);
+		__this->___dilateType = (0.5f);
+		__this->___typeModifier = (0.5f);
+		__this->___cloudTypeShaping = (1.0f);
+		__this->___scatteringIntensity = (1.0f);
+		__this->___multiScatterStrength = (0.5f);
+		__this->___multiScatterFalloff = (0.0199999996f);
+		__this->___ambientFloor = (0.0199999996f);
+		__this->___lightningIntensity = (0.5f);
+		__this->___exposure = (1.0f);
+		__this->___silverLiningSpread = (0.300000012f);
+		__this->___silverLiningIntensity = (1.0f);
+		__this->___edgeHighlightStrength = (1.0f);
+		__this->___ligthAbsorbtion = (0.5f);
+		__this->___density = (1.0f);
+		__this->___densitySmoothness = (1.0f);
+		__this->___baseErosionIntensity = (0.400000006f);
+		__this->___baseNoiseMultiplier = (1.0f);
+		__this->___detailErosionIntensity = (0.25f);
+		__this->___detailNoiseMultiplier = (1.0f);
+		__this->___curlIntensity = (0.200000003f);
+		__this->___rampShape = (1.0f);
+		__this->___baseNoiseUVMultiplier = (1.0f);
+		__this->___detailNoiseUVMultiplier = (1.0f);
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherTypeFlatCloudsOverride__ctor_mC24B8B11ABC8AFA5639A9ABE8614583E6AC5D706 (EnviroWeatherTypeFlatCloudsOverride_tA180726BCB3ED2915FD024EE82684B9822AE1E81* __this, const RuntimeMethod* method) 
+{
+	{
+		__this->___cirrusCloudsAlpha = (0.5f);
+		__this->___cirrusCloudsCoverage = (0.5f);
+		__this->___cirrusCloudsColorPower = (1.0f);
+		__this->___flatCloudsCoverage = (1.0f);
+		__this->___flatCloudsDensity = (1.0f);
+		__this->___flatCloudsLightIntensity = (1.0f);
+		__this->___flatCloudsAmbientIntensity = (1.0f);
+		__this->___flatCloudsShadowIntensity = (0.600000024f);
+		__this->___flatCloudsShadowSteps = 8;
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherTypeLightingOverride__ctor_m19125DEEA375DC1513543F9B29B19D226E20BB16 (EnviroWeatherTypeLightingOverride_t07F2CFA9E28401F87B688E9D0BB3B6F9FB06E1F3* __this, const RuntimeMethod* method) 
+{
+	{
+		__this->___directLightIntensityModifier = (1.0f);
+		__this->___ambientIntensityModifier = (1.0f);
+		__this->___shadowIntensity = (1.0f);
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherTypeSkyOverride__ctor_m91FE65F84AD19382F032089D381ECCADC0795B52 (EnviroWeatherTypeSkyOverride_t64CE5477522574795E84C3C6A114B5EE17B7B6F0* __this, const RuntimeMethod* method) 
+{
+	{
+		__this->___intensity = (1.0f);
+		__this->___mieScatteringMultiplier = (1.0f);
+		__this->___skyColorExponent = (1.0f);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
+		L_0 = Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline(NULL);
+		__this->___skyColorTint = L_0;
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroAudioOverrideType__ctor_m87F227BECFDC98D14E0DF29A8000382C13BDD5DB (EnviroAudioOverrideType_t2EB753F14ABDCC9BF0C4E5E06EE53CB005C1E9E4* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherTypeAudioOverride__ctor_m2B7761959A68C41019319751888FF94A51339FD3 (EnviroWeatherTypeAudioOverride_tC05695CE647B159D2CB78F2881362FFBAE5CA7E1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m4794B279BC8257C333031CDA7D79B9560222DAE0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tD86F44E0FD2760DB7FABBAB8BD2AF0A1DB96FF8F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_tD86F44E0FD2760DB7FABBAB8BD2AF0A1DB96FF8F* L_0 = (List_1_tD86F44E0FD2760DB7FABBAB8BD2AF0A1DB96FF8F*)il2cpp_codegen_object_new(List_1_tD86F44E0FD2760DB7FABBAB8BD2AF0A1DB96FF8F_il2cpp_TypeInfo_var);
+		List_1__ctor_m4794B279BC8257C333031CDA7D79B9560222DAE0(L_0, List_1__ctor_m4794B279BC8257C333031CDA7D79B9560222DAE0_RuntimeMethod_var);
+		__this->___ambientOverride = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___ambientOverride), (void*)L_0);
+		List_1_tD86F44E0FD2760DB7FABBAB8BD2AF0A1DB96FF8F* L_1 = (List_1_tD86F44E0FD2760DB7FABBAB8BD2AF0A1DB96FF8F*)il2cpp_codegen_object_new(List_1_tD86F44E0FD2760DB7FABBAB8BD2AF0A1DB96FF8F_il2cpp_TypeInfo_var);
+		List_1__ctor_m4794B279BC8257C333031CDA7D79B9560222DAE0(L_1, List_1__ctor_m4794B279BC8257C333031CDA7D79B9560222DAE0_RuntimeMethod_var);
+		__this->___weatherOverride = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___weatherOverride), (void*)L_1);
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherTypeFogOverride__ctor_m6134D7DE7C205147E2C23C6F4F633B5E0527E16F (EnviroWeatherTypeFogOverride_tB985178916BAD05543FE7263E677DA574FAB7BBA* __this, const RuntimeMethod* method) 
+{
+	{
+		__this->___fogDensity = (0.0199999996f);
+		__this->___fogHeightFalloff = (0.200000003f);
+		__this->___fogDensity2 = (0.0199999996f);
+		__this->___fogHeightFalloff2 = (0.200000003f);
+		__this->___fogColorBlend = (0.5f);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
+		L_0 = Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline(NULL);
+		__this->___fogColorMod = L_0;
+		__this->___scattering = (0.0149999997f);
+		__this->___extinction = (0.00999999978f);
+		__this->___anistropy = (0.600000024f);
+		__this->___unityFogDensity = (0.00200000009f);
+		__this->___unityFogEndDistance = (1000.0f);
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroEffectsOverrideType__ctor_m8D24A36E7B408CC39930A6A280C941B11917631F (EnviroEffectsOverrideType_tF276CE32D42E2F8092D48D7D8196BF3F0B7058EF* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherTypeEffectsOverride__ctor_m633F01E91FAABAA175B278B00497EA345BB7F4AB (EnviroWeatherTypeEffectsOverride_tFA4A348F0EA0113AB82B4AE1829CD2156B1DF674* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_mB8EE18FD446531304714DBE45A219EFB77CFE27C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t9ABE3324A49D590AC7053A8FFA5F1EB8F2B52F26_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t9ABE3324A49D590AC7053A8FFA5F1EB8F2B52F26* L_0 = (List_1_t9ABE3324A49D590AC7053A8FFA5F1EB8F2B52F26*)il2cpp_codegen_object_new(List_1_t9ABE3324A49D590AC7053A8FFA5F1EB8F2B52F26_il2cpp_TypeInfo_var);
+		List_1__ctor_mB8EE18FD446531304714DBE45A219EFB77CFE27C(L_0, List_1__ctor_mB8EE18FD446531304714DBE45A219EFB77CFE27C_RuntimeMethod_var);
+		__this->___effectsOverride = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___effectsOverride), (void*)L_0);
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherTypeAuroraOverride__ctor_m66933563F04DC75B95EA288F743F9D221833CCC1 (EnviroWeatherTypeAuroraOverride_t001DA21A27F2B703F5FC32BAF07C010946F3856E* __this, const RuntimeMethod* method) 
+{
+	{
+		__this->___auroraIntensity = (1.0f);
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherTypeEnvironmentOverride__ctor_m63C216A1B86C32933A071CBDB0FE282ADACEF94A (EnviroWeatherTypeEnvironmentOverride_t06F01D07920F9D78079839A2BE38874F55710645* __this, const RuntimeMethod* method) 
+{
+	{
+		__this->___windDirectionX = (1.0f);
+		__this->___windDirectionY = (-1.0f);
+		__this->___windSpeed = (0.25f);
+		__this->___windTurbulence = (0.25f);
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherTypeLightningOverride__ctor_m7B802CA31B632E99F2CB1C9741DAF03FE0FC9EFD (EnviroWeatherTypeLightningOverride_t9FF02C170D6EB2488BE996BE033E7342E73CFA56* __this, const RuntimeMethod* method) 
+{
+	{
+		__this->___randomLightningDelay = (1.0f);
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroWeatherType__ctor_m0011D348817CC2C1A71660532EAACA35BC7265BD (EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* __this, const RuntimeMethod* method) 
+{
+	{
+		ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* EnviroWeatherTypeCreation_CreateMyAsset_mFE7E35D30BC503CDE016F183CEEC8A0E0DAB9604 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScriptableObject_CreateInstance_TisEnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4_m93ABAB39747A291383509440322E1F3E4A787555_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_0;
+		L_0 = ScriptableObject_CreateInstance_TisEnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4_m93ABAB39747A291383509440322E1F3E4A787555(ScriptableObject_CreateInstance_TisEnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4_m93ABAB39747A291383509440322E1F3E4A787555_RuntimeMethod_var);
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroZoneWeather__ctor_mE7FE3FCF26BB53F1C6DC1A9E69F32AD9E6718CA8 (EnviroZoneWeather_t76EA76EF491153BF9C6786E730C1BD57EFD4F0CC* __this, const RuntimeMethod* method) 
+{
+	{
+		__this->___probability = (50.0f);
+		__this->___probabilitySpring = (50.0f);
+		__this->___probabilitySummer = (50.0f);
+		__this->___probabilityAutumn = (50.0f);
+		__this->___probabilityWinter = (50.0f);
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroZone_OnEnable_m99B51A20EF2F1B6A554DF12B61CBE536659ABB54 (EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisBoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23_m655518C8454E418FE8CF0E4770881B7A2B12BB23_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisBoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23_m704160C10BDAB9B54429D2DEB921575D3DF7622C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit);
+	bool V_0 = false;
+	int32_t V_1 = 0;
+	{
+		BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23* L_0 = __this->___zoneCollider;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
+		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_2);
+		BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23* L_3;
+		L_3 = GameObject_GetComponent_TisBoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23_m704160C10BDAB9B54429D2DEB921575D3DF7622C(L_2, GameObject_GetComponent_TisBoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23_m704160C10BDAB9B54429D2DEB921575D3DF7622C_RuntimeMethod_var);
+		__this->___zoneCollider = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___zoneCollider), (void*)L_3);
+		BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23* L_4 = __this->___zoneCollider;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_5;
+		L_5 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_5)
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
+		L_6 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_6);
+		BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23* L_7;
+		L_7 = GameObject_AddComponent_TisBoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23_m655518C8454E418FE8CF0E4770881B7A2B12BB23(L_6, GameObject_AddComponent_TisBoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23_m655518C8454E418FE8CF0E4770881B7A2B12BB23_RuntimeMethod_var);
+		__this->___zoneCollider = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___zoneCollider), (void*)L_7);
+	}
+
+IL_003e:
+	{
+		BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23* L_8 = __this->___zoneCollider;
+		NullCheck(L_8);
+		Collider_set_isTrigger_mFCD22F3EB5E28C97863956AB725D53F7F4B7CA78(L_8, (bool)1, NULL);
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_9;
+		L_9 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_10;
+		L_10 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_9, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_10)
+		{
+			goto IL_00b4;
+		}
+	}
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_11;
+		L_11 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_11);
+		EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* L_12 = ((EnviroManagerBase_tB87CACC2A3577D30A805E4B22A2888A00EED8850*)L_11)->___Weather;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_13;
+		L_13 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_12, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_13)
+		{
+			goto IL_00b4;
+		}
+	}
+	{
+		V_0 = (bool)0;
+		V_1 = 0;
+		goto IL_008f;
+	}
+
+IL_006f:
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_14;
+		L_14 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_14);
+		List_1_t02E666C10A9961D8746558E2691C1D89E8F6565D* L_15 = L_14->___zones;
+		int32_t L_16 = V_1;
+		NullCheck(L_15);
+		EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* L_17;
+		L_17 = List_1_get_Item_mBE6B68D4571F670393A7BEBB176A19E747740652(L_15, L_16, NULL);
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_18;
+		L_18 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_17, __this, NULL);
+		if (!L_18)
+		{
+			goto IL_008b;
+		}
+	}
+	{
+		V_0 = (bool)1;
+		goto IL_00a1;
+	}
+
+IL_008b:
+	{
+		int32_t L_19 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_19, 1));
+	}
+
+IL_008f:
+	{
+		int32_t L_20 = V_1;
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_21;
+		L_21 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_21);
+		List_1_t02E666C10A9961D8746558E2691C1D89E8F6565D* L_22 = L_21->___zones;
+		NullCheck(L_22);
+		int32_t L_23;
+		L_23 = List_1_get_Count_m84E8F773192AD496738404E5F1E8FF06AF7FF95D_inline(L_22, NULL);
+		if ((((int32_t)L_20) < ((int32_t)L_23)))
+		{
+			goto IL_006f;
+		}
+	}
+
+IL_00a1:
+	{
+		bool L_24 = V_0;
+		if (L_24)
+		{
+			goto IL_00b4;
+		}
+	}
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_25;
+		L_25 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_25);
+		EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* L_26 = ((EnviroManagerBase_tB87CACC2A3577D30A805E4B22A2888A00EED8850*)L_25)->___Weather;
+		NullCheck(L_26);
+		EnviroWeatherModule_RegisterZone_m2C37CA750C22365369ECF50FCC19DD0A4F86B8F3(L_26, __this, NULL);
+	}
+
+IL_00b4:
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_27;
+		L_27 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_27);
+		EnviroTimeModule_t85B4F1EC06100D9097DF12EE44A975090DD42291* L_28 = ((EnviroManagerBase_tB87CACC2A3577D30A805E4B22A2888A00EED8850*)L_27)->___Time;
+		NullCheck(L_28);
+		double L_29;
+		L_29 = EnviroTimeModule_GetDateInHours_m56892ED2668F7ED5658A3F80A84E173FD3495565(L_28, NULL);
+		float L_30 = __this->___weatherChangeIntervall;
+		double L_31 = (il2cpp_codegen_conv<double,float,float,false,false>(L_30,NULL));
+		__this->___nextWeatherUpdate = ((double)il2cpp_codegen_add(L_29, L_31));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroZone_OnDisable_mDDB438B38D4408626AEA220270755ACC9BDA8E9F (EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit);
+	int32_t V_0 = 0;
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_0;
+		L_0 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0061;
+		}
+	}
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_2;
+		L_2 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_2);
+		EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* L_3 = ((EnviroManagerBase_tB87CACC2A3577D30A805E4B22A2888A00EED8850*)L_2)->___Weather;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_4;
+		L_4 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_4)
+		{
+			goto IL_0061;
+		}
+	}
+	{
+		V_0 = 0;
+		goto IL_004f;
+	}
+
+IL_0023:
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_5;
+		L_5 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_5);
+		List_1_t02E666C10A9961D8746558E2691C1D89E8F6565D* L_6 = L_5->___zones;
+		int32_t L_7 = V_0;
+		NullCheck(L_6);
+		EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* L_8;
+		L_8 = List_1_get_Item_mBE6B68D4571F670393A7BEBB176A19E747740652(L_6, L_7, NULL);
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_9;
+		L_9 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_8, __this, NULL);
+		if (!L_9)
+		{
+			goto IL_004b;
+		}
+	}
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_10;
+		L_10 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_10);
+		EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* L_11 = ((EnviroManagerBase_tB87CACC2A3577D30A805E4B22A2888A00EED8850*)L_10)->___Weather;
+		NullCheck(L_11);
+		EnviroWeatherModule_RemoveZone_m85386E5D752FF0FF8C1E0A118700BFF7497FF17F(L_11, __this, NULL);
+	}
+
+IL_004b:
+	{
+		int32_t L_12 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_12, 1));
+	}
+
+IL_004f:
+	{
+		int32_t L_13 = V_0;
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_14;
+		L_14 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_14);
+		List_1_t02E666C10A9961D8746558E2691C1D89E8F6565D* L_15 = L_14->___zones;
+		NullCheck(L_15);
+		int32_t L_16;
+		L_16 = List_1_get_Count_m84E8F773192AD496738404E5F1E8FF06AF7FF95D_inline(L_15, NULL);
+		if ((((int32_t)L_13) < ((int32_t)L_16)))
+		{
+			goto IL_0023;
+		}
+	}
+
+IL_0061:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroZone_UpdateZoneScale_mE85B3AB88A4F160CAE16B20B7C5D8887CA7F23F1 (EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* __this, const RuntimeMethod* method) 
+{
+	{
+		BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23* L_0 = __this->___zoneCollider;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = __this->___zoneScale;
+		NullCheck(L_0);
+		BoxCollider_set_size_m8374267FDE5DD628973E0E5E1331E781552B855A(L_0, L_1, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroZone_AddWeatherType_m82DC5E30D65D216802FA52E251C1DFD636251000 (EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* __this, EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* ___0_wType, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EnviroZoneWeather_t76EA76EF491153BF9C6786E730C1BD57EFD4F0CC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_mD8BB81E7FF7D7FE245814F840AB89F43DA42A487_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	EnviroZoneWeather_t76EA76EF491153BF9C6786E730C1BD57EFD4F0CC* V_0 = NULL;
+	{
+		EnviroZoneWeather_t76EA76EF491153BF9C6786E730C1BD57EFD4F0CC* L_0 = (EnviroZoneWeather_t76EA76EF491153BF9C6786E730C1BD57EFD4F0CC*)il2cpp_codegen_object_new(EnviroZoneWeather_t76EA76EF491153BF9C6786E730C1BD57EFD4F0CC_il2cpp_TypeInfo_var);
+		EnviroZoneWeather__ctor_mE7FE3FCF26BB53F1C6DC1A9E69F32AD9E6718CA8(L_0, NULL);
+		V_0 = L_0;
+		EnviroZoneWeather_t76EA76EF491153BF9C6786E730C1BD57EFD4F0CC* L_1 = V_0;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_2 = ___0_wType;
+		NullCheck(L_1);
+		L_1->___weatherType = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___weatherType), (void*)L_2);
+		List_1_tEE7BE83F108B32E40244C32B8C5C06F9C3800223* L_3 = __this->___weatherTypeList;
+		EnviroZoneWeather_t76EA76EF491153BF9C6786E730C1BD57EFD4F0CC* L_4 = V_0;
+		NullCheck(L_3);
+		List_1_Add_mD8BB81E7FF7D7FE245814F840AB89F43DA42A487_inline(L_3, L_4, List_1_Add_mD8BB81E7FF7D7FE245814F840AB89F43DA42A487_RuntimeMethod_var);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroZone_RemoveWeatherZoneType_m38A2F4FB6CC924435296E0689F0F8B65C5A6997E (EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* __this, EnviroZoneWeather_t76EA76EF491153BF9C6786E730C1BD57EFD4F0CC* ___0_wType, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Remove_m21CA86299BA7F868215659596AF0A3FA40A5BEF7_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_tEE7BE83F108B32E40244C32B8C5C06F9C3800223* L_0 = __this->___weatherTypeList;
+		EnviroZoneWeather_t76EA76EF491153BF9C6786E730C1BD57EFD4F0CC* L_1 = ___0_wType;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = List_1_Remove_m21CA86299BA7F868215659596AF0A3FA40A5BEF7(L_0, L_1, List_1_Remove_m21CA86299BA7F868215659596AF0A3FA40A5BEF7_RuntimeMethod_var);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroZone_ChangeZoneWeatherInstant_mCD388610E0D305C720C90B50FF669545EE17EC67 (EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* __this, EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* ___0_type, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit);
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_0;
+		L_0 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_2 = __this->___currentWeatherType;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_3 = ___0_type;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_4;
+		L_4 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, L_3, NULL);
+		if (!L_4)
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_5;
+		L_5 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_6 = ___0_type;
+		NullCheck(L_5);
+		VirtualActionInvoker2< EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4*, EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* >::Invoke(8, L_5, L_6, __this);
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_7;
+		L_7 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_7);
+		EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* L_8 = L_7->___currentZone;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_9;
+		L_9 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_8, __this, NULL);
+		if (!L_9)
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_10;
+		L_10 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_10);
+		EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* L_11 = ((EnviroManagerBase_tB87CACC2A3577D30A805E4B22A2888A00EED8850*)L_10)->___Weather;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_12;
+		L_12 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_11, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_12)
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_13;
+		L_13 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_13);
+		EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* L_14 = ((EnviroManagerBase_tB87CACC2A3577D30A805E4B22A2888A00EED8850*)L_13)->___Weather;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_15 = ___0_type;
+		NullCheck(L_14);
+		L_14->___targetWeatherType = L_15;
+		Il2CppCodeGenWriteBarrier((void**)(&L_14->___targetWeatherType), (void*)L_15);
+	}
+
+IL_005b:
+	{
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_16 = ___0_type;
+		__this->___currentWeatherType = L_16;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentWeatherType), (void*)L_16);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroZone_ChangeZoneWeather_m0A6978E81C7DE0ED8B63EB510DC633423B892E84 (EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* __this, EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* ___0_type, const RuntimeMethod* method) 
+{
+	{
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_0 = ___0_type;
+		__this->___nextWeatherType = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___nextWeatherType), (void*)L_0);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroZone_ChooseNextWeatherRandom_mE84FB1D6F6B3DB39FE40DFEDBB04BB67ED0C2BFF (EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit);
+	float V_0 = 0.0f;
+	bool V_1 = false;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	{
+		List_1_tEE7BE83F108B32E40244C32B8C5C06F9C3800223* L_0 = __this->___weatherTypeList;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = List_1_get_Count_m17953B00538489C9B850ABFD18D476574F0B2E8D_inline(L_0, NULL);
+		float L_2 = (il2cpp_codegen_conv<float,int32_t,int32_t,false,false>(L_1,NULL));
+		float L_3;
+		L_3 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494((0.0f), ((float)il2cpp_codegen_multiply((100.0f), L_2)), NULL);
+		V_0 = L_3;
+		V_1 = (bool)0;
+		V_2 = 0;
+		goto IL_01cd;
+	}
+
+IL_0026:
+	{
+		List_1_tEE7BE83F108B32E40244C32B8C5C06F9C3800223* L_4 = __this->___weatherTypeList;
+		int32_t L_5 = V_2;
+		NullCheck(L_4);
+		EnviroZoneWeather_t76EA76EF491153BF9C6786E730C1BD57EFD4F0CC* L_6;
+		L_6 = List_1_get_Item_m6627B1BD8B37F97AAF150F8E7CA0CDD960158EC0(L_4, L_5, NULL);
+		NullCheck(L_6);
+		bool L_7 = L_6->___seasonalProbability;
+		if (!L_7)
+		{
+			goto IL_0186;
+		}
+	}
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_8;
+		L_8 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_9;
+		L_9 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_9)
+		{
+			goto IL_0186;
+		}
+	}
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_10;
+		L_10 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_10);
+		EnviroEnvironmentModule_t336D0B203F7D196DD424C955791BB3F33FAA34E8* L_11 = ((EnviroManagerBase_tB87CACC2A3577D30A805E4B22A2888A00EED8850*)L_10)->___Environment;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_12;
+		L_12 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_11, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_12)
+		{
+			goto IL_0186;
+		}
+	}
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_13;
+		L_13 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_13);
+		EnviroEnvironmentModule_t336D0B203F7D196DD424C955791BB3F33FAA34E8* L_14 = ((EnviroManagerBase_tB87CACC2A3577D30A805E4B22A2888A00EED8850*)L_13)->___Environment;
+		NullCheck(L_14);
+		EnviroEnvironment_tA3E1E6A42D58A5AB1230F7241311B1775E39B720* L_15 = L_14->___Settings;
+		NullCheck(L_15);
+		int32_t L_16 = L_15->___season;
+		V_3 = L_16;
+		int32_t L_17 = V_3;
+		switch (L_17)
+		{
+			case 0:
+			{
+				goto IL_0091;
+			}
+			case 1:
+			{
+				goto IL_00cf;
+			}
+			case 2:
+			{
+				goto IL_010d;
+			}
+			case 3:
+			{
+				goto IL_014b;
+			}
+		}
+	}
+	{
+		goto IL_01c1;
+	}
+
+IL_0091:
+	{
+		float L_18 = V_0;
+		List_1_tEE7BE83F108B32E40244C32B8C5C06F9C3800223* L_19 = __this->___weatherTypeList;
+		int32_t L_20 = V_2;
+		NullCheck(L_19);
+		EnviroZoneWeather_t76EA76EF491153BF9C6786E730C1BD57EFD4F0CC* L_21;
+		L_21 = List_1_get_Item_m6627B1BD8B37F97AAF150F8E7CA0CDD960158EC0(L_19, L_20, NULL);
+		NullCheck(L_21);
+		float L_22 = L_21->___probabilitySpring;
+		List_1_tEE7BE83F108B32E40244C32B8C5C06F9C3800223* L_23 = __this->___weatherTypeList;
+		NullCheck(L_23);
+		int32_t L_24;
+		L_24 = List_1_get_Count_m17953B00538489C9B850ABFD18D476574F0B2E8D_inline(L_23, NULL);
+		float L_25 = (il2cpp_codegen_conv<float,int32_t,int32_t,false,false>(L_24,NULL));
+		if ((!(((float)L_18) <= ((float)((float)il2cpp_codegen_multiply(L_22, L_25))))))
+		{
+			goto IL_01c1;
+		}
+	}
+	{
+		List_1_tEE7BE83F108B32E40244C32B8C5C06F9C3800223* L_26 = __this->___weatherTypeList;
+		int32_t L_27 = V_2;
+		NullCheck(L_26);
+		EnviroZoneWeather_t76EA76EF491153BF9C6786E730C1BD57EFD4F0CC* L_28;
+		L_28 = List_1_get_Item_m6627B1BD8B37F97AAF150F8E7CA0CDD960158EC0(L_26, L_27, NULL);
+		NullCheck(L_28);
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_29 = L_28->___weatherType;
+		EnviroZone_ChangeZoneWeather_m0A6978E81C7DE0ED8B63EB510DC633423B892E84_inline(__this, L_29, NULL);
+		V_1 = (bool)1;
+		return;
+	}
+
+IL_00cf:
+	{
+		float L_30 = V_0;
+		List_1_tEE7BE83F108B32E40244C32B8C5C06F9C3800223* L_31 = __this->___weatherTypeList;
+		int32_t L_32 = V_2;
+		NullCheck(L_31);
+		EnviroZoneWeather_t76EA76EF491153BF9C6786E730C1BD57EFD4F0CC* L_33;
+		L_33 = List_1_get_Item_m6627B1BD8B37F97AAF150F8E7CA0CDD960158EC0(L_31, L_32, NULL);
+		NullCheck(L_33);
+		float L_34 = L_33->___probabilitySummer;
+		List_1_tEE7BE83F108B32E40244C32B8C5C06F9C3800223* L_35 = __this->___weatherTypeList;
+		NullCheck(L_35);
+		int32_t L_36;
+		L_36 = List_1_get_Count_m17953B00538489C9B850ABFD18D476574F0B2E8D_inline(L_35, NULL);
+		float L_37 = (il2cpp_codegen_conv<float,int32_t,int32_t,false,false>(L_36,NULL));
+		if ((!(((float)L_30) <= ((float)((float)il2cpp_codegen_multiply(L_34, L_37))))))
+		{
+			goto IL_01c1;
+		}
+	}
+	{
+		List_1_tEE7BE83F108B32E40244C32B8C5C06F9C3800223* L_38 = __this->___weatherTypeList;
+		int32_t L_39 = V_2;
+		NullCheck(L_38);
+		EnviroZoneWeather_t76EA76EF491153BF9C6786E730C1BD57EFD4F0CC* L_40;
+		L_40 = List_1_get_Item_m6627B1BD8B37F97AAF150F8E7CA0CDD960158EC0(L_38, L_39, NULL);
+		NullCheck(L_40);
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_41 = L_40->___weatherType;
+		EnviroZone_ChangeZoneWeather_m0A6978E81C7DE0ED8B63EB510DC633423B892E84_inline(__this, L_41, NULL);
+		V_1 = (bool)1;
+		return;
+	}
+
+IL_010d:
+	{
+		float L_42 = V_0;
+		List_1_tEE7BE83F108B32E40244C32B8C5C06F9C3800223* L_43 = __this->___weatherTypeList;
+		int32_t L_44 = V_2;
+		NullCheck(L_43);
+		EnviroZoneWeather_t76EA76EF491153BF9C6786E730C1BD57EFD4F0CC* L_45;
+		L_45 = List_1_get_Item_m6627B1BD8B37F97AAF150F8E7CA0CDD960158EC0(L_43, L_44, NULL);
+		NullCheck(L_45);
+		float L_46 = L_45->___probabilityAutumn;
+		List_1_tEE7BE83F108B32E40244C32B8C5C06F9C3800223* L_47 = __this->___weatherTypeList;
+		NullCheck(L_47);
+		int32_t L_48;
+		L_48 = List_1_get_Count_m17953B00538489C9B850ABFD18D476574F0B2E8D_inline(L_47, NULL);
+		float L_49 = (il2cpp_codegen_conv<float,int32_t,int32_t,false,false>(L_48,NULL));
+		if ((!(((float)L_42) <= ((float)((float)il2cpp_codegen_multiply(L_46, L_49))))))
+		{
+			goto IL_01c1;
+		}
+	}
+	{
+		List_1_tEE7BE83F108B32E40244C32B8C5C06F9C3800223* L_50 = __this->___weatherTypeList;
+		int32_t L_51 = V_2;
+		NullCheck(L_50);
+		EnviroZoneWeather_t76EA76EF491153BF9C6786E730C1BD57EFD4F0CC* L_52;
+		L_52 = List_1_get_Item_m6627B1BD8B37F97AAF150F8E7CA0CDD960158EC0(L_50, L_51, NULL);
+		NullCheck(L_52);
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_53 = L_52->___weatherType;
+		EnviroZone_ChangeZoneWeather_m0A6978E81C7DE0ED8B63EB510DC633423B892E84_inline(__this, L_53, NULL);
+		V_1 = (bool)1;
+		return;
+	}
+
+IL_014b:
+	{
+		float L_54 = V_0;
+		List_1_tEE7BE83F108B32E40244C32B8C5C06F9C3800223* L_55 = __this->___weatherTypeList;
+		int32_t L_56 = V_2;
+		NullCheck(L_55);
+		EnviroZoneWeather_t76EA76EF491153BF9C6786E730C1BD57EFD4F0CC* L_57;
+		L_57 = List_1_get_Item_m6627B1BD8B37F97AAF150F8E7CA0CDD960158EC0(L_55, L_56, NULL);
+		NullCheck(L_57);
+		float L_58 = L_57->___probabilityWinter;
+		List_1_tEE7BE83F108B32E40244C32B8C5C06F9C3800223* L_59 = __this->___weatherTypeList;
+		NullCheck(L_59);
+		int32_t L_60;
+		L_60 = List_1_get_Count_m17953B00538489C9B850ABFD18D476574F0B2E8D_inline(L_59, NULL);
+		float L_61 = (il2cpp_codegen_conv<float,int32_t,int32_t,false,false>(L_60,NULL));
+		if ((!(((float)L_54) <= ((float)((float)il2cpp_codegen_multiply(L_58, L_61))))))
+		{
+			goto IL_01c1;
+		}
+	}
+	{
+		List_1_tEE7BE83F108B32E40244C32B8C5C06F9C3800223* L_62 = __this->___weatherTypeList;
+		int32_t L_63 = V_2;
+		NullCheck(L_62);
+		EnviroZoneWeather_t76EA76EF491153BF9C6786E730C1BD57EFD4F0CC* L_64;
+		L_64 = List_1_get_Item_m6627B1BD8B37F97AAF150F8E7CA0CDD960158EC0(L_62, L_63, NULL);
+		NullCheck(L_64);
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_65 = L_64->___weatherType;
+		EnviroZone_ChangeZoneWeather_m0A6978E81C7DE0ED8B63EB510DC633423B892E84_inline(__this, L_65, NULL);
+		V_1 = (bool)1;
+		return;
+	}
+
+IL_0186:
+	{
+		float L_66 = V_0;
+		List_1_tEE7BE83F108B32E40244C32B8C5C06F9C3800223* L_67 = __this->___weatherTypeList;
+		int32_t L_68 = V_2;
+		NullCheck(L_67);
+		EnviroZoneWeather_t76EA76EF491153BF9C6786E730C1BD57EFD4F0CC* L_69;
+		L_69 = List_1_get_Item_m6627B1BD8B37F97AAF150F8E7CA0CDD960158EC0(L_67, L_68, NULL);
+		NullCheck(L_69);
+		float L_70 = L_69->___probability;
+		List_1_tEE7BE83F108B32E40244C32B8C5C06F9C3800223* L_71 = __this->___weatherTypeList;
+		NullCheck(L_71);
+		int32_t L_72;
+		L_72 = List_1_get_Count_m17953B00538489C9B850ABFD18D476574F0B2E8D_inline(L_71, NULL);
+		float L_73 = (il2cpp_codegen_conv<float,int32_t,int32_t,false,false>(L_72,NULL));
+		if ((!(((float)L_66) <= ((float)((float)il2cpp_codegen_multiply(L_70, L_73))))))
+		{
+			goto IL_01c1;
+		}
+	}
+	{
+		List_1_tEE7BE83F108B32E40244C32B8C5C06F9C3800223* L_74 = __this->___weatherTypeList;
+		int32_t L_75 = V_2;
+		NullCheck(L_74);
+		EnviroZoneWeather_t76EA76EF491153BF9C6786E730C1BD57EFD4F0CC* L_76;
+		L_76 = List_1_get_Item_m6627B1BD8B37F97AAF150F8E7CA0CDD960158EC0(L_74, L_75, NULL);
+		NullCheck(L_76);
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_77 = L_76->___weatherType;
+		EnviroZone_ChangeZoneWeather_m0A6978E81C7DE0ED8B63EB510DC633423B892E84_inline(__this, L_77, NULL);
+		V_1 = (bool)1;
+		return;
+	}
+
+IL_01c1:
+	{
+		float L_78 = V_0;
+		V_0 = ((float)il2cpp_codegen_subtract(L_78, (100.0f)));
+		int32_t L_79 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_79, 1));
+	}
+
+IL_01cd:
+	{
+		int32_t L_80 = V_2;
+		List_1_tEE7BE83F108B32E40244C32B8C5C06F9C3800223* L_81 = __this->___weatherTypeList;
+		NullCheck(L_81);
+		int32_t L_82;
+		L_82 = List_1_get_Count_m17953B00538489C9B850ABFD18D476574F0B2E8D_inline(L_81, NULL);
+		if ((((int32_t)L_80) < ((int32_t)L_82)))
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		bool L_83 = V_1;
+		if (L_83)
+		{
+			goto IL_01ed;
+		}
+	}
+	{
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_84 = __this->___currentWeatherType;
+		EnviroZone_ChangeZoneWeather_m0A6978E81C7DE0ED8B63EB510DC633423B892E84_inline(__this, L_84, NULL);
+	}
+
+IL_01ed:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroZone_UpdateZoneWeather_mB38B3DD1D96F29B3458A58E332D47EE112000956 (EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit);
+	double V_0 = 0.0;
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_0;
+		L_0 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_0);
+		EnviroTimeModule_t85B4F1EC06100D9097DF12EE44A975090DD42291* L_1 = ((EnviroManagerBase_tB87CACC2A3577D30A805E4B22A2888A00EED8850*)L_0)->___Time;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_2;
+		L_2 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_2)
+		{
+			goto IL_0068;
+		}
+	}
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_3;
+		L_3 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_3);
+		EnviroTimeModule_t85B4F1EC06100D9097DF12EE44A975090DD42291* L_4 = ((EnviroManagerBase_tB87CACC2A3577D30A805E4B22A2888A00EED8850*)L_3)->___Time;
+		NullCheck(L_4);
+		double L_5;
+		L_5 = EnviroTimeModule_GetDateInHours_m56892ED2668F7ED5658A3F80A84E173FD3495565(L_4, NULL);
+		V_0 = L_5;
+		double L_6 = V_0;
+		double L_7 = __this->___nextWeatherUpdate;
+		if ((!(((double)L_6) >= ((double)L_7))))
+		{
+			goto IL_0068;
+		}
+	}
+	{
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_8 = __this->___nextWeatherType;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_9;
+		L_9 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_9)
+		{
+			goto IL_0047;
+		}
+	}
+	{
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_10 = __this->___nextWeatherType;
+		EnviroZone_ChangeZoneWeatherInstant_mCD388610E0D305C720C90B50FF669545EE17EC67(__this, L_10, NULL);
+		goto IL_0053;
+	}
+
+IL_0047:
+	{
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_11 = __this->___currentWeatherType;
+		EnviroZone_ChangeZoneWeatherInstant_mCD388610E0D305C720C90B50FF669545EE17EC67(__this, L_11, NULL);
+	}
+
+IL_0053:
+	{
+		EnviroZone_ChooseNextWeatherRandom_mE84FB1D6F6B3DB39FE40DFEDBB04BB67ED0C2BFF(__this, NULL);
+		double L_12 = V_0;
+		float L_13 = __this->___weatherChangeIntervall;
+		double L_14 = (il2cpp_codegen_conv<double,float,float,false,false>(L_13,NULL));
+		__this->___nextWeatherUpdate = ((double)il2cpp_codegen_add(L_12, L_14));
+	}
+
+IL_0068:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroZone_Update_mBF4CC6528E2676993CB5109454551E06E235E911 (EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_StaticInit);
+	CHECKED_LOCAL(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit);
+	{
+		EnviroZone_UpdateZoneScale_mE85B3AB88A4F160CAE16B20B7C5D8887CA7F23F1(__this, NULL);
+		CHECKED_LOCAL_INIT(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_StaticInit,(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_0;
+		L_0 = Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34(NULL);
+		if (L_0)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000e:
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_1;
+		L_1 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_2;
+		L_2 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_2)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_3;
+		L_3 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_3);
+		EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* L_4 = ((EnviroManagerBase_tB87CACC2A3577D30A805E4B22A2888A00EED8850*)L_3)->___Weather;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_5;
+		L_5 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_5)
+		{
+			goto IL_002e;
+		}
+	}
+
+IL_002d:
+	{
+		return;
+	}
+
+IL_002e:
+	{
+		bool L_6 = __this->___autoWeatherChanges;
+		if (!L_6)
+		{
+			goto IL_004d;
+		}
+	}
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_7;
+		L_7 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_7);
+		EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* L_8 = ((EnviroManagerBase_tB87CACC2A3577D30A805E4B22A2888A00EED8850*)L_7)->___Weather;
+		NullCheck(L_8);
+		bool L_9 = L_8->___globalAutoWeatherChange;
+		if (!L_9)
+		{
+			goto IL_004d;
+		}
+	}
+	{
+		EnviroZone_UpdateZoneWeather_mB38B3DD1D96F29B3458A58E332D47EE112000956(__this, NULL);
+	}
+
+IL_004d:
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_10;
+		L_10 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_10);
+		EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* L_11 = L_10->___currentZone;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_12;
+		L_12 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_11, __this, NULL);
+		if (!L_12)
+		{
+			goto IL_0090;
+		}
+	}
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_13;
+		L_13 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_13);
+		EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* L_14 = ((EnviroManagerBase_tB87CACC2A3577D30A805E4B22A2888A00EED8850*)L_13)->___Weather;
+		NullCheck(L_14);
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_15 = L_14->___targetWeatherType;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_16 = __this->___currentWeatherType;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_17;
+		L_17 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_15, L_16, NULL);
+		if (!L_17)
+		{
+			goto IL_0090;
+		}
+	}
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_18;
+		L_18 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_18);
+		EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* L_19 = ((EnviroManagerBase_tB87CACC2A3577D30A805E4B22A2888A00EED8850*)L_18)->___Weather;
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_20 = __this->___currentWeatherType;
+		NullCheck(L_19);
+		L_19->___targetWeatherType = L_20;
+		Il2CppCodeGenWriteBarrier((void**)(&L_19->___targetWeatherType), (void*)L_20);
+	}
+
+IL_0090:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroZone_OnTriggerEnter_m02AA47CB4E7EEC17AE21CC8E4E82038349D91B35 (EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_col, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisEnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84_mBC098807F2FE4D5EC28D8DFC8A6BDF6FCFA74332_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit);
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_0;
+		L_0 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_1)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_2;
+		L_2 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_2);
+		EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* L_3 = ((EnviroManagerBase_tB87CACC2A3577D30A805E4B22A2888A00EED8850*)L_2)->___Weather;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_4;
+		L_4 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_4)
+		{
+			goto IL_0020;
+		}
+	}
+
+IL_001f:
+	{
+		return;
+	}
+
+IL_0020:
+	{
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_5 = ___0_col;
+		NullCheck(L_5);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
+		L_6 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_5, NULL);
+		NullCheck(L_6);
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_7;
+		L_7 = GameObject_GetComponent_TisEnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84_mBC098807F2FE4D5EC28D8DFC8A6BDF6FCFA74332(L_6, GameObject_GetComponent_TisEnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84_mBC098807F2FE4D5EC28D8DFC8A6BDF6FCFA74332_RuntimeMethod_var);
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_8;
+		L_8 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_7, NULL);
+		if (!L_8)
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_9;
+		L_9 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_9);
+		L_9->___currentZone = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_9->___currentZone), (void*)__this);
+	}
+
+IL_003d:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroZone_OnTriggerExit_m4C6D8307D5EE329073112F8581C9C282909A5309 (EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_col, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisEnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84_mBC098807F2FE4D5EC28D8DFC8A6BDF6FCFA74332_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CHECKED_LOCAL(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit);
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_0;
+		L_0 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_1)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_2;
+		L_2 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_2);
+		EnviroWeatherModule_tB1D1DCC3BD8857154E8E368CDC449A46DF6F5978* L_3 = ((EnviroManagerBase_tB87CACC2A3577D30A805E4B22A2888A00EED8850*)L_2)->___Weather;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_4;
+		L_4 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_4)
+		{
+			goto IL_0020;
+		}
+	}
+
+IL_001f:
+	{
+		return;
+	}
+
+IL_0020:
+	{
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_5 = ___0_col;
+		NullCheck(L_5);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
+		L_6 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_5, NULL);
+		NullCheck(L_6);
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_7;
+		L_7 = GameObject_GetComponent_TisEnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84_mBC098807F2FE4D5EC28D8DFC8A6BDF6FCFA74332(L_6, GameObject_GetComponent_TisEnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84_mBC098807F2FE4D5EC28D8DFC8A6BDF6FCFA74332_RuntimeMethod_var);
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_8;
+		L_8 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_7, NULL);
+		if (!L_8)
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_9;
+		L_9 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_9);
+		EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* L_10 = L_9->___currentZone;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_11;
+		L_11 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_10, __this, NULL);
+		if (!L_11)
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_12;
+		L_12 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_12);
+		EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* L_13 = L_12->___defaultZone;
+		CHECKED_LOCAL_INIT(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticInit,(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var),il2cpp_codegen_runtime_class_init_inline);
+		bool L_14;
+		L_14 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_13, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_14)
+		{
+			goto IL_006b;
+		}
+	}
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_15;
+		L_15 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_16;
+		L_16 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_16);
+		EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* L_17 = L_16->___defaultZone;
+		NullCheck(L_15);
+		L_15->___currentZone = L_17;
+		Il2CppCodeGenWriteBarrier((void**)(&L_15->___currentZone), (void*)L_17);
+		return;
+	}
+
+IL_006b:
+	{
+		EnviroManager_t4196455E25270FB497A4BC58079F17CB5D710E84* L_18;
+		L_18 = EnviroManager_get_instance_m4D48702F1FB58C08E323DEB05FC15DBC47100187(NULL);
+		NullCheck(L_18);
+		L_18->___currentZone = (EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&L_18->___currentZone), (void*)(EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F*)NULL);
+	}
+
+IL_0076:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroZone_OnDrawGizmos_m6E92B5B1976FF2818DCE66D1B59EEAB196EF5081 (EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* __this, const RuntimeMethod* method) 
+{
+	{
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = __this->___zoneGizmoColor;
+		Gizmos_set_color_m53927A2741937484180B20B55F7F20F8F60C5797(L_0, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
+		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_1);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
+		L_2 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_1, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
+		L_3 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_3);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_4;
+		L_4 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_3, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
+		L_5 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_6;
+		L_6 = Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3_inline(L_2, L_4, L_5, NULL);
+		Gizmos_set_matrix_m100B4ACA7FBDFF65CE1BD0000E9E0D7566147A15(L_6, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_8 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___zoneScale);
+		float L_9 = L_8->___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_10 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___zoneScale);
+		float L_11 = L_10->___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_12 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___zoneScale);
+		float L_13 = L_12->___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
+		memset((&L_14), 0, sizeof(L_14));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_14), L_9, L_11, L_13, NULL);
+		Gizmos_DrawCube_m4417EAEA479EF4AD52445810D840BA8FCBC6EF3F(L_7, L_14, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EnviroZone__ctor_mF05998F7488AD273A0F71156337AC5314723850E (EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m4FE7C8F199F0A9A866DB79907F9A81CD75B423EC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tEE7BE83F108B32E40244C32B8C5C06F9C3800223_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->___autoWeatherChanges = (bool)1;
+		__this->___weatherChangeIntervall = (2.0f);
+		List_1_tEE7BE83F108B32E40244C32B8C5C06F9C3800223* L_0 = (List_1_tEE7BE83F108B32E40244C32B8C5C06F9C3800223*)il2cpp_codegen_object_new(List_1_tEE7BE83F108B32E40244C32B8C5C06F9C3800223_il2cpp_TypeInfo_var);
+		List_1__ctor_m4FE7C8F199F0A9A866DB79907F9A81CD75B423EC(L_0, List_1__ctor_m4FE7C8F199F0A9A866DB79907F9A81CD75B423EC_RuntimeMethod_var);
+		__this->___weatherTypeList = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___weatherTypeList), (void*)L_0);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		L_1 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
+		__this->___zoneScale = L_1;
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		float L_2 = ___2_z;
+		__this->___z = L_2;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline (float ___0_a, float ___1_b, float ___2_t, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_a;
+		float L_1 = ___1_b;
+		float L_2 = ___0_a;
+		float L_3 = ___2_t;
+		float L_4;
+		L_4 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_3, NULL);
+		return ((float)il2cpp_codegen_add(L_0, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_1, L_2)), L_4))));
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_Lerp_mE79F87889843ECDC188E4CB5B5E1F1B2256E5EBE_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_a, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_b, float ___2_t, const RuntimeMethod* method) 
+{
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		float L_0 = ___2_t;
+		float L_1;
+		L_1 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_0, NULL);
+		___2_t = L_1;
+		il2cpp_codegen_initobj((&V_0), sizeof(Color_tD001788D726C3A7F1379BEED0260B9591F440C1F));
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2 = ___0_a;
+		float L_3 = L_2.___r;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_4 = ___1_b;
+		float L_5 = L_4.___r;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_6 = ___0_a;
+		float L_7 = L_6.___r;
+		float L_8 = ___2_t;
+		(&V_0)->___r = ((float)il2cpp_codegen_add(L_3, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_5, L_7)), L_8))));
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_9 = ___0_a;
+		float L_10 = L_9.___g;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_11 = ___1_b;
+		float L_12 = L_11.___g;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_13 = ___0_a;
+		float L_14 = L_13.___g;
+		float L_15 = ___2_t;
+		(&V_0)->___g = ((float)il2cpp_codegen_add(L_10, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_12, L_14)), L_15))));
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_16 = ___0_a;
+		float L_17 = L_16.___b;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_18 = ___1_b;
+		float L_19 = L_18.___b;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_20 = ___0_a;
+		float L_21 = L_20.___b;
+		float L_22 = ___2_t;
+		(&V_0)->___b = ((float)il2cpp_codegen_add(L_17, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_19, L_21)), L_22))));
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_23 = ___0_a;
+		float L_24 = L_23.___a;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_25 = ___1_b;
+		float L_26 = L_25.___a;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_27 = ___0_a;
+		float L_28 = L_27.___a;
+		float L_29 = ___2_t;
+		(&V_0)->___a = ((float)il2cpp_codegen_add(L_24, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_26, L_28)), L_29))));
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_30 = V_0;
+		return L_30;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_value;
+		if ((((float)L_0) < ((float)(0.0f))))
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		float L_1 = ___0_value;
+		if ((((float)L_1) > ((float)(1.0f))))
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		float L_2 = ___0_value;
+		return L_2;
+	}
+
+IL_0012:
+	{
+		return (1.0f);
+	}
+
+IL_0018:
+	{
+		return (0.0f);
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline (const RuntimeMethod* method) 
+{
+	{
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_0), (1.0f), (1.0f), (1.0f), (1.0f), NULL);
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void EnviroZone_ChangeZoneWeather_m0A6978E81C7DE0ED8B63EB510DC633423B892E84_inline (EnviroZone_tC84697212A4A2B692F1C04FBA845E424144F252F* __this, EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* ___0_type, const RuntimeMethod* method) 
+{
+	{
+		EnviroWeatherType_tBEA492B137A8DF7C6A2A39A821A5E2C1E662AEA4* L_0 = ___0_type;
+		__this->___nextWeatherType = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___nextWeatherType), (void*)L_0);
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline (const RuntimeMethod* method) 
+{
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___oneVector;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_pos, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_q, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_s, const RuntimeMethod* method) 
+{
+	{
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_0;
+		L_0 = Matrix4x4_Internal_TRS_m39AB7D4719528E75EAEC127019A36907AABE52B4((&___0_pos), (&___1_q), (&___2_s), NULL);
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) 
+{
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___zeroVector;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_mD2ED26ACAF3BAF386FFEA83893BA51DB9FD8BA30_fshared_inline (List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->____size;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m0CE6E39234ED33F5195AABC8029D06D4756C75C1_gshared_inline (List_1_t6959D78D53022948E65A4FDA6291D7F38FEFA02E* __this, Il2CppSharedGenericObject* ___0_item, const RuntimeMethod* method) 
+{
+	__CanonU5BU5D_tFF96AE6C231BB36A6CEE54CEEB72ED8E90201979* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		__CanonU5BU5D_tFF96AE6C231BB36A6CEE54CEEB72ED8E90201979* L_1 = __this->____items;
+		V_0 = L_1;
+		int32_t L_2 = __this->____size;
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		__CanonU5BU5D_tFF96AE6C231BB36A6CEE54CEEB72ED8E90201979* L_4 = V_0;
+		NullCheck(L_4);
+		int32_t L_5 = (il2cpp_codegen_conv<int32_t,int64_t,int64_t,false,false>((((RuntimeArray*)L_4)->max_length),NULL));
+		if ((!(((uint32_t)L_3) < ((uint32_t)L_5))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_6 = V_1;
+		__this->____size = ((int32_t)il2cpp_codegen_add(L_6, 1));
+		__CanonU5BU5D_tFF96AE6C231BB36A6CEE54CEEB72ED8E90201979* L_7 = V_0;
+		int32_t L_8 = V_1;
+		Il2CppSharedGenericObject* L_9 = ___0_item;
+		NullCheck(L_7);
+		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(L_8), (Il2CppSharedGenericObject*)L_9);
+		return;
+	}
+
+IL_0034:
+	{
+		Il2CppSharedGenericObject* L_10 = ___0_item;
+		List_1_AddWithResize_mCC24A812DFC30C3DE2230E3C8EE705871C1DFF81(__this, L_10, il2cpp_rgctx_method(il2cpp_codegen_method_rgctx(method), 11));
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, float ___3_a, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_r;
+		__this->___r = L_0;
+		float L_1 = ___1_g;
+		__this->___g = L_1;
+		float L_2 = ___2_b;
+		__this->___b = L_2;
+		float L_3 = ___3_a;
+		__this->___a = L_3;
+		return;
+	}
+}

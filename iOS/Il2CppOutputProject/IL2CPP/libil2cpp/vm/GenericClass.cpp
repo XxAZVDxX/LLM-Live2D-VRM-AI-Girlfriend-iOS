@@ -1,0 +1,262 @@
+#include "il2cpp-config.h"
+#include "metadata/GenericMetadata.h"
+#include "os/Atomic.h"
+#include "os/Mutex.h"
+#include "utils/Memory.h"
+#include "vm/Class.h"
+#include "vm/GenericClass.h"
+#include "vm/Exception.h"
+#include "vm/MetadataAlloc.h"
+#include "vm/MetadataCache.h"
+#include "vm/MetadataLock.h"
+#include "il2cpp-class-internals.h"
+#include "il2cpp-runtime-metadata.h"
+#include "il2cpp-runtime-stats.h"
+
+namespace il2cpp
+{
+namespace vm
+{
+    struct Il2CppGenericClassInstance
+    {
+        Il2CppGenericContext context;
+        Il2CppClass klass;
+    };
+
+    const MethodInfo** GenericClass::CreateMethods(Il2CppClass* genericInstanceType)
+    {
+        Il2CppClass* genericTypeDefinition = GenericClass::GetTypeDefinition(genericInstanceType->generic_class);
+        uint16_t methodCount = genericTypeDefinition->method_count;
+        IL2CPP_ASSERT(genericTypeDefinition->method_count == genericInstanceType->method_count);
+
+        if (methodCount == 0)
+            return NULL;
+
+        const MethodInfo** methods = (const MethodInfo**)MetadataCalloc(methodCount, sizeof(MethodInfo*));
+
+        for (uint16_t methodIndex = 0; methodIndex < methodCount; ++methodIndex)
+        {
+            const MethodInfo* methodDefinition = genericTypeDefinition->methods[methodIndex];
+            methods[methodIndex] = metadata::GenericMetadata::Inflate(methodDefinition, GenericClass::GetInstance(genericInstanceType->generic_class));
+        }
+
+
+        il2cpp_runtime_stats.method_count += methodCount;
+
+        return methods;
+    }
+
+    static void InflatePropertyDefinition(const PropertyInfo* propertyDefinition, PropertyInfo* newProperty, Il2CppClass* declaringClass, const Il2CppGenericInst* classInst)
+    {
+        newProperty->attrs = propertyDefinition->attrs;
+        newProperty->parent = declaringClass;
+        newProperty->name = propertyDefinition->name;
+        newProperty->token = propertyDefinition->token;
+
+        if (propertyDefinition->get)
+            newProperty->get = metadata::GenericMetadata::Inflate(propertyDefinition->get, classInst);
+        if (propertyDefinition->set)
+            newProperty->set = metadata::GenericMetadata::Inflate(propertyDefinition->set, classInst);
+    }
+
+    PropertyInfo* GenericClass::CreateProperties(Il2CppClass* genericInstanceType)
+    {
+        Il2CppClass* genericTypeDefinition = GenericClass::GetTypeDefinition(genericInstanceType->generic_class);
+        uint16_t propertyCount = genericTypeDefinition->property_count;
+        IL2CPP_ASSERT(genericTypeDefinition->property_count == genericInstanceType->property_count);
+
+        if (propertyCount == 0)
+            return NULL;
+
+        PropertyInfo* properties = (PropertyInfo*)MetadataCalloc(propertyCount, sizeof(PropertyInfo));
+        PropertyInfo* property = properties;
+
+        void* iter = NULL;
+        while (const PropertyInfo* definitionProperty = Class::GetProperties(genericTypeDefinition, &iter))
+        {
+            InflatePropertyDefinition(definitionProperty, property, genericInstanceType, GenericClass::GetInstance(genericInstanceType->generic_class));
+            property++;
+        }
+
+        return properties;
+    }
+
+    static void InflateEventDefinition(const EventInfo* eventDefinition, EventInfo* newEvent, Il2CppClass* declaringClass, const Il2CppGenericInst* classInst)
+    {
+        newEvent->eventType = metadata::GenericMetadata::InflateIfNeeded(eventDefinition->eventType, classInst, false);
+        newEvent->name = eventDefinition->name;
+        newEvent->parent = declaringClass;
+        newEvent->token = eventDefinition->token;
+
+        if (eventDefinition->add)
+            newEvent->add = metadata::GenericMetadata::Inflate(eventDefinition->add, classInst);
+        if (eventDefinition->raise)
+            newEvent->raise = metadata::GenericMetadata::Inflate(eventDefinition->raise, classInst);
+        if (eventDefinition->remove)
+            newEvent->remove = metadata::GenericMetadata::Inflate(eventDefinition->remove, classInst);
+    }
+
+    EventInfo* GenericClass::CreateEvents(Il2CppClass* genericInstanceType)
+    {
+        Il2CppClass* genericTypeDefinition = GenericClass::GetTypeDefinition(genericInstanceType->generic_class);
+        uint16_t eventCount = genericTypeDefinition->event_count;
+        IL2CPP_ASSERT(genericTypeDefinition->event_count == genericInstanceType->event_count);
+
+        if (eventCount == 0)
+            return NULL;
+
+        EventInfo* events = (EventInfo*)MetadataCalloc(eventCount, sizeof(EventInfo));
+        EventInfo* event = events;
+
+        void* iter = NULL;
+        while (const EventInfo* definitionEvent = Class::GetEvents(genericTypeDefinition, &iter))
+        {
+            InflateEventDefinition(definitionEvent, event, genericInstanceType, GenericClass::GetInstance(genericInstanceType->generic_class));
+            event++;
+        }
+
+        return events;
+    }
+
+    static FieldInfo* InflateFieldDefinition(const FieldInfo* fieldDefinition, FieldInfo* newField, Il2CppClass* declaringClass, const Il2CppGenericInst* classInst)
+    {
+        newField->type = metadata::GenericMetadata::InflateIfNeeded(fieldDefinition->type, classInst, false);
+        newField->name = fieldDefinition->name;
+        newField->parent = declaringClass;
+        newField->offset = fieldDefinition->offset;
+        newField->token = fieldDefinition->token;
+
+        return newField;
+    }
+
+    FieldInfo* GenericClass::CreateFields(Il2CppClass* genericInstanceType)
+    {
+        Il2CppClass* genericTypeDefinition = GenericClass::GetTypeDefinition(genericInstanceType->generic_class);
+        uint16_t fieldCount = genericTypeDefinition->field_count;
+        IL2CPP_ASSERT(genericTypeDefinition->field_count == genericInstanceType->field_count);
+
+        if (fieldCount == 0)
+            return NULL;
+
+        FieldInfo* fields = (FieldInfo*)MetadataCalloc(fieldCount, sizeof(FieldInfo));
+        FieldInfo* field = fields;
+
+        for (uint16_t fieldIndex = 0; fieldIndex < fieldCount; ++fieldIndex)
+        {
+            InflateFieldDefinition(genericTypeDefinition->fields + fieldIndex, field, genericInstanceType, GenericClass::GetInstance(genericInstanceType->generic_class));
+            field++;
+        }
+
+        return fields;
+    }
+
+    Il2CppClass* GenericClass::GetClass(Il2CppGenericClass* gclass, bool throwOnError)
+    {
+        Il2CppClass* cachedClass = os::Atomic::LoadPointerRelaxed(&gclass->cached_class);
+        if (cachedClass)
+            return cachedClass;
+        return CreateClass(gclass, throwOnError);
+    }
+
+    Il2CppClass* GenericClass::GetClass_CachedOnly(Il2CppGenericClass* gclass)
+    {
+        return os::Atomic::LoadPointerRelaxed(&gclass->cached_class);
+    }
+
+    Il2CppClass* GenericClass::CreateClass(Il2CppGenericClass *gclass, bool throwOnError)
+    {
+        Il2CppClass* definition = GetTypeDefinition(gclass);
+        if (definition == NULL)
+        {
+            if (throwOnError)
+                vm::Exception::Raise(vm::Exception::GetMaximumNestedGenericsException());
+            return NULL;
+        }
+
+        os::FastAutoLock lock(&g_MetadataLock);
+
+        if (!gclass->cached_class)
+        {
+            Il2CppGenericClassInstance* genericInstance = (Il2CppGenericClassInstance*)MetadataCalloc(1, sizeof(Il2CppGenericClassInstance) + (sizeof(VirtualInvokeData) * definition->vtable_count));
+
+            genericInstance->context.class_inst = gclass->class_inst;
+            genericInstance->context.method_inst = NULL;
+
+            Il2CppClass* klass = &genericInstance->klass;
+            klass->klass = klass;
+
+            klass->name = definition->name;
+            klass->namespaze = definition->namespaze;
+
+            klass->image = definition->image;
+            klass->flags = definition->flags;
+            //klass->type_token = definition->type_token;
+            klass->generic_class = gclass;
+
+            Il2CppClass* genericTypeDefinition = GenericClass::GetTypeDefinition(klass->generic_class);
+            const Il2CppGenericInst* classInst = GenericClass::GetInstance(klass->generic_class);
+
+            if (genericTypeDefinition->parent)
+                klass->parent = Class::FromIl2CppType(metadata::GenericMetadata::InflateIfNeeded(&genericTypeDefinition->parent->byval_arg, classInst, false));
+
+            if (genericTypeDefinition->declaringType)
+                klass->declaringType = Class::FromIl2CppType(metadata::GenericMetadata::InflateIfNeeded(&genericTypeDefinition->declaringType->byval_arg, classInst, false));
+
+            klass->this_arg.type = klass->byval_arg.type = IL2CPP_TYPE_GENERICINST;
+            klass->this_arg.data.generic_class = klass->byval_arg.data.generic_class = gclass;
+            klass->this_arg.byref = true;
+            klass->byval_arg.valuetype = genericTypeDefinition->byval_arg.valuetype;
+
+            klass->event_count = definition->event_count;
+            klass->field_count = definition->field_count;
+            klass->interfaces_count = definition->interfaces_count;
+            klass->method_count = definition->method_count;
+            klass->property_count = definition->property_count;
+
+            klass->enumtype = definition->enumtype;
+            klass->element_class = klass->castClass = klass;
+
+            klass->has_cctor = definition->has_cctor;
+            klass->cctor_finished_or_no_cctor = !definition->has_cctor;
+
+            klass->has_finalize = definition->has_finalize;
+            klass->native_size = klass->thread_static_fields_offset = -1;
+            klass->token = definition->token;
+            klass->interopData = MetadataCache::GetInteropDataForType(&klass->byval_arg);
+
+            if (GenericClass::GetTypeDefinition(klass->generic_class) == il2cpp_defaults.generic_nullable_class)
+            {
+                klass->element_class = klass->castClass = Class::FromIl2CppType(classInst->type_argv[0]);
+                klass->nullabletype = true;
+            }
+
+            if (klass->enumtype)
+                klass->element_class = klass->castClass = definition->element_class;
+
+            klass->is_import_or_windows_runtime = definition->is_import_or_windows_runtime;
+            klass->has_inline_array = definition->has_inline_array;
+
+            klass->genericContainerHandle = definition->genericContainerHandle;
+
+            // Do not update gclass->cached_class until `klass` is fully initialized
+            // And do so with an atomic barrier so no threads observer the writes out of order
+            il2cpp::os::Atomic::ExchangePointer(&gclass->cached_class, klass);
+
+            // This is intentionally after publishing the pointer so the cached_class can be found
+            Class::SetDebugName(klass);
+        }
+
+        return gclass->cached_class;
+    }
+
+    Il2CppClass* GenericClass::GetTypeDefinition(const Il2CppGenericClass *gclass)
+    {
+        return MetadataCache::GetTypeInfoFromType(gclass->type);
+    }
+
+    bool GenericClass::IsEnum(Il2CppGenericClass *gclass)
+    {
+        return IsValueType(gclass) && GetTypeDefinition(gclass)->enumtype;
+    }
+} /* namespace vm */
+} /* namespace il2cpp */

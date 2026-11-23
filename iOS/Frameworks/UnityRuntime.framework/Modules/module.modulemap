@@ -1,0 +1,5 @@
+framework module UnityRuntime {
+    header "UnityInternalInterface.h"
+    header "UnityInternalGraphicsInterface.h"
+    export *
+}

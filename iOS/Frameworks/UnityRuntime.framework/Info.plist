@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>CFBundleName</key>
+    <string>UnityRuntime</string>
+    <key>CFBundleExecutable</key>
+    <string>UnityRuntime</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.unity.UnityRuntime</string>
+    <key>CFBundleVersion</key>
+    <string>1.0</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>MinimumOSVersion</key>
+    <string>15.0</string>
+    <key>CFBundlePackageType</key>
+    <string>FMWK</string>
+  </dict>
+</plist>

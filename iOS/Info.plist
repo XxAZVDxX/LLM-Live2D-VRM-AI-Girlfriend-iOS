@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>CADisableMinimumFrameDuration</key>
+    <true />
+    <key>CADisableMinimumFrameDurationOnPhone</key>
+    <true />
+    <key>CFBundleAllowMixedLocalizations</key>
+    <true />
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleDisplayName</key>
+    <string>Occlusion</string>
+    <key>CFBundleExecutable</key>
+    <string>${EXECUTABLE_NAME}</string>
+    <key>CFBundleIdentifier</key>
+    <string>${PRODUCT_BUNDLE_IDENTIFIER}</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>${PRODUCT_NAME}</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>0.1</string>
+    <key>CFBundleVersion</key>
+    <string>0</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true />
+    <key>NSCameraUsageDescription</key>
+    <string>Augmented Reality requires the camera</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Location Usage</string>
+    <key>UIApplicationSceneManifest</key>
+    <dict>
+      <key>UIApplicationSupportsMultipleScenes</key>
+      <false />
+      <key>UISceneConfigurations</key>
+      <dict>
+        <key>UIWindowSceneSessionRoleApplication</key>
+        <array>
+          <dict>
+            <key>UISceneConfigurationName</key>
+            <string>Default Configuration</string>
+            <key>UISceneDelegateClassName</key>
+            <string>UnityScene</string>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen-iPhone</string>
+    <key>UILaunchStoryboardName~ipad</key>
+    <string>LaunchScreen-iPad</string>
+    <key>UILaunchStoryboardName~iphone</key>
+    <string>LaunchScreen-iPhone</string>
+    <key>UILaunchStoryboardName~ipod</key>
+    <string>LaunchScreen-iPhone</string>
+    <key>UIPrerenderedIcon</key>
+    <false />
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+      <string>metal</string>
+    </array>
+    <key>UIRequiresFullScreen</key>
+    <true />
+    <key>UIRequiresPersistentWiFi</key>
+    <false />
+    <key>UIStatusBarHidden</key>
+    <true />
+    <key>UIStatusBarStyle</key>
+    <string>UIStatusBarStyleDefault</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+    </array>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <true />
+    <key>Unity_LoadingActivityIndicatorStyle</key>
+    <integer>-1</integer>
+    <key>UTImportedTypeDeclarations</key>
+    <array>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.data</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>Live2D Model</string>
+        <key>UTTypeIdentifier</key>
+        <string>moc3</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <array>
+            <string>moc3</string>
+          </array>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.json</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>Live2D Model Settings</string>
+        <key>UTTypeIdentifier</key>
+        <string>model3.json</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <array>
+            <string>model3.json</string>
+          </array>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.json</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>Live2D Physics</string>
+        <key>UTTypeIdentifier</key>
+        <string>physics3.json</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <array>
+            <string>physics3.json</string>
+          </array>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.json</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>Live2D Pose</string>
+        <key>UTTypeIdentifier</key>
+        <string>pose3.json</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <array>
+            <string>pose3.json</string>
+          </array>
+        </dict>
+      </dict>
+      <dict>
+        <key>UTTypeConformsTo</key>
+        <array>
+          <string>public.json</string>
+        </array>
+        <key>UTTypeDescription</key>
+        <string>Live2D Motion</string>
+        <key>UTTypeIdentifier</key>
+        <string>motion3.json</string>
+        <key>UTTypeTagSpecification</key>
+        <dict>
+          <key>public.filename-extension</key>
+          <array>
+            <string>motion3.json</string>
+          </array>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>

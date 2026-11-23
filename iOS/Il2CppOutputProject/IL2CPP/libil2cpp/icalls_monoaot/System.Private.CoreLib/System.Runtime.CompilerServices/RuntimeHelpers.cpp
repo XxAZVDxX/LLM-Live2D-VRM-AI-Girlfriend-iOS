@@ -1,0 +1,151 @@
+#include "il2cpp-config.h"
+#include "RuntimeHelpers.h"
+
+#include "il2cpp-class-internals.h"
+#include "il2cpp-object-internals.h"
+#include "il2cpp-tabledefs.h"
+#include "vm/Array.h"
+#include "vm/Class.h"
+#include "vm/Exception.h"
+#include "vm/Field.h"
+#include "vm/Object.h"
+#include "vm/Runtime.h"
+#include "vm/Type.h"
+#include "utils/HashUtils.h"
+#include <memory>
+
+namespace il2cpp
+{
+namespace icalls
+{
+namespace System
+{
+namespace Private
+{
+namespace CoreLib
+{
+namespace System
+{
+namespace Runtime
+{
+namespace CompilerServices
+{
+    bool RuntimeHelpers::SufficientExecutionStack()
+    {
+        return true;
+    }
+
+    int32_t RuntimeHelpers::InternalGetHashCode(Il2CppObject* o)
+    {
+        return (int32_t)utils::HashUtils::AlignedPointerHash(o);
+    }
+
+    int32_t RuntimeHelpers::SizeOf(Il2CppQCallTypeHandle handle)
+    {
+        const Il2CppType* type = static_cast<const Il2CppType*>(handle);
+        if (vm::Type::IsValueType(type))
+            return il2cpp::vm::Class::GetValueSize(il2cpp::vm::Class::FromIl2CppType(type), NULL);
+        return sizeof(void*);
+    }
+
+    void* RuntimeHelpers::GetSpanDataFrom(FieldInfo* fldHandle, Il2CppType* targetTypeHandle, int32_t* count)
+    {
+#if IL2CPP_BYTE_ORDER != IL2CPP_LITTLE_ENDIAN
+        // The data is encoded little endian, if bit endian support is needed a byte swap will be needed
+        IL2CPP_NOT_IMPLEMENTED_ICALL(RuntimeHelpers::GetSpanDataFrom)
+#endif
+        Il2CppClass* klass = vm::Class::FromIl2CppType(targetTypeHandle);
+
+        size_t dataSize;
+        const char* data = vm::Field::GetData(fldHandle, &dataSize);
+        int32_t classSize = vm::Class::GetValueSize(klass, NULL);
+
+        *count = static_cast<int32_t>(dataSize / classSize);
+        return (void*)data;
+    }
+
+    Il2CppObject* RuntimeHelpers::GetObjectValue(Il2CppObject* obj)
+    {
+        if (obj == NULL || !vm::Class::IsValuetype(obj->klass))
+            return obj;
+        else
+            return vm::Object::Clone(obj);
+    }
+
+    Il2CppObject* RuntimeHelpers::GetUninitializedObjectInternal(intptr_t type)
+    {
+        Il2CppClass* klass = vm::Class::FromIl2CppType(reinterpret_cast<const Il2CppType*>(type));
+        return vm::Object::New(klass);
+    }
+
+    Il2CppObject* RuntimeHelpers::InternalBox(Il2CppQCallTypeHandle type, uint8_t* target)
+    {
+        Il2CppClass* klass = vm::Class::FromIl2CppType(type);
+        IL2CPP_ASSERT(vm::Class::IsValuetype(klass));
+        return il2cpp::vm::Object::Box(klass, target);
+    }
+
+    void RuntimeHelpers::InitializeArray(Il2CppArray* array, intptr_t fldHandle)
+    {
+        FieldInfo* field_handle = (FieldInfo*)fldHandle;
+        Il2CppClass *klass = array->klass;
+        uint32_t size = vm::Array::GetElementSize(klass);
+        const Il2CppType *type = vm::Type::GetUnderlyingType(&klass->element_class->byval_arg);
+
+        const char *field_data;
+
+        if (vm::Type::IsReference(type) || (type->type == IL2CPP_TYPE_VALUETYPE && (!vm::Type::GetClass(type) || vm::Type::GetClass(type)->has_references)))
+        {
+            Il2CppException *exc = vm::Exception::GetArgumentException("array",
+                "Cannot initialize array containing references");
+            vm::Exception::Raise(exc);
+        }
+
+        if (!(field_handle->type->attrs & FIELD_ATTRIBUTE_HAS_FIELD_RVA))
+        {
+            Il2CppException *exc = vm::Exception::GetArgumentException("field_handle", "Field doesn't have an RVA");
+            vm::Exception::Raise(exc);
+        }
+
+        size *= ARRAY_LENGTH_AS_INT32(array->max_length);
+        size_t fieldDataSize;
+        field_data = vm::Field::GetData(field_handle, &fieldDataSize);
+
+        if (size > fieldDataSize)
+        {
+            Il2CppException *exc = vm::Exception::GetArgumentException("field_handle", "Field not large enough to fill array");
+            vm::Exception::Raise(exc);
+        }
+
+        IL2CPP_NOT_IMPLEMENTED_ICALL_NO_ASSERT(RuntimeHelpers::InitializeArray, "Ignoring Endianess");
+        memcpy(il2cpp_array_addr(array, char, 0), field_data, size);
+    }
+
+    void RuntimeHelpers::PrepareMethod(intptr_t method, intptr_t* instantiations, int32_t ninst)
+    {
+        // no-op, this method does JITing, nothing to do in AOT
+    }
+
+    void RuntimeHelpers::RunClassConstructor(intptr_t typeIntPtr)
+    {
+        const Il2CppType* type = reinterpret_cast<const Il2CppType*>(typeIntPtr);
+        IL2CPP_CHECK_ARG_NULL(type);
+
+        Il2CppClass* klass = vm::Class::FromIl2CppType(type);
+        //MONO_CHECK_ARG(handle, klass);
+
+        il2cpp::vm::Runtime::ClassInit(klass);
+    }
+
+    void RuntimeHelpers::RunModuleConstructor(intptr_t module)
+    {
+        NOT_SUPPORTED_IL2CPP(RuntimeHelpers::RunModuleConstructor, "This icall is not supported by il2cpp.");
+    }
+} // namespace CompilerServices
+} // namespace Runtime
+} // namespace System
+} // namespace CoreLib
+} // namespace Private
+} // namespace System
+} // namespace icalls
+} // namespace il2cpp
